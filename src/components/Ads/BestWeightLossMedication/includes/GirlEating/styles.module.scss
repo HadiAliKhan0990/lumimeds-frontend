@@ -1,0 +1,189 @@
+.girlEatingSection {
+  padding: 130px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girlEatingCard {
+  background: #d1dcff;
+  border-radius: 60px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 500px;
+  position: relative;
+  overflow: visible;
+}
+
+.contentWrapper {
+  display: flex;
+  height: 100%;
+  min-height: 500px;
+}
+
+.textContent {
+  flex: 1;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headline {
+  font-family: DM Sans, sans-serif;
+  font-size: 3rem;
+  line-height: 114%;
+  color: #3060fe;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.bodyText {
+  font-family: DM Sans, sans-serif;
+  font-size: 24px;
+  line-height: 100%;
+  color: #3060fe;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.imageContent {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+  overflow: visible;
+}
+
+.girlImage {
+  width: 160%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  transform: translateX(-50%);
+  max-width: none;
+  z-index: 2;
+}
+
+@media (max-width: 1199px) {
+  .girlEatingSection {
+    padding: 60px 30px;
+  }
+}
+/* Responsive Design */
+@media (max-width: 992px) {
+  .girlEatingSection {
+    padding: 60px 20px;
+  }
+
+  .girlEatingCard {
+    max-width: full;
+    min-height: 400px;
+    border-radius: 40px;
+  }
+
+  .contentWrapper {
+    flex-direction: column;
+    min-height: 400px;
+  }
+
+  .textContent {
+    padding: 30px 40px;
+    text-align: center;
+  }
+
+  .headline {
+    font-size: 1.8rem;
+  }
+
+  .bodyText {
+    font-size: 16px;
+  }
+
+  .imageContent {
+    align-items: center;
+    padding: 15px;
+  }
+
+  .girlImage {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .girlEatingSection {
+    padding: 40px 20px;
+  }
+
+  .girlEatingCard {
+    max-width: full;
+    min-height: 350px;
+    border-radius: 30px;
+  }
+
+  .contentWrapper {
+    min-height: 350px;
+  }
+
+  .textContent {
+    padding: 25px 40px;
+  }
+
+  .headline {
+    font-size: 1.6rem;
+  }
+
+  .bodyText {
+    font-size: 14px;
+  }
+
+  .girlImage {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .girlEatingSection {
+    padding: 30px 15px;
+  }
+
+  .girlEatingCard {
+    max-width: full;
+    min-height: 300px;
+    border-radius: 25px;
+  }
+
+  .contentWrapper {
+    min-height: 300px;
+  }
+
+  .textContent {
+    padding: 20px 40px;
+  }
+
+  .headline {
+    font-size: 1.4rem;
+  }
+
+  .bodyText {
+    font-size: 12px;
+  }
+
+  .girlImage {
+    width: 100%;
+    max-width: none;
+  }
+}

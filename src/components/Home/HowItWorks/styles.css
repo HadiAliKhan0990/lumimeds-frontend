@@ -1,0 +1,51 @@
+#how-it-works-parent {
+  position: relative;
+  height: 2000px;
+}
+
+.swiper-container-horizontal > .swiper-pagination-progressbar {
+  top: unset !important;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #463cf5 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #463cf5 !important;
+  border-color: #463cf5 !important;
+}
+
+#test-slider {
+  /* animation: sliderAnimate 9s linear 2s infinite normal; */
+  width: 0%;
+}
+
+.how-it-works-title {
+  font-size: 56px;
+  font-weight: 500;
+  color: white;
+  font-family: 'Instrument Sans', system-ui;
+  line-height: 106% !important;
+}
+
+@media screen and (max-width: 768px) {
+  #how-it-works-parent {
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .how-it-works-title {
+    font-size: 32px;
+  }
+}
+
+@keyframes sliderAnimate {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

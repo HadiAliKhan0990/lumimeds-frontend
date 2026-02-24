@@ -1,0 +1,557 @@
+/* Hero Section Styles - Clean Flexbox Only */
+.hero-section {
+  min-height: 100vh;
+  background-image: url('../../../../src/assets/weight-loss-goals/Hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  overflow: visible;
+}
+
+/* Ensure parent containers don't clip overflow */
+.w-100 {
+  overflow: visible !important;
+}
+
+/* Testimonials Introduction Text */
+.testimonials-intro {
+  color: #FAAB2D;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.testimonials-intro-container {
+  background-color: #000000;
+  padding: 3rem 0;
+}
+
+/* Mobile Responsive Styles for Testimonials Intro */
+@media (max-width: 767.98px) {
+  .testimonials-intro {
+    font-size: 24px;
+    padding: 0 1.5rem;
+    line-height: 1.3;
+  }
+  
+  .testimonials-intro-container {
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .testimonials-intro {
+    font-size: 20px;
+    padding: 0 1rem;
+    line-height: 1.2;
+  }
+  
+  .testimonials-intro-container {
+    padding: 1.5rem 0;
+  }
+}
+
+.hero-overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-title {
+  font-family: var(--font-instrument-serif);
+  font-weight: normal;
+  color: white !important;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: -0.02em;
+  font-size: 4rem;
+}
+
+.hero-subtitle {
+  font-family: var(--font-dm-sans);
+  font-weight: 500;
+  color: white !important;
+  line-height: 1.5;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+  opacity: 0.95;
+  font-size: 1.25rem;
+}
+
+/* Bottle Overflow Container - 50% Overflow Effect */
+.bottle-overflow-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: -180px; /* Negative margin to create overflow */
+  padding: 0;
+}
+
+.bottle-image-overflow {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 360px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Responsive Bottle Overflow Sizing - Even Larger Sizes */
+@media (min-width: 576px) {
+  .bottle-image-overflow {
+    max-height: 380px;
+  }
+  
+  .bottle-overflow-container {
+    margin-bottom: -190px; /* Adjust overflow for larger screens */
+  }
+}
+@media (min-width: 320px) {
+  .bottle-image-overflow {
+    max-height: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .bottle-image-overflow {
+    max-height: 420px;
+  }
+  
+  .bottle-overflow-container {
+    margin-bottom: -210px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bottle-image-overflow {
+    max-height: 460px;
+  }
+  
+  .bottle-overflow-container {
+    margin-bottom: -230px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bottle-image-overflow {
+    max-height: 500px;
+  }
+  
+  .bottle-overflow-container {
+    margin-bottom: -330px;
+  }
+}
+
+/* Content Section */
+.content-section {
+  background-color: #000;
+  padding-top: 20rem;
+  padding-bottom: 6rem;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Mobile Responsive Styles for Halloween Cartoon */
+@media (max-width: 767.98px) {
+  .content-section {
+    padding-top: 15rem !important;
+    padding-bottom: 1rem !important;
+  }
+  
+  .speech-bubble {
+    border-radius: 30px !important;
+    padding: 1.5rem 2rem !important;
+    margin-bottom: 2rem !important;
+    max-width: 100% !important;
+    min-height: 100px !important;
+  }
+  
+  .character-image {
+    width: 6rem !important;
+    height: auto !important;
+  }
+  
+  .ghost-character {
+    margin-right: -1.5rem !important;
+    margin-top: -0.5rem !important;
+  }
+  
+  .pumpkin-character {
+    margin-left: -1.5rem !important;
+    margin-top: -0.5rem !important;
+  }
+  
+  .speech-bubble-text {
+    font-size: 0.9rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  .cta-button {
+    min-width: 200px !important;
+    padding: 0.8rem 1.5rem !important;
+    font-size: 0.9rem !important;
+  }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 575.98px) {
+  .content-section {
+    padding-top: 12rem !important;
+    padding-bottom: 1rem !important;
+  }
+  
+  .speech-bubble {
+    border-radius: 25px !important;
+    padding: 1.2rem 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    min-height: 80px !important;
+  }
+  
+  .character-image {
+    width: 5rem !important;
+  }
+  
+  .ghost-character {
+    margin-right: -1rem !important;
+    margin-top: -0.3rem !important;
+  }
+  
+  .pumpkin-character {
+    margin-left: -1rem !important;
+    margin-top: -0.3rem !important;
+  }
+  
+  .speech-bubble-text {
+    font-size: 0.8rem !important;
+    line-height: 1.3 !important;
+  }
+  
+  .cta-button {
+    min-width: 180px !important;
+    padding: 0.7rem 1.2rem !important;
+    font-size: 0.85rem !important;
+  }
+}
+
+/* Tablet Responsive Styles */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .content-section {
+    padding-top: 18rem;
+  }
+  
+  .speech-bubble {
+    padding: 1.8rem 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .character-image {
+    width: 8rem;
+  }
+  
+  .ghost-character {
+    margin-right: -2rem;
+  }
+  
+  .pumpkin-character {
+    margin-left: -2rem;
+  }
+  
+  .speech-bubble-text {
+    font-size: 1rem;
+  }
+  
+  .cta-button {
+    min-width: 280px;
+    padding: 1.2rem 2.5rem;
+  }
+}
+
+.speech-bubble {
+  border-radius: 206px;
+  padding: 2rem 4rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4rem;
+  border: 3px solid white;
+  position: relative;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  max-width: 540px;
+}
+
+.speech-bubble-orange {
+  background-color: #FF7F3B;
+}
+
+.speech-bubble-yellow {
+  background-color: #FAAB2D;
+}
+
+.speech-bubble-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: white;
+  line-height: 133%;
+  margin: 0;
+}
+
+.character-image {
+  flex-shrink: 0;
+  width: 8rem;
+  height: auto;
+  z-index: 20;
+}
+
+.ghost-character {
+  margin-right: -3rem;
+  margin-top: -1rem;
+}
+
+.pumpkin-character {
+  margin-left: -3rem;
+  margin-top: -1rem;
+}
+
+@media (min-width: 576px) {
+  .character-image {
+    width: 10rem;
+  }
+  
+  .ghost-character {
+    margin-right: -3rem;
+  }
+  
+  .pumpkin-character {
+    margin-left: -4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .character-image {
+    width: 12rem;
+  }
+  
+  .ghost-character {
+    margin-right: -3rem;
+  }
+  
+  .pumpkin-character {
+    margin-left: -5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .character-image {
+    width: 14rem;
+  }
+  
+  .ghost-character {
+    margin-right: -3rem;
+  }
+  
+  .pumpkin-character {
+    margin-left: -6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .character-image {
+    width: 16rem;
+  }
+  
+  .ghost-character {
+    margin-right: -4rem;
+  }
+  
+  .pumpkin-character {
+    margin-left: -7rem;
+  }
+}
+
+/* CTA Button */
+.cta-button {
+  background-color: #FF7F3B;
+  border: none;
+  border-radius: 50px;
+  padding: 1.5rem 3rem;
+  font-family: var(--font-dm-sans);
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  min-width: 300px;
+}
+
+.cta-button:hover {
+  background-color: #e67235;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+  color: white;
+}
+
+.cta-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.cta-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 127, 59, 0.25);
+}
+
+/* Responsive Typography - Matching Figma */
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-title {
+    font-size: 4rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-title {
+    font-size: 4.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+/* Consultation Button Section */
+.consultation-button-section {
+  background-color: #000000;
+  padding: 4rem 0;
+}
+
+.consultation-button {
+  background-color: #FAAB2D;
+  border: none;
+  border-radius: 50px;
+  padding: 1.2rem 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  min-width: 300px;
+}
+
+.consultation-button:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.consultation-button:hover {
+  background-color: #e09926;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive styles for consultation button */
+@media (max-width: 768px) {
+  .consultation-button-section {
+    padding: 3rem 0;
+  }
+  
+  .consultation-button {
+    font-size: 1.3rem;
+    padding: 1rem 2.5rem;
+    min-width: 280px;
+  }
+}
+
+@media (max-width: 576px) {
+  .consultation-button-section {
+    padding: 2.5rem 0;
+  }
+  
+  .consultation-button {
+    font-size: 1.2rem;
+    padding: 0.9rem 2rem;
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .consultation-button-section {
+    padding: 2rem 0;
+  }
+  
+  .consultation-button {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+    min-width: 220px;
+  }
+}
+
+@media (max-width: 375px) {
+  .consultation-button-section {
+    padding: 1.5rem 0;
+  }
+  
+  .consultation-button {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+    min-width: 200px;
+  }
+}

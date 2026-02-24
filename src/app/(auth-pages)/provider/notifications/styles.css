@@ -1,0 +1,74 @@
+/* Notification page styles */
+.notifications-container {
+  width: 100%;
+}
+
+.notification-card {
+  transition: all 0.2s ease-in-out;
+  width: 100% !important;
+}
+
+.notification-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.notification-avatar {
+  background-color: #CDDFFF !important;
+  box-shadow: none !important;
+}
+
+.notification-badge {
+  animation: pulse 2s infinite;
+}
+
+.notification-icon-container {
+  transition: all 0.2s ease-in-out;
+  border-radius: 6px !important;
+}
+
+.notification-icon-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.segmented-control {
+  transition: all 0.2s ease-in-out;
+  border-radius: 8px !important;
+}
+
+.segmented-control button {
+  transition: all 0.2s ease-in-out;
+  border-radius: 0 !important;
+  position: relative;
+}
+
+.segmented-control button:first-child {
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+.segmented-control button:last-child {
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+.segmented-control button:hover {
+  transform: translateY(-1px);
+}
+
+.segmented-control button.active {
+  z-index: 1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

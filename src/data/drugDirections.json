@@ -1,0 +1,428 @@
+{
+    "semaglutide": {
+        "gliss": {
+            "30": {
+                "0.22": [
+                    "Inject 9 units (0.22 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 1.5 mg SQ weekly)"
+                ],
+                "0.44": [
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2mg SQ weekly)"
+                ],
+                "0.89": [
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.22 mg SQ weekly)"
+                ],
+                "1.5": [
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ],
+                "2": [
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ],
+                "2.22": [
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ]
+            },
+            "60": {
+                "0.22": [
+                    "Inject 9 units (0.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 1.5 mg SQ weekly)"
+                ],
+                "0.44": [
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 1-4,",
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2mg SQ weekly)"
+                ],
+                "0.89": [
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 1-4,",
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.22 mg SQ weekly)"
+                ],
+                "1.5": [
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 1-4,",
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ],
+                "2": [
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ],
+                "2.22": [
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ]
+            },
+            "90": {
+                "0.22": [
+                    "Inject 9 units (0.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 5-8,",
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 1.5 mg SQ weekly)"
+                ],
+                "0.44": [
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 1-4,",
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 5-8,",
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2mg SQ weekly)"
+                ],
+                "0.89": [
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 1-4,",
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 5-8,",
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.22 mg SQ weekly)"
+                ],
+                "1.5": [
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 1-4,",
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 5-8,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ],
+                "2": [
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ],
+                "2.22": [
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ]
+            }
+        },
+        "locumtele": {
+            "30": {
+                "0.22": [
+                    "Inject 9 units (0.22 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 0.89 mg SQ weekly)"
+                ],
+                "0.44": [
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 1.5 mg SQ weekly)"
+                ],
+                "0.89": [
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2 mg SQ weekly)"
+                ],
+                "1.5": [
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.22 mg SQ weekly)"
+                ],
+                "2": [
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ],
+                "2.22": [
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ]
+            },
+            "60": {
+                "0.22": [
+                    "Inject 9 units (0.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 0.89 mg SQ weekly)"
+                ],
+                "0.44": [
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 1-4,",
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 1.5 mg SQ weekly)"
+                ],
+                "0.89": [
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 1-4,",
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2 mg SQ weekly)"
+                ],
+                "1.5": [
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 1-4,",
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.22 mg SQ weekly)"
+                ],
+                "2": [
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ],
+                "2.22": [
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ]
+            },
+            "90": {
+                "0.22": [
+                    "Inject 9 units (0.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 5-8,",
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 0.89 mg SQ weekly)"
+                ],
+                "0.44": [
+                    "Inject 18 units (0.44 mg) SQ weekly for weeks 1-4,",
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 5-8,",
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 1.5 mg SQ weekly)"
+                ],
+                "0.89": [
+                    "Inject 36 units (0.89 mg) SQ weekly for weeks 1-4,",
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 5-8,",
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2 mg SQ weekly)"
+                ],
+                "1.5": [
+                    "Inject 60 units (1.5 mg) SQ weekly for weeks 1-4,",
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 5-8,",
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.22 mg SQ weekly)"
+                ],
+                "2": [
+                    "Inject 80 units (2.0 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ],
+                "2.22": [
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+                    "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+                ]
+            }
+        }
+    },
+    "tirzepatide": {
+        "gliss": {
+            "30": {
+                "2.22": [
+                    "Inject 22 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 8.90 mg SQ weekly)"
+                ],
+                "4.45": [
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 11.12 mg SQ weekly)"
+                ],
+                "6.67": [
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 13.35 mg SQ weekly)"
+                ],
+                "8.9": [
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "11.12": [
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "13.35": [
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "15": [
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ]
+            },
+            "60": {
+                "2.22": [
+                    "Inject 22 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 8.90 mg SQ weekly)"
+                ],
+                "4.45": [
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 1-4,",
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 11.12 mg SQ weekly)"
+                ],
+                "6.67": [
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 13.35 mg SQ weekly)"
+                ],
+                "8.9": [
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "11.12": [
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "13.35": [
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "15": [
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ]
+            },
+            "90": {
+                "2.22": [
+                    "Inject 22 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 5-8,",
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 8.90 mg SQ weekly)"
+                ],
+                "4.45": [
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 1-4,",
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 5-8,",
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 11.12 mg SQ weekly)"
+                ],
+                "6.67": [
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 5-8,",
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 13.35 mg SQ weekly)"
+                ],
+                "8.9": [
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 5-8,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "11.12": [
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "13.35": [
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "15": [
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 5-8,",
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ]
+            }
+        },
+        "locumtele": {
+            "30": {
+                "2.22": [
+                    "Inject 22 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 6.67 mg SQ weekly)"
+                ],
+                "4.45": [
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 8.90 mg SQ weekly)"
+                ],
+                "6.67": [
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 11.12 mg SQ weekly)"
+                ],
+                "8.9": [
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 13.35 mg SQ weekly)"
+                ],
+                "11.12": [
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "13.35": [
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "15": [
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 1-4,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ]
+            },
+            "60": {
+                "2.22": [
+                    "Inject 22 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 6.67 mg SQ weekly)"
+                ],
+                "4.45": [
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 1-4,",
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 8.90 mg SQ weekly)"
+                ],
+                "6.67": [
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 11.12 mg SQ weekly)"
+                ],
+                "8.9": [
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 13.35 mg SQ weekly)"
+                ],
+                "11.12": [
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "13.35": [
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "15": [
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 5-8,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ]
+            },
+            "90": {
+                "2.22": [
+                    "Inject 22 units (2.22 mg) SQ weekly for weeks 1-4,",
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 5-8,",
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 6.67 mg SQ weekly)"
+                ],
+                "4.45": [
+                    "Inject 45 units (4.45 mg) SQ weekly for weeks 1-4,",
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 5-8,",
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 8.90 mg SQ weekly)"
+                ],
+                "6.67": [
+                    "Inject 67 units (6.67 mg) SQ weekly for weeks 1-4,",
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 5-8,",
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 11.12 mg SQ weekly)"
+                ],
+                "8.9": [
+                    "Inject 89 units (8.9 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 5-8,",
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 13.35 mg SQ weekly)"
+                ],
+                "11.12": [
+                    "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "13.35": [
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8,",
+                    "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ],
+                "15": [
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 1-4,",
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 5-8,",
+                    "Inject 1.34 mL (15 mg) SQ weekly for weeks 9-12,",
+                    "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+                ]
+            }
+        }
+    }
+}

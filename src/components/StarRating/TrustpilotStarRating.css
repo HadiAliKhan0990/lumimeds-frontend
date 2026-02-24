@@ -1,0 +1,65 @@
+.trustpilot-star-rating {
+  display: inline-flex;
+}
+
+.trustpilot-star {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--star-color, #fff);
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.trustpilot-star--full {
+  background-color: var(--star-bg-color, #00b67a);
+}
+
+.trustpilot-star--half {
+  background-color: #dddde7;
+  position: relative;
+  overflow: hidden;
+}
+
+.trustpilot-star--empty {
+  background-color: var(--star-color, #dddde7);
+}
+
+.trustpilot-star--last {
+  margin-right: 0;
+}
+
+.trustpilot-star__half-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: var(--star-bg-color, #00b67a);
+  border-radius: 4px 0 0 4px;
+}
+
+.trustpilot-star__character {
+  color: var(--star-color, #fff);
+  font-size: 26px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 480px) {
+  .trustpilot-star {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 12px !important;
+  }
+
+  .trustpilot-star__character {
+    font-size: 12px !important;
+  }
+}

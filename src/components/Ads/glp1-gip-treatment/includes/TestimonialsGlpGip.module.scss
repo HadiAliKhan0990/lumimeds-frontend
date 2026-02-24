@@ -1,0 +1,20 @@
+.testimonialsSection {
+  padding: 72px 0;
+  background: transparent;
+  text-align: center;
+}
+
+.testimonialTitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.3;
+  color: #416B42; /* requested text color */
+  margin-bottom: 32px;
+}
+
+.reviewsText { font-style: normal !important; }
+
+@media (max-width: 768px) {
+  .testimonialTitle { font-size: 32px; }
+}

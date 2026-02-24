@@ -1,0 +1,517 @@
+.productListSection {
+  padding: 80px 0;
+  background: transparent;
+}
+
+.productCard {
+  background: #c1d1fa;
+  border-radius: 20px;
+  border: none;
+  padding: 30px;
+  height: 100%;
+  min-height: 600px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  justify-content: space-between;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.subscriptionTag {
+  background: white;
+  color: #040f60;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 100%;
+}
+
+.subscriptionDescription {
+  color: #040f60;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: right;
+  max-width: 350px;
+}
+
+.glpHeader {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.glpTitle {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  color: #040f60;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.glpSubtitle {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  color: #040f60;
+  margin: 0;
+}
+
+.productImageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  min-height: 240px;
+}
+
+.singleVialContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.multipleVialsContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vialImage {
+  width: 100px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.vial1 {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  z-index: 1;
+}
+
+.vial2 {
+  position: absolute;
+  left: 60px;
+  top: 10px;
+  z-index: 3;
+}
+
+.vial3 {
+  position: absolute;
+  left: 100px;
+  top: 0;
+  z-index: 1;
+}
+
+.pricingSection {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.priceDisplay {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.dollarSign {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #040f60;
+}
+
+.priceAmount {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1.2;
+  color: #040f60;
+}
+
+.pricePeriod {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #040f60;
+}
+
+.popularTag {
+  color: #ff4444;
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  margin-left: 8px;
+}
+
+.totalPrice {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #040f60;
+}
+
+.featuresSection {
+  margin-bottom: 30px;
+  padding: 0px 50px;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featureItem {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+  color: #040f60;
+  margin-bottom: 12px;
+  padding-left: 20px;
+  position: relative;
+
+  &::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #243bbb;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+.ctaSection {
+  text-align: center;
+}
+
+.ctaButton {
+  background: #ffffff;
+  color: #040f60;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 100%;
+
+  cursor: pointer;
+
+  &:hover {
+    background: #f8f9fa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  .productListSection {
+    padding: 70px 0;
+  }
+
+  .productCard {
+    padding: 25px;
+    min-height: 550px;
+  }
+
+  .dollarSign {
+    font-size: 32px;
+    line-height: 52px;
+  }
+
+  .priceAmount {
+    font-size: 4.5rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .glpTitle,
+  .glpSubtitle {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .productListSection {
+    padding: 60px 0;
+  }
+
+  .productCard {
+    padding: 20px;
+    min-height: 500px;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .subscriptionDescription {
+    text-align: center;
+    max-width: none;
+  }
+
+  .dollarSign {
+    font-size: 28px;
+    line-height: 48px;
+  }
+
+  .priceAmount {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .popularTag {
+    font-size: 12px;
+    margin-left: 6px;
+  }
+
+  .priceDisplay {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .glpTitle,
+  .glpSubtitle {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .productListSection {
+    padding: 50px 0;
+  }
+
+  .productCard {
+    padding: 20px;
+    min-height: 450px;
+  }
+
+  .vialImage {
+    width: 80px;
+    height: 200px;
+  }
+
+  .multipleVialsContainer {
+    width: 150px;
+    height: 150px;
+  }
+
+  .vial1 {
+    left: 15px;
+  }
+
+  .vial2 {
+    left: 45px;
+    top: 8px;
+  }
+
+  .vial3 {
+    left: 75px;
+  }
+
+  .dollarSign {
+    font-size: 24px;
+    line-height: 44px;
+  }
+
+  .priceAmount {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .featureItem {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .glpTitle,
+  .glpSubtitle {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .productListSection {
+    padding: 40px 0;
+  }
+
+  .productCard {
+    padding: 15px;
+    min-height: 400px;
+  }
+
+  .subscriptionTag {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .subscriptionDescription {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .dollarSign {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .priceAmount {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .popularTag {
+    font-size: 10px;
+    margin-left: 4px;
+  }
+
+  .featureItem {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .ctaButton {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+  .productImageSection {
+    margin-bottom: 0px;
+  }
+
+  .glpTitle,
+  .glpSubtitle {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .productListSection {
+    padding: 30px 0;
+  }
+
+  .productCard {
+    padding: 15px;
+    min-height: 380px;
+  }
+
+  .vialImage {
+    width: 70px;
+    height: 170px;
+  }
+
+  .multipleVialsContainer {
+    width: 120px;
+    height: 120px;
+  }
+
+  .vial1 {
+    left: 10px;
+  }
+
+  .vial2 {
+    left: 35px;
+    top: 5px;
+  }
+
+  .vial3 {
+    left: 60px;
+  }
+
+  .dollarSign {
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .priceAmount {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .featureItem {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+  }
+
+  .ctaButton {
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+
+  .glpTitle,
+  .glpSubtitle {
+    font-size: 1.1rem;
+  }
+}

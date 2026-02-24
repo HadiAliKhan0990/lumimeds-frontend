@@ -1,0 +1,44 @@
+/* Heading style */
+.orders-invoices-heading {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+/* Paragraph style */
+.orders-invoices-description {
+  margin-bottom: 3rem;
+  max-width: 800px;
+  word-break: break-word;
+  font-weight: 500;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .orders-invoices-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .orders-invoices-description {
+    max-width: 95vw;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .orders-invoices-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .orders-invoices-description {
+    max-width: 100vw;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.invoice-status-badge-warning {
+  background: #fff3cd !important; /* Bootstrap warning background */
+  color: #856404 !important; /* Bootstrap warning text */
+  border: 1px solid #ffeeba !important;
+}

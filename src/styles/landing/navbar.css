@@ -1,0 +1,149 @@
+.toggle {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transition-duration: 0.5s;
+}
+
+.bars {
+  width: 100%;
+  height: 2px;
+  background-color: var(--bs-dark);
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: 0.8s;
+}
+
+#bar1,
+#bar3 {
+  width: 65%;
+}
+
+#checkbox:checked + .toggle .bars {
+  position: absolute;
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle {
+  transition-duration: 0.5s;
+  transform: rotate(180deg);
+}
+
+.simple-dropdown .dropdown-menu {
+  border-radius: 12px;
+  border: 2px solid #463cf5;
+  padding: 8px 0;
+}
+
+.simple-dropdown .dropdown-menu li {
+  transition: color 300ms ease-out;
+}
+
+.simple-dropdown .dropdown-menu li:hover {
+  color: #463cf5;
+  cursor: pointer;
+}
+
+.banner {
+  font-size: 20px;
+  padding: 10px 0 !important;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-text {
+  max-width: 850px;
+}
+
+.navbar--hidden {
+  transform: translateY(-100%);
+}
+
+.navbar {
+  transition: transform 0.3s ease;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 49;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: static;
+  }
+
+  .navbar--hidden {
+    transform: translateY(0);
+  }
+
+  .dropdown-menu.show {
+    padding-bottom: 8px;
+  }
+
+  .simple-dropdown .dropdown-menu {
+    border: 0;
+  }
+
+  .banner {
+    flex-direction: column;
+    row-gap: 16px;
+    padding: 10px 0 10px 30px !important;
+  }
+
+  .banner-text {
+    max-width: 680px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-link {
+    font-size: 20px !important;
+  }
+
+  .dropdown-menu li a {
+    font-size: 16px;
+  }
+
+  .banner-text {
+    max-width: 680px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar {
+    padding: 15px 15px;
+  }
+
+  .banner {
+    font-size: 16px;
+    padding: 10px 10px 10px 10px !important;
+  }
+}

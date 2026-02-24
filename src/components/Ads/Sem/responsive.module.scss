@@ -1,0 +1,39 @@
+.semPageContainer {
+  background: transparent;
+  min-height: 100vh;
+}
+
+.gradientSection {
+  background: linear-gradient(180deg, #010b57 0%, #243bbb 100%);
+}
+
+/* Main layout responsive adjustments */
+@media (max-width: 1200px) {
+  .semPageContainer {
+    // Future responsive adjustments for main layout
+  }
+}
+
+@media (max-width: 992px) {
+  .semPageContainer {
+    // Future responsive adjustments for main layout
+  }
+}
+
+@media (max-width: 768px) {
+  .semPageContainer {
+    // Future responsive adjustments for main layout
+  }
+}
+
+@media (max-width: 576px) {
+  .semPageContainer {
+    // Future responsive adjustments for main layout
+  }
+}
+
+@media (max-width: 480px) {
+  .semPageContainer {
+    // Future responsive adjustments for main layout
+  }
+}

@@ -1,0 +1,405 @@
+// Weight Loss Treatment Hero Section Styles
+
+// Page Background
+.weightLossTreatmentPage {
+  background-color: #ffffff;
+}
+
+// Testimonials Section
+.testimonialsSection {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.testimonialsHeading {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #212529;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+// Responsive Design for Testimonials
+@media (max-width: 768px) {
+  .testimonialsSection {
+    padding: 60px 0;
+  }
+
+  .testimonialsHeading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonialsSection {
+    padding: 40px 0;
+  }
+
+  .testimonialsHeading {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+}
+
+// Variables
+$primary-color: #3060fe;
+$secondary-color: #00d4ff;
+$dark-color: #333;
+$light-gray: #fafafa;
+$text-muted: #666;
+$border-radius: 20px;
+$vial-border-radius: 15px;
+
+.heroTitle {
+  font-weight: 500;
+  font-family: DM Sans, sans-serif;
+  line-height: 1.1;
+  font-size: 2.5rem;
+  color: #485765;
+  line-height: 120%;
+}
+
+.heroSubtitle {
+  font-family: DM Sans, sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+// Hero Visuals Layout - Two Column Layout
+.heroVisuals {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 5px;
+}
+
+// Left Column - Girl Image
+.mainGirlImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.girlImage {
+  border-radius: $border-radius;
+  object-fit: cover;
+  display: block;
+}
+
+// Right Column - Vial Images
+.vialImagesContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.vialImageItem {
+  display: flex;
+  justify-content: center;
+}
+
+.vialImage {
+  display: block;
+}
+
+// Hero Content
+.heroContent {
+  padding-left: 2rem;
+}
+
+// Weight Loss Treatment Plans Section - Using local class wrapper
+.weightLossTreatmentPlans {
+  padding: 2rem 1rem 3rem;
+
+  .plansHeading {
+    font-family: DM Sans, sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #485764;
+    margin-bottom: 4rem !important;
+    line-height: 120%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before,
+    &::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background-color: #6a6a6a;
+      margin: 0 1rem;
+    }
+
+    &::before {
+      margin-right: 1.5rem;
+    }
+
+    &::after {
+      margin-left: 1.5rem;
+    }
+  }
+}
+
+.heroCtaButton {
+  background-color: #485764 !important;
+  color: white !important;
+  border-color: #485764 !important;
+  font-weight: 700;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+
+  &:hover {
+    background-color: #555 !important;
+    border-color: #555 !important;
+    color: white !important;
+  }
+}
+
+.pricingText {
+  font-size: 0.9rem;
+  color: $text-muted;
+  font-family: DM Sans, sans-serif;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+// Custom Trustpilot Widget Container
+.customTrustpilotContainer {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+// Custom Trustpilot Widget - Matches Screenshot Design
+.customTrustpilotWidget {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  max-width: 240px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  // Responsive adjustments for small screens
+  @media (max-width: 768px) {
+    max-width: 200px;
+    padding: 10px 12px;
+    gap: 3px;
+  }
+
+  @media (max-width: 576px) {
+    max-width: 180px;
+    padding: 8px 10px;
+    gap: 2px;
+  }
+}
+
+// Trustpilot Branding (Top Section)
+.trustpilotBranding {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  .trustpilotStar {
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
+  }
+
+  .trustpilotText {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: DM Sans, sans-serif;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
+  }
+}
+
+// Star Rating (Middle Section)
+.starRating {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.starContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.starBackground {
+  background-color: #333333;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (max-width: 576px) {
+    width: 20px;
+    height: 20px;
+  }
+
+  .starIcon {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
+  }
+}
+
+// Review Count (Bottom Section)
+.reviewCount {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: DM Sans, sans-serif;
+  text-align: left;
+
+  @media (max-width: 768px) {
+    font-size: 13px;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
+
+  // Make the number part slightly bolder
+  strong {
+    font-weight: 600;
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroVisuals {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .mainGirlImage {
+    order: 1;
+  }
+
+  .vialImagesContainer {
+    order: 2;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .heroContent {
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+
+  .customTrustpilotContainer {
+    justify-content: center;
+  }
+
+  .customTrustpilotWidget {
+    max-width: 100%;
+    padding: 10px 14px;
+    gap: 6px;
+
+    .trustpilotBranding {
+      .trustpilotStar {
+        font-size: 12px;
+      }
+
+      .trustpilotText {
+        font-size: 11px;
+      }
+    }
+
+    .starBackground {
+      width: 18px;
+      height: 18px;
+
+      .starIcon {
+        font-size: 9px;
+      }
+    }
+
+    .reviewCount {
+      font-size: 11px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .heroCtaButton {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroTitle {
+    font-size: 1.8rem;
+  }
+
+  .heroVisuals {
+    gap: 0.5rem;
+  }
+
+  .vialImagesContainer {
+    gap: 15px;
+  }
+
+  .heroCtaButton {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroCtaButton {
+    font-size: 12px;
+  }
+}

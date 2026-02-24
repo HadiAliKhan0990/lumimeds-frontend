@@ -1,0 +1,293 @@
+.fs-35 {
+  font-size: 3.4rem;
+}
+
+.lh-42 {
+  line-height: 4.2rem;
+}
+
+h4 {
+  color: #3060fe;
+  font-family: 'DM Sans';
+}
+
+.faqs-wrapper .faq-item .faq-title h6 {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.faqs-wrapper .faq-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.faqs-wrapper .faq-item .faq-title {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.faqs-wrapper .faqs-block:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.faqs-wrapper .faq-item .faq-title .icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+
+.faqs-wrapper .faq-item .faq-title .icon:after,
+.faqs-wrapper .faq-item .faq-title .icon:before {
+  content: '';
+  position: absolute;
+  background-color: #000;
+}
+
+.faqs-wrapper .faq-item .faq-title .icon:before {
+  width: 16px;
+  height: 2px;
+  left: 0;
+  top: 7px;
+}
+
+.faqs-wrapper .faq-item .faq-title .icon:after {
+  width: 2px;
+  height: 16px;
+  left: 7px;
+  top: 0;
+}
+
+.faqs-wrapper .faq-item .faq-title h6 {
+  width: calc(100% - 16px);
+  padding-right: 30px;
+}
+
+.faqs-wrapper .faq-item .faq-content .content {
+  padding: 0 60px 20px 20px;
+}
+
+.faqs-wrapper .faq-item .faq-content .content p:last-child {
+  margin-bottom: 0;
+  color: #343a40;
+}
+
+.faqs-wrapper .faq-item .faq-content {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.faqs-wrapper .faq-item.active .faq-title .icon:after {
+  opacity: 0;
+}
+
+.medication-detail {
+  background: #fffdf6 !important;
+}
+
+.faqs-section {
+  padding-top: 128px;
+}
+
+@media only screen and (max-width: 767px) {
+  .faqs-section .section-title h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .faqs-section .section-title h2 {
+    margin-bottom: 40px;
+  }
+
+  .faqs-wrapper .faqs-block h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .faqs-wrapper .faq-item .faq-title {
+    padding: 12px 0;
+  }
+
+  .faqs-wrapper .faq-item .faq-title h6 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .faqs-wrapper .faq-item .faq-title .icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .faqs-wrapper .faq-item .faq-title .icon:before {
+    width: 12px;
+    top: 5px;
+  }
+
+  .faqs-wrapper .faq-item .faq-title .icon:after {
+    height: 12px;
+    left: 5px;
+  }
+
+  .faqs-wrapper .faq-item .faq-content .content {
+    padding: 0 0 15px 0;
+  }
+
+  .faqs-wrapper .faq-item .faq-content .content p {
+    line-height: 24px;
+  }
+
+  .faqs-wrapper .faqs-block:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+#cta > div {
+  /* width: 723px; */
+  padding: 24px 80px;
+  /* background: #463cf5; */
+  border-radius: 24px;
+  /* border: 1px solid #eaeaea; */
+  /* margin: 0 auto; */
+  text-align: center;
+  color: black;
+}
+
+#cta > div > a {
+  color: white;
+}
+
+/* #cta button {
+	background: white;
+	border: 1px solid #483cff;
+	padding: 8px 28px;
+	border-radius: 171px;
+	color: #483cff;
+	transition: all 300ms ease-out;
+} */
+
+/* #cta button:hover {
+	background: #483cff;
+	border: 1px solid #483cff;
+	border-radius: 171px;
+	color: white;
+} */
+
+#cta p:first-of-type {
+  font-size: 53px;
+  font-weight: 700;
+  font-family: 'Instrument Sans', system-ui;
+  line-height: 41.66px;
+}
+
+#cta p:last-of-type {
+  font-size: 18px;
+  font-family: 'Instrument Sans', system-ui;
+}
+
+@media screen and (max-width: 768px) {
+  #cta > div {
+    /* width: 600px; */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #cta > div {
+    padding: 0px;
+    /* width: 450px; */
+  }
+
+  #cta p:first-of-type {
+    margin: 0 auto;
+    font-size: 30px;
+    max-width: unset;
+  }
+
+  #cta p:last-of-type {
+    font-size: 16px;
+  }
+}
+
+.accordionjs .medication-detail ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #888888;
+  margin-bottom: 24px;
+}
+
+.accordion_header {
+  font-size: 46px;
+  line-height: 63px;
+  text-align: center;
+  color: #312316;
+  font-family: 'Instrument Sans', system-ui;
+  font-weight: 700;
+}
+
+.accordion_header span {
+  font-size: 60px;
+  font-size: 60px;
+}
+
+.accordion-button {
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  color: #000 !important;
+  background: white !important;
+  /* background: #FFFDF6; */
+  box-shadow: none !important;
+}
+.accordion-button-2 {
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  color: #000 !important;
+  /* background: white !important; */
+  background: #fffdf6;
+  box-shadow: none !important;
+}
+
+.faqs-section .accordion-button::after {
+  background-image: url('/plus.svg');
+}
+
+.faqs-section .accordion-button:not(.collapsed)::after {
+  background-image: url('/minus.svg');
+}
+
+.accordionjs .acc_section.acc_active > .acc_head {
+  background: initial !important;
+  border-bottom: 0 !important;
+}
+
+.accordionjs .medication-detail .accordion_number {
+  font-size: 16px;
+}
+
+.accordionjs .medication-detail .accordion_title {
+  font-size: 24px;
+}
+
+.accordionjs .medication-detail p {
+  font-size: 16px;
+  color: #888888;
+}
+
+.accordion-body {
+  background: white !important;
+}
+
+@media screen and (max-width: 450px) {
+  .accordion_header {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .accordion_header span {
+    font-size: 40px;
+  }
+}

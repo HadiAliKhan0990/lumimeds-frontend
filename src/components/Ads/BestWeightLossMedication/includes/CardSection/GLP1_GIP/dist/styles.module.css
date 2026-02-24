@@ -1,0 +1,631 @@
+@charset "UTF-8";
+.glp1GipCardSection {
+  padding: 15px 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  width: 100%;
+  border-radius: 24px;
+  background-color: #3060fe;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 0 20px 20px;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18.1px;
+}
+
+.frameContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.compoundedTirzepatideGlp1Parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11.5px;
+}
+
+.compoundedTirzepatideGlp1Container {
+  width: 100%;
+  line-height: 123%;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.compoundedTirzepatide {
+  margin: 0;
+}
+
+.weightLossInjectionWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18.34px;
+}
+
+.weightLossInjection {
+  text-wrap: nowrap;
+  line-height: 100%;
+  font-weight: 700;
+  width: 200px;
+  text-align: center;
+}
+
+.renewableEvery3Container {
+  width: 100%;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 1rem 0;
+}
+
+.renewableEvery3MonthsIdeal {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  list-style: none;
+  padding-left: 8px;
+}
+.renewableEvery3MonthsIdeal li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.renewableEvery3MonthsIdeal li:last-child {
+  margin-bottom: 0;
+}
+.renewableEvery3MonthsIdeal li::before {
+  content: "•";
+  margin-right: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.vialGipglp2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  margin-left: 150px;
+}
+
+.vialGipglp1 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 150px;
+}
+
+.frameDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 27.3px;
+  font-family: "Inter", sans-serif;
+}
+
+.monthStarterSubscriptionForParent {
+  border-bottom: 0.9px solid #fff;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 10px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.monthStarterSubscriptionContainer {
+  width: 256px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.monthStarterSubscriptionContainer2 {
+  width: 100%;
+}
+
+.month2 {
+  line-height: 115%;
+}
+
+.starterSubscription2 {
+  font-weight: 500;
+}
+
+.subscriptionTitle {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.forThoseStartingTreatmentO {
+  margin: 0;
+  font-size: 14px;
+}
+
+.forThoseStarting {
+  line-height: 126%;
+}
+
+.frameParent2 {
+  width: 208.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7.1px;
+  font-size: 47.92px;
+}
+
+.moWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frameWrapper2 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10.17px;
+}
+
+.frameWrapper3 {
+  width: 202.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.onePaymentOf399OrPayWitParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.2px;
+}
+
+.onePaymentOf {
+  height: 19.5px;
+  width: 165.6px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.image2Icon {
+  width: 33px;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.getStartedWrapper {
+  border-radius: 55.19px;
+  background-color: #ffc300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16.34px;
+  color: #3060fe;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.getStartedWrapper:hover {
+  background: #e6b000;
+  transform: translateY(-2px);
+}
+.getStartedWrapper:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.monthValueSubscriptionForTParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 10px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.monthValueSubscriptionContainer {
+  width: 256px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.forThoseContinuing {
+  line-height: 138%;
+}
+
+.frameParent3 {
+  width: 208.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7.1px;
+  flex-shrink: 0;
+  font-size: 47.92px;
+}
+
+.getStartedContainer {
+  border-radius: 55.19px;
+  background-color: #ffc300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 16.34px;
+  color: #3060fe;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.getStartedContainer:hover {
+  background: #e6b000;
+  transform: translateY(-2px);
+}
+.getStartedContainer:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+@media (max-width: 1199.98px) {
+  .cardContainer {
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .leftSide {
+    width: 100%;
+    text-align: center;
+  }
+
+  .frameGroup {
+    align-items: center;
+    text-align: center;
+  }
+
+  .frameContainer {
+    align-items: center;
+  }
+
+  .compoundedTirzepatideGlp1Parent {
+    align-items: center;
+  }
+
+  .renewableEvery3Container {
+    justify-content: center;
+  }
+
+  .frameDiv {
+    align-items: center;
+    text-align: left;
+  }
+
+  .monthStarterSubscriptionForParent,
+.monthValueSubscriptionForTParent {
+    justify-content: center;
+  }
+
+  .rightSide {
+    width: 100%;
+  }
+
+  .vialGipglp2 {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .vialGipglp1 {
+    max-width: 150px;
+  }
+}
+@media (max-width: 992px) {
+  .glp1GipCardSection {
+    padding: 12px 20px;
+  }
+
+  .cardContainer {
+    padding: 25px;
+  }
+
+  .leftSide {
+    gap: 25px;
+    padding: 15px;
+  }
+
+  .rightSide {
+    padding: 15px;
+  }
+
+  .compoundedTirzepatideGlp1Container {
+    font-size: 36px;
+  }
+
+  .weightLossInjectionWrapper {
+    font-size: 16px;
+  }
+
+  .renewableEvery3Container {
+    font-size: 18px;
+  }
+
+  .frameDiv {
+    font-size: 24px;
+  }
+
+  .monthStarterSubscriptionForParent,
+.monthValueSubscriptionForTParent {
+    gap: 35px;
+  }
+
+  .monthStarterSubscriptionContainer,
+.monthValueSubscriptionContainer {
+    width: 200px;
+  }
+
+  .frameParent2,
+.frameParent3 {
+    width: 180px;
+    font-size: 40px;
+  }
+
+  .getStartedWrapper,
+.getStartedContainer {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+
+  .vialGipglp2 {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .vialGipglp1 {
+    max-width: 180px;
+  }
+}
+@media (max-width: 768px) {
+  .glp1GipCardSection {
+    padding: 10px 15px;
+  }
+
+  .cardContainer {
+    padding: 20px;
+  }
+
+  .leftSide {
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .rightSide {
+    padding: 10px;
+  }
+
+  .compoundedTirzepatideGlp1Container {
+    font-size: 28px;
+  }
+
+  .weightLossInjectionWrapper {
+    font-size: 16px;
+  }
+
+  .renewableEvery3Container {
+    font-size: 16px;
+  }
+
+  .frameDiv {
+    font-size: 20px;
+  }
+
+  .monthStarterSubscriptionForParent,
+.monthValueSubscriptionForTParent {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .monthStarterSubscriptionContainer,
+.monthValueSubscriptionContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .frameParent2,
+.frameParent3 {
+    width: 100%;
+    font-size: 32px;
+  }
+
+  .getStartedWrapper,
+.getStartedContainer {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  .vialGipglp2 {
+    width: 100%;
+    max-width: 125px;
+  }
+
+  .vialGipglp1 {
+    max-width: 150px;
+  }
+}
+@media (max-width: 576px) {
+  .cardContainer {
+    padding: 15px;
+  }
+
+  .leftSide {
+    gap: 15px;
+    padding: 5px;
+  }
+
+  .rightSide {
+    padding: 5px;
+  }
+
+  .compoundedTirzepatideGlp1Container {
+    font-size: 24px;
+  }
+
+  .weightLossInjectionWrapper {
+    font-size: 14px;
+  }
+
+  .renewableEvery3Container {
+    font-size: 14px;
+  }
+
+  .frameDiv {
+    font-size: 18px;
+  }
+
+  .monthStarterSubscriptionForParent,
+.monthValueSubscriptionForTParent {
+    gap: 12px;
+  }
+
+  .monthStarterSubscriptionContainer,
+.monthValueSubscriptionContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .frameParent2,
+.frameParent3 {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .getStartedWrapper,
+.getStartedContainer {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .vialGipglp2 {
+    width: 100%;
+    max-width: 120px;
+  }
+
+  .vialGipglp1 {
+    max-width: 150px;
+  }
+}
+@media (max-width: 480px) {
+  .glp1GipCardSection {
+    padding: 8px 10px;
+  }
+
+  .cardContainer {
+    padding: 20px;
+  }
+
+  .leftSide {
+    gap: 15px;
+    padding: 8px;
+  }
+
+  .rightSide {
+    padding: 8px;
+  }
+
+  .compoundedTirzepatideGlp1Container {
+    font-size: 20px;
+  }
+
+  .weightLossInjectionWrapper {
+    font-size: 12px;
+  }
+
+  .renewableEvery3Container {
+    font-size: 12px;
+  }
+
+  .frameDiv {
+    font-size: 16px;
+  }
+
+  .frameParent2,
+.frameParent3 {
+    font-size: 24px;
+  }
+
+  .getStartedWrapper,
+.getStartedContainer {
+    font-size: 12px;
+    padding: 12px 10px;
+  }
+
+  .vialGipglp2 {
+    width: 100%;
+    max-width: 100px;
+  }
+
+  .vialGipglp1 {
+    max-width: 150px;
+  }
+}

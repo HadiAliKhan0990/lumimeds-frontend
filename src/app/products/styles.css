@@ -1,0 +1,381 @@
+.meds_subtext {
+  font-size: 32px !important;
+  line-height: 43px;
+}
+
+.product_card {
+  border: 0;
+}
+
+.product_cards {
+  border: 1px solid #d1d1d1;
+  padding: 24px 0;
+  border-radius: 24px;
+}
+
+.product_card_slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #d7d7d7;
+  border-radius: 24px;
+  padding: 32px;
+  column-gap: 128px;
+}
+
+.product_card_slider_title {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
+}
+
+.medication_product_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8db5ff;
+  border-radius: 12px;
+  padding: 24px;
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .medication_product_img {
+    border-radius: 0px;
+  }
+}
+
+.medication_product_img img {
+  max-width: 118px;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 575px) {
+  .medication_product_img{
+   border-radius: 0px !important;
+  }
+  
+  .medication_product_details {
+    border-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+  
+  .col-lg-8.medication_product_details {
+    border-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+  
+  .medication_product_container {
+    border-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+  
+  .medication_product_container *:not(button):not(.btn):not([class*="btn"]) {
+    border-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+}
+.medication_product_details {
+  display: flex;
+  /* width: fit-content; */
+  flex-direction: column;
+  row-gap: 12px;
+  border-radius: 0px !important;
+  padding: 64px;
+  color: white;
+}
+
+.medication_product_details > * {
+  display: inline-block;
+  margin: 0;
+}
+
+
+
+.medication_product_container {
+  /* column-gap: 172px; */
+  border-radius: 12px;
+  background: #3060fe;
+  display: flex;
+}
+
+.medication_product_title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.medication_product_description {
+  font-size: 18px;
+}
+
+.medication_product_details span {
+  font-size: 18px;
+}
+
+.medication_products {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding-top: 128px;
+}
+
+/* Reduce padding when banner is active */
+.banner-active .medication_products {
+  padding-top: 1rem !important;
+}
+
+.pricing-button {
+  transition: all 300ms ease-out;
+  padding: 12px 24px;
+  width: 100%;
+  border: 1px solid #463cf5;
+  border-radius: 24px;
+  background: white;
+  font-size: 20px;
+  color: #463cf5;
+  font-weight: 700;
+}
+
+.pricing-button:hover {
+  border: 0;
+  background: #463cf5;
+  color: white;
+}
+
+.product-card-button-group > * {
+  width: 50%;
+}
+
+.product-card-button-group {
+  display: flex;
+  justify-content: center;
+  column-gap: 12px;
+}
+
+#program-summary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: fit-content;
+}
+
+#program-summary span {
+  font-size: 18px;
+}
+
+.modal-title {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  flex: 1;
+}
+
+#sgltOptions,
+#tzptOptions {
+  /* background: #3060FE; */
+  padding: 64px 0px;
+}
+
+.modal-subtext {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.fa-regular.fa-circle-xmark:hover {
+  cursor: pointer;
+}
+
+.product-plans {
+  color: black !important;
+  /* border-right: 1px solid black; */
+}
+
+.accordionjs .acc_section .acc_head {
+  background-color: transparent !important;
+}
+
+.product-plans-container {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.product-plans {
+  color: white;
+}
+
+.swiper-button-previous-nav-product-accordion,
+.swiper-button-next-nav-product-accordion {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  background-color: #ececec;
+  cursor: pointer !important;
+  transition: background 0.2s;
+  z-index: 10;
+  pointer-events: auto !important;
+}
+
+.swiper-button-previous-nav-product-accordion {
+  position: absolute !important;
+  top: 7% !important;
+  left: 0 !important;
+
+  @media (max-width: 450px) {
+    top: 3% !important;
+  }
+}
+
+.swiper-button-next-nav-product-accordion {
+  position: absolute !important;
+  top: 7% !important;
+  right: 0 !important;
+
+  @media (max-width: 450px) {
+    top: 3% !important;
+  }
+}
+
+.swiper-button-previous-nav-product-accordion i,
+.swiper-button-next-nav-product-accordion i,
+.nav-circle-btn i {
+  color: #312316 !important;
+  font-size: 22px !important;
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  pointer-events: none !important;
+}
+.gap-class {
+  column-gap: 12px;
+}
+.custom-button {
+  padding: 12px 24px;
+}
+.as-low-font {
+  font-size: 12px;
+}
+@media screen and (max-width: 1024px) {
+  .product-plans-container {
+    height: initial;
+    overflow-y: initial;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product_card {
+    border: 2px solid #eaeaea;
+  }
+
+  .product_cards {
+    border: 0;
+  }
+
+  .meds_subtext {
+    font-size: 24px !important;
+  }
+
+  .product_card_slider {
+    flex-direction: column;
+    column-gap: 0px;
+    row-gap: 24px;
+  }
+
+  .product_card_slider_title {
+    font-size: 24px;
+  }
+
+  .product-plan {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .medication_product_container {
+    gap: 0px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .modal-title {
+    font-size: 24px;
+  }
+
+  .medication_product_details {
+    padding: 32px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .medication_product_details span {
+    font-size: 16px;
+  }
+
+  .product-card-button-group {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 12px;
+  }
+
+  .product-card-button-group > * {
+    width: 100%;
+  }
+
+  #program-summary {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #program-summary span {
+    font-size: 16px;
+  }
+}
+
+.rotate-m20 {
+  transform: rotate(-20deg);
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-button-previous-nav-product-accordion,
+  .swiper-button-next-nav-product-accordion,
+  .nav-circle-btn {
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+    min-height: 32px !important;
+  }
+
+  .swiper-button-previous-nav-product-accordion i,
+  .swiper-button-next-nav-product-accordion i,
+  .nav-circle-btn i {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .medication_product_title {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .medication_product_title {
+    font-size: 20px;
+  }
+}

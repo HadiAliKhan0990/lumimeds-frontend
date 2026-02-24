@@ -1,0 +1,143 @@
+{
+  "header": {
+    "medications": "Medicamentos",
+    "getStarted": "Comenzar",
+    "login": "Iniciar Sesión",
+    "questions": "¿Preguntas?"
+  },
+  "footer": {
+    "disclaimer": "Toda la información en este sitio web se publica de buena fe y solo con fines informativos generales. No está destinado a ser un sustituto del consejo médico profesional, diagnóstico o tratamiento. Si es adecuado para usted, y basado en sus necesidades individuales, su proveedor puede recetar productos farmacéuticos de marca o genéricos, o productos farmacéuticos compuestos que se consideren necesarios y apropiados. Los medicamentos compuestos están disponibles solo con receta médica. No están aprobados por la FDA y no han sido evaluados por la FDA en cuanto a seguridad y efectividad. Los medicamentos compuestos son compuestos por una farmacia de compuestos con licencia estatal, una instalación de subcontratación registrada federalmente, o un médico. Los medicamentos compuestos no son medicamentos de marca ni se consideran \"genéricos\".",
+    "getInTouch": "Ponte en Contacto",
+    "phone": "(415) 968-0890",
+    "email": "support@lumimeds.com",
+    "address": "Las Vegas, NV",
+    "hours": "Lun-Vie: 9AM-6PM PST",
+    "serviceHours": "Horario de Atención:",
+    "serviceHoursWeekdays": "Lun–Vie: 7 AM–7 PM PST",
+    "serviceHoursWeekends": "Sáb–Dom: 8 AM–4 PM PST",
+    "quickLinks": "Enlaces Rápidos",
+    "membershipTerms": "Términos y Condiciones de Membresía",
+    "pharmacyPartnerships": "Asociaciones Farmacéuticas",
+    "careers": "Carreras / Aplicar para Posición",
+    "faq": "Preguntas Frecuentes",
+    "termsOfUse": "Términos de Uso",
+    "privacyPolicy": "Política de Privacidad",
+    "affiliates": "Afiliados",
+    "warrantyDisclaimer": "LumiMeds™ no hace ninguna garantía sobre la integridad, confiabilidad y precisión de esta información. LumiMeds™ es una plataforma de gestión de pacientes que trabaja con médicos y profesionales independientes que brindan servicios utilizando nuestra plataforma. LumiMeds no proporciona directamente servicios médicos o farmacéuticos y el pago no garantiza la escritura o dispensación de una receta.",
+    "followUs": "Síguenos"
+  },
+  "medSpa1": {
+    "hero": {
+      "title": {
+        "stop": "No gastes",
+        "overpaying": "de más",
+        "forWeightLossCare": "en tu tratamiento para bajar de peso."
+      },
+      "description": "Medicamentos compuestos que trabajan con tu cuerpo para regular el apetito, mejorar la saciedad y mantener un peso saludable a largo plazo.",
+      "buttonText": "Elige tu plan ahora"
+    },
+    "analytics": {
+      "success": "De éxito",
+      "journeys": "Caminos",
+      "online": "En línea"
+    }
+  },
+  "medSpa2": {
+    "hero": {
+      "title": "Olvídate del spa médico",
+      "description": "Obtén atención médica conveniente y recetada por médicos de fuentes confiables. Sin misterios, sin sobrecargos, sin ventas adicionales."
+    },
+    "analytics": {
+      "success": "De éxito",
+      "journeys": "Caminos",
+      "online": "En línea"
+    }
+  },
+  "medSpa3": {
+    "hero": {
+      "title": {
+        "medSpaPrices": "Precios de Spa Médico",
+        "gotYou": "Te Tienen",
+        "stressed": "¿Estresado?"
+      },
+      "description": {
+        "line1": "Deja de pagar de más por medicamentos misteriosos y ventas adicionales.",
+        "line2": "En LumiMeds, obtienes cuidado de peso seguro recetado por médicos y enviado directamente a tu puerta."
+      }
+    },
+    "analytics": {
+      "success": "Éxito",
+      "journeys": "Viajes",
+      "online": "En línea"
+    },
+    "products": {
+      "glp1Gip": {
+        "title": "Tirzepatida Compuesta",
+        "subtitle": "Inyección para Bajar de Peso"
+      },
+      "glp1": {
+        "title": "Inyecciones de Semaglutida Compuesta (GLP-1)",
+        "subtitle": "Inyección para Bajar de Peso",
+        "valueBadge": "Valor"
+      }
+    },
+    "buttonText": "Comenzar",
+    "priceMonthSuffix": "/mes",
+    "badges": {
+      "starter": "Inicial",
+      "bestValue": "Mejor Valor",
+      "monthly": "Mensual"
+    },
+    "noProductsMessage": "No hay productos disponibles en este momento."
+  },
+  "productList": {
+    "productTitle": "Tirzepatida compuesta",
+    "productSubtitle": "Inyección para bajar de peso",
+    "buttonText": "Empezar ahora",
+    "priceMonthSuffix": "/mes",
+    "badges": {
+      "starter": "Para empezar",
+      "value": "Económico",
+      "monthly": "Por mes"
+    }
+  },
+  "productListSustainable": {
+    "productTitle": "Semaglutida compuesta",
+    "productSubtitle": "Inyección para bajar de peso",
+    "buttonText": "Empezar ahora",
+    "priceMonthSuffix": "/mes",
+    "badges": {
+      "starter": "Para empezar",
+      "value": "Económico",
+      "monthly": "Por mes"
+    }
+  },
+  "productListWeightLoss": {
+    "productTitle": "Tirzepatida compuesta",
+    "productSubtitle": "Inyección para bajar de peso",
+    "buttonText": "Empezar ahora",
+    "priceMonthSuffix": "/mes",
+    "badges": {
+      "starter": "Para empezar",
+      "value": "Económico",
+      "monthly": "Por mes"
+    }
+  },
+  "testimonials": {
+    "title": "Lo que Dicen Nuestros Clientes",
+    "seeMore": "Ver más",
+    "seeLess": "Ver menos"
+  },
+  "trustpilot": {
+    "title": "Confiado por Miles",
+    "subtitle": "Mira lo que dicen nuestros clientes",
+    "linkText": "Trustpilot",
+    "viewAllReviews": "Ver todas las reseñas",
+    "ratingLabel": "Excelente",
+    "basedOn": "Basado en",
+    "reviews": "reseñas",
+    "loading": "Cargando reseñas...",
+    "error": "No se pueden cargar las reseñas en este momento"
+  }
+}
+

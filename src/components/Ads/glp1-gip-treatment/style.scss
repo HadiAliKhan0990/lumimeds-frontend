@@ -1,0 +1,171 @@
+.glp1-gip-treatment {
+  background: #cfdecd; /* page background */
+  min-height: 100vh;
+
+  .product-card {
+    background: #416b42; /* card background per new instruction */
+    border: none;
+    color: #fff;
+  }
+
+  .starter-card {
+    background: #416b42; /* match all cards */
+    border: none;
+    color: #fff;
+
+    .feature-tile {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: #fff;
+      font-weight: 500;
+      line-height: 1.3;
+    }
+
+    .page-title {
+      color: #fff;
+      font-weight: 800;
+    }
+    .page-subtitle {
+      color: #fff;
+      font-size: 28px;
+    }
+
+    .price-line {
+      color: #fff;
+      .currency {
+        font-size: 20px;
+        margin-right: 4px;
+      }
+      .price-large {
+        font-size: 64px;
+        font-weight: 800;
+        line-height: 0.85;
+      }
+      .per {
+        margin-left: 4px;
+        font-size: 16px;
+      }
+    }
+
+    .upfront {
+      opacity: 0.9;
+    }
+    .purchase-type {
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .btn-cta {
+      background: #fff;
+      color: #1a1a1a;
+      border-radius: 8px;
+      padding: 0.6rem 1.5rem;
+    }
+    .btn-cta:hover {
+      background: #eaeaea;
+      color: #000;
+    }
+
+    /* Hero image sizing to prevent oversized rendering */
+    .vials-hero img {
+      height: 360px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+      display: inline-block;
+    }
+  }
+
+  .plan-card {
+    .card-media img {
+      height: 378px;
+      width: auto;
+      max-width: 100%;
+    }
+
+    .price-line {
+      display: flex;
+      align-items: end;
+      gap: 2px;
+      color: #ffffff;
+      .currency {
+        font-size: 18px;
+      }
+      .price-large {
+        font-size: 44px;
+        font-weight: 800;
+        line-height: 1;
+      }
+      .per {
+        font-size: 16px;
+        margin-left: 2px;
+      }
+    }
+
+    .best-value {
+      font-size: 12px;
+      color: #ffdd00;
+      font-weight: 700;
+    }
+    .upfront-inline {
+      color: #f2a900;
+      font-weight: 800;
+      margin-left: 6px;
+    }
+
+    .plan-bullets {
+      list-style-type: square;
+      margin: 1rem 0;
+      padding-left: 1rem;
+      color: #ffffff;
+    }
+    .plan-bullets li {
+      margin-bottom: 0.5rem;
+    }
+
+    .footnote {
+      color: #e7e7e7;
+      font-size: 17px;
+      font-family: 'Instrument Serif';
+      font-style: italic;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #1a1a1a;
+      border-radius: 8px;
+      padding: 0.6rem 1.25rem;
+    }
+    .btn-cta:hover {
+      background: #eaeaea;
+      color: #000;
+    }
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .starter-card {
+      .vials-hero img {
+        height: 300px;
+      }
+    }
+
+    .plan-card {
+      .card-media img {
+        height: 320px;
+      }
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .starter-card {
+      .vials-hero img {
+        height: 240px;
+      }
+    }
+    .plan-card {
+      .card-media img {
+        height: 260px;
+      }
+    }
+  }
+}

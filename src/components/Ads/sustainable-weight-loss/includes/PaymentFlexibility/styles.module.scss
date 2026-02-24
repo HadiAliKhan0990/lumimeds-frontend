@@ -1,0 +1,181 @@
+.paymentFlexibilitySection {
+  background: white;
+  padding: 0;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plainSection {
+  background: transparent;
+}
+
+.paymentCard {
+  background: linear-gradient(180deg, #fffefe 0%, #fff2e4 100%);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  padding: 60px 40px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.plainCard {
+  background: transparent;
+  box-shadow: none;
+}
+
+.contentSection {
+  padding: 40px 20px;
+}
+
+.hsaTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #771618;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #771618;
+}
+
+/* Plain variant inherits parent background */
+.plainCard .hsaTag {
+  background: transparent;
+}
+
+.checkIcon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.mainHeading {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.2;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.descriptionText {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404040;
+
+  p {
+    margin-bottom: 4px;
+  }
+}
+
+.visualSection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.cardVialImage {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+@media (max-width: 1024px) {
+  .mainHeading {
+    font-size: 3rem;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .paymentFlexibilitySection {
+    padding: 0 20px;
+  }
+
+  .paymentCard {
+    padding: 40px 30px;
+  }
+
+  .contentSection {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .mainHeading {
+    font-size: 2.5rem;
+  }
+
+  .visualSection {
+    min-height: 300px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .paymentFlexibilitySection {
+    padding: 0 20px;
+  }
+
+  .paymentCard {
+    padding: 30px 20px;
+  }
+
+  .hsaTag {
+    font-size: 0.9rem;
+  }
+
+  .mainHeading {
+    font-size: 2rem;
+  }
+
+  .descriptionText {
+    font-size: 16px;
+  }
+
+  .visualSection {
+    min-height: 250px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .paymentFlexibilitySection {
+    padding: 0 15px;
+  }
+
+  .paymentCard {
+    padding: 25px 15px;
+  }
+
+  .hsaTag {
+    font-size: 0.8rem;
+  }
+
+  .mainHeading {
+    font-size: 1.8rem;
+  }
+
+  .descriptionText {
+    font-size: 14px;
+  }
+
+  .contentSection {
+    padding: 0;
+  }
+
+  .visualSection {
+    padding: 0;
+  }
+}

@@ -1,0 +1,469 @@
+.productListSection {
+  padding: 80px 0;
+  background: white;
+}
+
+.productCard {
+  background: black;
+  border-radius: 20px;
+  border: none;
+  padding: 30px;
+  height: 100%;
+  min-height: 650px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  justify-content: space-between;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.pillBadge {
+  display: inline-block;
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding: 8px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.badgeText {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.subscriptionTag {
+  background: white;
+  color: #040f60;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 100%;
+}
+
+.subscriptionDescription {
+  color: #040f60;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: right;
+  max-width: 350px;
+}
+
+.glpHeader {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.glpTitle {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 2.001rem;
+  line-height: 100%;
+  color: white;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.glpSubtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.001rem;
+  line-height: 100%;
+  color: white;
+  margin: 0;
+}
+
+.productImageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  min-height: 240px;
+}
+
+.singleVialContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.multipleVialsContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vialImage {
+  width: 100px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.vial1 {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  z-index: 1;
+}
+
+.vial2 {
+  position: absolute;
+  left: 60px;
+  top: 10px;
+  z-index: 3;
+}
+
+.vial3 {
+  position: absolute;
+  left: 100px;
+  top: 0;
+  z-index: 1;
+}
+
+.pricingSection {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.priceDisplay {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.priceAmount {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: white;
+}
+
+.pricePeriod {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+}
+
+.ctaSection {
+  text-align: center;
+}
+
+.ctaButton {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 80%;
+
+  cursor: pointer;
+
+  &:hover {
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    background: white;
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  &:focus,
+  &:focus-visible,
+  &:focus-within {
+    background: white;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.05);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  .productListSection {
+    padding: 70px 0;
+  }
+
+  .productCard {
+    padding: 25px;
+    min-height: 550px;
+  }
+
+  .priceAmount {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .glpTitle {
+    font-size: 2.001rem;
+  }
+
+  .glpSubtitle {
+    font-size: 1.001rem;
+  }
+
+  .ctaButton {
+    padding: 12px 28px;
+    font-size: 18px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  .productListSection {
+    padding: 60px 0;
+  }
+
+  .productCard {
+    padding: 20px;
+    min-height: 500px;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .subscriptionDescription {
+    text-align: center;
+    max-width: none;
+  }
+
+  .priceAmount {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .priceDisplay {
+    flex-wrap: wrap;
+  }
+
+  .glpTitle {
+    font-size: 1.901rem;
+  }
+
+  .glpSubtitle {
+    font-size: 1.001rem;
+  }
+
+  .ctaButton {
+    padding: 13px 32px;
+    font-size: 18px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .productListSection {
+    padding: 50px 0;
+  }
+
+  .productCard {
+    padding: 20px;
+    min-height: 450px;
+  }
+
+  .vialImage {
+    width: 80px;
+    height: 200px;
+  }
+
+  .multipleVialsContainer {
+    width: 150px;
+    height: 150px;
+  }
+
+  .vial1 {
+    left: 15px;
+  }
+
+  .vial2 {
+    left: 45px;
+    top: 8px;
+  }
+
+  .vial3 {
+    left: 75px;
+  }
+
+  .priceAmount {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .glpTitle {
+    font-size: 1.601rem;
+  }
+
+  .glpSubtitle {
+    font-size: 0.901rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .productListSection {
+    padding: 40px 0;
+  }
+
+  .productCard {
+    padding: 15px;
+    min-height: 400px;
+  }
+
+  .subscriptionTag {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .subscriptionDescription {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .priceAmount {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .ctaButton {
+    padding: 12px 28px;
+    font-size: 16px;
+    width: 70%;
+  }
+  .productImageSection {
+    margin-bottom: 0px;
+  }
+
+  .glpTitle {
+    font-size: 1.301rem;
+  }
+
+  .glpSubtitle {
+    font-size: 0.801rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .productListSection {
+    padding: 30px 0;
+  }
+
+  .productCard {
+    padding: 15px;
+    min-height: 380px;
+  }
+
+  .vialImage {
+    width: 70px;
+    height: 170px;
+  }
+
+  .multipleVialsContainer {
+    width: 120px;
+    height: 120px;
+  }
+
+  .vial1 {
+    left: 10px;
+  }
+
+  .vial2 {
+    left: 35px;
+    top: 5px;
+  }
+
+  .vial3 {
+    left: 60px;
+  }
+
+  .priceAmount {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .pricePeriod {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .ctaButton {
+    padding: 10px 24px;
+    font-size: 14px;
+    width: 85%;
+  }
+
+  .glpTitle {
+    font-size: 1.101rem;
+  }
+
+  .glpSubtitle {
+    font-size: 0.701rem;
+  }
+}

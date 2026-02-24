@@ -1,0 +1,276 @@
+// PlanCard Styles - Copied from Science page and converted to SCSS modules
+
+.planCard {
+  background-color: #f7f3f0; /* panel bg */
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  font-family: Instrument sans-serif;
+}
+
+.planHeader {
+  margin-bottom: 2rem;
+}
+
+.planLabel {
+  background-color: #485764;
+  color: #ffffff;
+  padding: 0.75rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  border-bottom-right-radius: 12px;
+}
+
+.planContent {
+  margin: 3rem;
+}
+
+.planInfo {
+  padding: 2rem;
+}
+
+.planTitle {
+  color: #485764;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.planBenefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    color: #888888;
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+    position: relative;
+    padding-left: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+
+    &::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: #6c6c6c;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.medicationImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  padding: 1rem;
+}
+
+.vialImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.vialImage {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.planPricing {
+  display: flex;
+  flex-direction: column;
+}
+
+.supplyText {
+  color: #8f8f8f;
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+.price {
+  color: #485764;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+  line-height: 1;
+}
+
+.dollar {
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.priceDollar {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.month {
+  font-size: 1.25rem;
+  margin-left: 0.25rem;
+  color: #485764;
+}
+
+.ctaButton {
+  background: #485764;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.75rem;
+
+  &:hover {
+    background: #3a4a5a;
+    color: #fff;
+  }
+}
+
+// Responsive Design
+@media (max-width: 1200px) {
+  .planContent {
+    margin: 2.5rem;
+  }
+
+  .planInfo {
+    padding: 1.5rem;
+  }
+
+  .planTitle {
+    font-size: 1.35rem;
+  }
+
+  .planBenefits li {
+    font-size: 0.92rem;
+  }
+
+  .price {
+    font-size: 2.6rem;
+  }
+
+  .priceDollar {
+    font-size: 3.4rem;
+  }
+
+  .supplyText {
+    font-size: 0.9rem;
+  }
+
+  .ctaButton {
+    max-width: 140px;
+  }
+
+  .medicationImage {
+    height: 220px;
+  }
+}
+
+@media (max-width: 992px) {
+  .planContent {
+    margin: 2rem;
+  }
+
+  .planInfo {
+    padding: 1.25rem;
+    text-align: center;
+  }
+
+  .planBenefits {
+    text-align: left;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .price {
+    text-align: center;
+  }
+
+  .supplyText {
+    text-align: center;
+  }
+
+  .ctaButton {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .planLabel {
+    padding: 0.75rem 2rem;
+    font-size: 0.9rem;
+  }
+
+  .planCard .row {
+    flex-direction: column;
+  }
+
+  .planContent {
+    margin: 1.5rem;
+  }
+
+  .medicationImage {
+    height: 200px;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .planContent {
+    margin: 1rem;
+  }
+
+  .planInfo {
+    padding: 0.75rem;
+  }
+
+  .planTitle {
+    font-size: 1.05rem;
+  }
+
+  .planBenefits {
+    max-width: 250px;
+  }
+
+  .planBenefits li {
+    font-size: 0.85rem;
+    padding-left: 1.1rem;
+  }
+
+  .price {
+    font-size: 1.9rem;
+  }
+
+  .priceDollar {
+    font-size: 2.6rem;
+  }
+
+  .supplyText {
+    font-size: 0.85rem;
+  }
+
+  .ctaButton {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+    max-width: 200px;
+  }
+
+  .medicationImage {
+    height: 160px;
+  }
+
+  .vialImageContainer {
+    height: 160px;
+  }
+}

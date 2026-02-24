@@ -1,0 +1,93 @@
+.medical-intake-modal {
+  .modal-dialog {
+    max-width: 600px; // Make modal wider
+  }
+
+  .modal-content {
+    border-radius: 12px;
+    border: none;
+  }
+
+  .modal-divider {
+    border-top: 1px solid #e5e7eb;
+    margin: 0;
+    opacity: 1;
+  }
+
+  .modal-body {
+    padding: 2rem !important;
+  }
+
+  h2 {
+    font-size: 24px; // Reduced from 28px
+    font-weight: 600;
+    color: #000;
+  }
+
+  h5 {
+    font-size: 18px; // Reduced font size
+  }
+
+  p,
+  li {
+    font-size: 14px; // Smaller text for better readability
+  }
+
+  .alert-primary {
+    background-color: #f0f4ff;
+    border: none;
+    border-radius: 8px;
+    color: #0041ff;
+    padding: 0.5rem 1rem;
+  }
+
+  .btn {
+    padding: 0.625rem 1rem;
+    font-weight: 500;
+    font-size: 14px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-outline-secondary {
+    border-color: #e5e7eb;
+    color: #000;
+
+    &:hover {
+      background-color: #f3f4f6;
+      border-color: #e5e7eb;
+      color: #000;
+    }
+  }
+
+  .fs-13 {
+    font-size: 13px;
+  }
+
+  .fs-16 {
+    font-size: 16px !important;
+  }
+
+  .portal-steps-box {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fafafa;
+  }
+
+  .text-warning-emphasis {
+    color: #d09e06 !important; // Darker warning color
+  }
+
+  .btn-dark {
+    background-color: #000;
+    border-color: #000;
+
+    &:hover {
+      background-color: #1f2937;
+      border-color: #1f2937;
+    }
+  }
+}

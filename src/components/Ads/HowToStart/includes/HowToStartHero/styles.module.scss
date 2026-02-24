@@ -1,0 +1,283 @@
+.heroSection {
+  width: 100%;
+  background-color: #2c2c2c;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  gap: 60px;
+}
+
+.imagesRow {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imageContainer {
+  overflow: hidden;
+  padding: 8px;
+}
+
+.productImage {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.containerTextContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-family: 'instrument serif', serif;
+  font-weight: 400 !important;
+  font-size: 87px;
+  line-height: 120%;
+  letter-spacing: 0;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.titleAccent {
+  color: #acd2ff;
+}
+
+.heroDescription {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  margin-bottom: 32px;
+  opacity: 0.9;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 230px;
+}
+
+.heroButton {
+  background-color: #acd2ff;
+  color: #000000;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 32px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  &:hover {
+    background-color: #9bc4f0;
+    transform: translateY(-2px);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  .heroContainer {
+    gap: 50px;
+  }
+
+  .imagesRow {
+    gap: 15px;
+  }
+
+  .imageContainer {
+    padding: 6px;
+  }
+
+  .productImage {
+    width: 180px;
+    height: 180px;
+  }
+
+  .heroTitle {
+    font-size: 52px;
+    line-height: 68px;
+  }
+
+  .heroDescription {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 0 160px;
+  }
+
+  .heroButton {
+    font-size: 17px;
+    padding: 14px 28px;
+    min-width: 170px;
+  }
+}
+
+@media (max-width: 992px) {
+  .heroContainer {
+    gap: 40px;
+  }
+
+  .imagesRow {
+    gap: 12px;
+  }
+
+  .productImage {
+    width: 160px;
+    height: 160px;
+  }
+
+  .heroTitle {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .heroDescription {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 120px;
+  }
+
+  .heroButton {
+    font-size: 16px;
+    padding: 12px 24px;
+    min-width: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    height: 800px;
+    padding-top: 60px;
+  }
+
+  .heroContainer {
+    gap: 30px;
+  }
+
+  .imagesRow {
+    gap: 10px;
+  }
+
+  .productImage {
+    width: 140px;
+    height: 140px;
+  }
+
+  .heroTitle {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .heroDescription {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0 60px;
+  }
+
+  .heroButton {
+    font-size: 15px;
+    padding: 10px 20px;
+    min-width: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroSection {
+    height: 700px;
+    padding-top: 50px;
+  }
+
+  .heroContainer {
+    gap: 25px;
+  }
+
+  .imagesRow {
+    gap: 8px;
+  }
+
+  .productImage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .heroTitle {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .heroDescription {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 24px;
+  }
+
+  .heroButton {
+    font-size: 14px;
+    padding: 8px 16px;
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    height: 600px;
+    padding-top: 40px;
+  }
+
+  .heroContainer {
+    gap: 20px;
+  }
+
+  .imagesRow {
+    gap: 6px;
+  }
+
+  .productImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .heroTitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .heroDescription {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 16px;
+  }
+
+  .heroButton {
+    font-size: 13px;
+    padding: 7px 14px;
+    min-width: 130px;
+  }
+}

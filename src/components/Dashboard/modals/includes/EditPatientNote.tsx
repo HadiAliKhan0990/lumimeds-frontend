@@ -1,0 +1,140 @@
+'use client';
+
+import { patientNoteSchema, PatientNoteSchema } from '@/lib/schema/patientNote';
+import type { Error } from '@/lib/types';
+import { RootState } from '@/store';
+import { setModal } from '@/store/slices/modalSlice';
+import { PatientNote } from '@/store/slices/patientNoteSlice';
+import { useEditPatientNoteMutation, useLazyGetPatientNotesQuery } from '@/store/slices/patientsApiSlice';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { isAxiosError } from 'axios';
+import React, { useEffect, useState } from 'react';
+import { useForm } from 'react-hook-form';
+import toast from 'react-hot-toast';
+import { useDispatch, useSelector } from 'react-redux';
+import { setNotesMeta, setPatientNotes, triggerNotesRefetch } from '@/store/slices/patientNotesSlice';
+import { Modal, CircularProgress } from '@/components/elements';
+
+export function EditPatientNote() {
+  const dispatch = useDispatch();
+  const { modalType } = useSelector((state: RootState) => state.modal);
+  const patientNote = useSelector((state: RootState) => state.patientNote);
+  const patient = useSelector((state: RootState) => state.patient);
+
+  const [isLoading, setLoading] = useState(false);
+
+  const [editPatientNote] = useEditPatientNoteMutation();
+  const [triggerGetPatientNotes] = useLazyGetPatientNotesQuery();
+
+  const {
+    register,
+    handleSubmit,
+    reset,
+    setValue,
+    formState: { errors },
+  } = useForm<PatientNoteSchema>({
+    defaultValues: {
+      title: '',
+      description: '',
+    },
+    resolver: yupResolver(patientNoteSchema),
+  });
+
+  const isOpen = modalType === 'Edit Patient Note';
+
+  const handleClose = () => {
+    reset();
+    dispatch(setModal({ modalType: undefined }));
+  };
+
+  const handleEditNote = async (data: PatientNoteSchema) => {
+    if (data.title === (patientNote.title ?? '') && data.description === (patientNote.description ?? '')) {
+      handleClose();
+      return;
+    }
+    try {
+      setLoading(true);
+      const newNote: PatientNote = {
+        id: patientNote.id,
+        title: data.title,
+        description: data.description,
+      };
+      const { error } = await editPatientNote(newNote);
+      if (error) {
+        toast.error((error as Error).data.message);
+      } else {
+        const res = await triggerGetPatientNotes({
+          id: patient?.id || '',
+          isDeleted: false,
+          page: 1,
+        }).unwrap();
+
+        if (res) {
+          dispatch(setNotesMeta(res?.meta));
+          dispatch(setPatientNotes(res?.notes));
+        }
+
+        toast.success('Note Updated Successfully!');
+        dispatch(triggerNotesRefetch());
+        handleClose();
+      }
+    } catch (error) {
+      if (isAxiosError(error)) {
+        toast.error(error.response?.data.message);
+      } else {
+        toast.error('Error updating note!');
+      }
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (patientNote) {
+      setValue('title', patientNote.title ?? '');
+      setValue('description', patientNote.description ?? '');
+    }
+  }, [patientNote, setValue]);
+
+  const footer = (
+    <div className='tw-grid tw-grid-cols-2 tw-gap-2 tw-w-full'>
+      <button
+        type='button'
+        className='tw-w-full tw-px-4 tw-py-2 tw-text-primary tw-border tw-border-solid tw-border-primary tw-rounded-lg tw-bg-white tw-transition-all hover:tw-bg-primary/10'
+        onClick={handleClose}
+      >
+        Discard
+      </button>
+      <button
+        type='submit'
+        form='edit-patient-note-form'
+        disabled={isLoading}
+        className='tw-w-full tw-px-4 tw-py-2 tw-bg-primary tw-text-white tw-rounded-lg tw-flex tw-items-center tw-justify-center tw-gap-2 tw-transition-all hover:tw-bg-primary/90 disabled:tw-opacity-70 disabled:tw-pointer-events-none'
+      >
+        {isLoading && <CircularProgress className='!tw-w-4 !tw-h-4' />}
+        Save
+      </button>
+    </div>
+  );
+
+  return (
+    <Modal isOpen={isOpen} onClose={handleClose} size='lg' footer={footer} showFooter={true}>
+      <form id='edit-patient-note-form' onSubmit={handleSubmit(handleEditNote)} className='tw-mt-6'>
+        {/* <div>
+          <label className='form-label text-sm' htmlFor='title'>
+            Title
+          </label>
+          <input {...register('title')} className='form-control shadow-none' type='text' />
+          {!!errors.title && <span className='text-sm text-danger'>{errors.title.message}</span>}
+        </div> */}
+        <div>
+          <label className='form-label text-sm' htmlFor='description'>
+            Description
+          </label>
+          <textarea {...register('description')} className='form-control shadow-none tw-min-h-[200px] tw-resize-y' rows={8} />
+          {!!errors.description && <span className='text-sm text-danger'>{errors.description.message}</span>}
+        </div>
+      </form>
+    </Modal>
+  );
+}

@@ -1,0 +1,302 @@
+@use 'variables' as *;
+
+// Background colors
+
+.bg-cool-gray-100 {
+  background-color: $cool-gray-100 !important;
+}
+
+.bg-sky-blue {
+  background-color: $sky-blue !important;
+}
+
+.bg-blue-100 {
+  background-color: $blue-100 !important;
+}
+
+.bg-gray-light {
+  background-color: $gray-light !important;
+}
+
+.bg-deep-blue {
+  background-color: $deep-blue !important;
+}
+
+.bg-rose-brown {
+  background-color: $rose-brown !important;
+}
+
+.bg-notification-orange {
+  background-color: $notification-orange !important;
+}
+
+.bg-neutral-light {
+  background-color: $neutral-light !important;
+}
+
+.bg-deep-midnight {
+  background-color: $deep-midnight !important;
+}
+
+.bg-ghost-tint {
+  background-color: $ghost-tint !important;
+}
+
+.bg-cloud-blue {
+  background-color: $cloud-blue !important;
+}
+
+.bg-pale-rose {
+  background-color: $pale-rose !important;
+}
+
+.bg-primary-light {
+  background-color: $primary-light !important;
+}
+
+.bg-vivid-magenta {
+  background-color: $vivid-magenta !important;
+}
+
+.bg-yellow {
+  background-color: $yellow !important;
+}
+
+.bg-cream-white {
+  background-color: $cream-white !important;
+}
+
+.bg-charcoal-purple {
+  background-color: $charcoal-purple !important;
+}
+
+.bg-neutral-gray {
+  background-color: $neutral-gray !important;
+}
+
+.bg-pastel-blue {
+  background-color: $pastel-blue !important;
+}
+
+.bg-light-yellow {
+  background-color: $light-yellow !important;
+}
+
+.bg-light-periwinkle {
+  background-color: $light-periwinkle !important;
+}
+
+.bg-golden-amber {
+  background-color: $golden-amber !important;
+}
+
+.bg-off-white {
+  background-color: $off-white !important;
+}
+
+.bg-pale-gray {
+  background-color: $pale-gray !important;
+}
+
+.bg-dim-grey {
+  background-color: $very-light-gray !important;
+}
+
+.bg-disabled {
+  background-color: $gray-overlay !important;
+}
+.bg-danger-light {
+  background-color: rgba($danger, 0.4) !important;
+}
+
+
+.bg-pale-blue {
+  background-color: $pale-blue !important;
+}
+
+// Colors
+
+.text-sky-blue {
+  color: $sky-blue !important;
+}
+
+.text-primary-light {
+  color: $primary-light !important;
+}
+
+.text-vivid-magenta {
+  color: $vivid-magenta !important;
+}
+
+.text-alert-warning {
+  color: var(--bs-alert-color) !important;
+}
+
+.text-cream-white {
+  color: $cream-white !important;
+}
+
+.text-charcoal-purple {
+  color: $charcoal-purple !important;
+}
+
+.text-neutral-gray {
+  color: $neutral-gray !important;
+}
+
+.text-golden-amber {
+  color: $golden-amber !important;
+}
+
+.text-pastel-blue {
+  color: $pastel-blue !important;
+}
+
+.text-light-periwinkle {
+  color: $light-periwinkle !important;
+}
+
+.text-muted-gray-blue {
+  color: $muted-gray-blue !important;
+}
+
+.text-neutral-dark {
+  color: $neutral-dark;
+}
+
+.text-neutral-medium {
+  color: $neutral-medium !important;
+}
+
+.text-placeholder {
+  color: $muted !important;
+}
+
+.text-orange {
+  color: $orange !important;
+}
+
+.text-notification-orange {
+  color: $notification-orange !important;
+}
+
+.text-dark-gray {
+  color: $text-dark-gray !important;
+}
+
+.text-grey {
+  color: $steel-gray !important;
+}
+
+.text-warning-triangle {
+  color: $warning-triangle;
+}
+
+.text-dark-grey {
+  color: $dark-gray !important;
+}
+
+.text-light-brown {
+  color: $light-brown !important;
+}
+
+.text-yellow {
+  color: $yellow !important;
+}
+
+.text-rose-brown {
+  color: $rose-brown !important;
+}
+
+.text-pale-rose {
+  color: $pale-rose !important;
+}
+
+.text-cloud-blue {
+  color: $cloud-blue !important;
+}
+
+.text-ghost-tint {
+  color: $ghost-tint !important;
+}
+
+.text-deep-midnight {
+  color: $deep-midnight !important;
+}
+
+.text-dark-black {
+  color: $text-dark-black !important;
+}
+
+.text-dark-charcoal {
+  color: $text-dark-charcoal !important;
+}
+
+.text-orange-brown {
+  color: $text-orange-brown !important;
+}
+
+.text-medium-gray {
+  color: $text-medium-gray !important;
+}
+
+.text-light-gray {
+  color: $text-light-gray !important;
+}
+
+.text-neutral-light {
+  color: $neutral-light !important;
+}
+
+.text-blue-100 {
+  color: $blue-100 !important;
+}
+
+.text-deep-blue {
+  color: $deep-blue !important;
+}
+
+.text-pale-blue {
+  color: $pale-blue !important;
+}
+
+// Borders Colors
+
+.border-rose-brown {
+  border-color: $rose-brown !important;
+}
+
+.border-frosted-glass {
+  border-color: $frosted-glass !important;
+}
+
+.border-sky-blue {
+  border-color: $sky-blue !important;
+}
+
+.border-light-blue-gray {
+  border-color: $light-blue-gray !important;
+}
+
+.border-black-alpha {
+  border-color: $black-alpha !important;
+}
+
+.border-c-light {
+  border-color: $gray-light !important;
+}
+
+.border-bottom-dashed-primary-subtle {
+  border-bottom: 1px dashed $primary-light;
+}
+.border-primary-light {
+  border-color: $primary-light !important;
+}
+
+.border-gray-light {
+  border-color: $gray-light !important;
+}
+
+.border-gray-medium {
+  border-color: $border-gray-medium !important;
+}

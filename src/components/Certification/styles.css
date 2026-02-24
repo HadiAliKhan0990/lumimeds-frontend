@@ -1,0 +1,28 @@
+.certification-section {
+  padding: 20px;
+  padding-top: 24px;
+}
+.text-medium{
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20p !important;
+}
+.certi-header{
+  font-weight: 600 !important;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: rgb(67, 67, 67) !important;
+  @media (max-width: 600px){
+    font-size: 1.7rem !important;
+    line-height: 2rem !important;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .hightest-quality-care {
+    white-space: nowrap !important;
+  }
+}
+

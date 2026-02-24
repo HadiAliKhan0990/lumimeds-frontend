@@ -1,0 +1,113 @@
+@use 'variables' as *;
+
+/* Active Subscription Styles */
+.subscription-card {
+  background: #000000;
+  color: white;
+  border-radius: 20px;
+  box-shadow: none;
+  padding: 1.5rem;
+}
+
+.product-image-container {
+  max-width: 200px;
+  height: 200px;
+  border: 1px solid #6c757d;
+}
+
+.label-width {
+  min-width: 140px;
+}
+
+/* Other Plans Styles */
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.plan-card.current {
+  background: #cddfff;
+  color: #1877f2;
+}
+
+.plan-card.other {
+  background: #3060fe;
+  color: white;
+}
+
+.plan-duration {
+  top: 18px;
+  right: 24px;
+  text-underline-offset: 3px;
+}
+
+/* Alerts Styles */
+.alert-card {
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+/* inactive subscription styles */
+.text-gold {
+  color: #c2b68a !important;
+}
+
+.swiper-button-next-nav-plan-card {
+  top: 50%;
+  left: 102%;
+  z-index: 5;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+}
+
+.swiper-button-previous-nav-plan-card {
+  top: 50%;
+  right: 102%;
+  z-index: 5;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+}
+
+/* 3b. Push the button group down */
+.plan-card .d-flex.w-100.mt-3 {
+  margin-top: auto; /* auto top margin pushes this block to the bottom */
+}
+
+.swiper-pagination-plan-card {
+  bottom: 10px;
+  z-index: 10;
+
+  .swiper-pagination-bullet {
+    border-color: $primary !important;
+    cursor: pointer;
+
+    &.swiper-pagination-bullet-active {
+      background: $primary !important;
+    }
+  }
+}
+
+/* Pricing Modal - Show Swiper below 1200px, Grid at 1200px+ */
+.pricing-modal-swiper-wrapper {
+  display: block;
+}
+
+.pricing-modal-grid-wrapper {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .pricing-modal-swiper-wrapper {
+    display: none;
+  }
+
+  .pricing-modal-grid-wrapper {
+    display: flex;
+  }
+}

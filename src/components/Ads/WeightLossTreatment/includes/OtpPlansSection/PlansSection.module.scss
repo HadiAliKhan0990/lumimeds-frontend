@@ -1,0 +1,28 @@
+// PlansSection Styles - Copied from OTP styles
+
+// Weight Loss Treatment Container
+.weightLossTreatmentContainer {
+  // Wide container padding on large screens
+  @media (min-width: 1200px) {
+    padding-left: 125px !important;
+    padding-right: 125px !important;
+  }
+}
+
+// Rich heading below weight-loss section
+.headingRich {
+  max-width: 980px;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+@media (min-width: 992px) {
+  .headingRich {
+    font-size: 2rem;
+  }
+}
+
+.transformativePower {
+  font-family: 'Playfair Display';
+  font-style: italic;
+}

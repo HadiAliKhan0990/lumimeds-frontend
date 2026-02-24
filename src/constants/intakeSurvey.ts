@@ -1,0 +1,12 @@
+export const STORAGE_STEP_KEY = 'product_survey_step';
+export const PROVIDER_SURVEY_ANSWERS = 'provider_survey_answers';
+export const FORM_STEP = 'formStep';
+export const LUMIMEDS_CHECKOUT_USER = 'lumimeds_checkout_user';
+export const STORED_PRODUCT = 'storedProduct';
+export const SUBMISSION_ID = 'submissionId';
+export const SURVEY_QUESTIONS = 'surveyQuestions';
+export const SURVEY_ANSWERS = 'surveyAnswers';
+export const SURVEY_ANSWERS_META = 'survey_answers_meta';
+export const IS_SURVEY_COMPLETED = 'isSurveyCompleted';
+export const SURVEY_CATEGORY = 'surveyCategory';
+export const INVITATION_TOKEN = 'invitationToken';

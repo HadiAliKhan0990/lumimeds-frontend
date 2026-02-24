@@ -1,0 +1,88 @@
+.notification-bell-container {
+  position: relative;
+  display: inline-block;
+}
+
+.notification-bell {
+  position: relative;
+  cursor: pointer;
+  padding: 5px 8px 5px 8px;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  background-color: white;
+}
+
+.notification-bell:hover {
+  background-color: #f3f4f6;
+}
+
+.bell-icon-container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* Connection indicator animations */
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.connection-indicator.connecting {
+  animation: pulse 1.5s infinite;
+}
+
+/* Connection status colors */
+.connection-indicator.connected {
+  background-color: #10B981 !important;
+  box-shadow: 0 0 0 1px #10B981 !important;
+}
+
+.connection-indicator.connecting {
+  background-color: #F59E0B !important;
+  box-shadow: 0 0 0 1px #F59E0B !important;
+}
+
+.connection-indicator.error {
+  background-color: #EF4444 !important;
+  box-shadow: 0 0 0 1px #EF4444 !important;
+}
+
+.connection-indicator.disconnected {
+  background-color: #6B7280 !important;
+  box-shadow: 0 0 0 1px #6B7280 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .notification-bell {
+    min-width: 40px;
+    height: 40px;
+  }
+}

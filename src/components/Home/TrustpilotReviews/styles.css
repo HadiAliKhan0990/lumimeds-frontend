@@ -1,0 +1,76 @@
+.trustpilot-reviews-container {
+  margin: 2rem 0;
+  padding: 1rem 0;
+}
+
+.trustpilot-reviews-container .trustpilot-widget {
+  min-height: 140px;
+  display: block;
+  width: 100%;
+}
+
+.trustpilot-reviews-container .trustpilot-widget iframe {
+  border: none;
+  border-radius: 8px;
+  box-shadow: none;
+  width: 100%;
+  height: 140px;
+}
+
+/* Transparent theme adjustments */
+.trustpilot-reviews-container.trustpilot-transparent {
+  background: transparent !important;
+}
+.trustpilot-reviews-container.trustpilot-transparent .trustpilot-widget,
+.trustpilot-reviews-container.trustpilot-transparent .trustpilot-widget iframe {
+  background: transparent !important;
+}
+
+/* Fallback link styling */
+.trustpilot-reviews-container .trustpilot-widget a {
+  color: #00b67a;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  background: rgba(0, 182, 122, 0.1);
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.trustpilot-reviews-container .trustpilot-widget a:hover {
+  background: rgba(0, 182, 122, 0.2);
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .trustpilot-reviews-container {
+    margin: 1.5rem 0;
+    padding: 0.5rem 0;
+  }
+
+  .trustpilot-reviews-container .trustpilot-widget {
+    min-height: 120px;
+  }
+
+  .trustpilot-reviews-container .trustpilot-widget iframe {
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .trustpilot-reviews-container {
+    margin: 1rem 0;
+  }
+
+  .trustpilot-reviews-container .trustpilot-widget {
+    min-height: 100px;
+  }
+
+  .trustpilot-reviews-container .trustpilot-widget iframe {
+    height: 100px;
+  }
+}

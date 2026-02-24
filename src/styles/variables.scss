@@ -1,0 +1,138 @@
+$primary: #3060fe;
+$primary-light: #d6e4ff;
+$dark: #191919;
+$light: #fffdf6;
+$orange: #ffa600;
+$notification-orange: #ff6b35;
+$text-dark-gray: #21272a;
+$yellow: #ffee00;
+$neutral-medium: #838383;
+$black-alpha: rgba(0, 0, 0, 0.1);
+$ultra-light: rgba(0, 0, 0, 0.05);
+$ultra-dim-light: rgba(0, 0, 0, 0.04);
+$danger: rgb(220, 53, 69);
+$neutral-light: #e5e7eb;
+$neutral-dark: #555d61;
+$medium-gray: #555d61;
+$gray-light: #eaeaea;
+$gray-overlay: #eaeaea8c;
+$cream-light: #f8f2e1;
+$accent-gold: #c4853c;
+$surface-light-blue: #e1e8f8;
+$green: #128c7e;
+$accent-blue: #1357b6;
+$muted: #7e7e7e;
+$pale-gray: #f1f1f1;
+$light-gray: #f3f5f9;
+$muted-gray: #9797a0;
+$cloud-gray: #e6e6e6;
+$muted-gray-blue: #7c8b9f;
+$off-white: #f4f4f4;
+$golden-amber: #ca8a04;
+$beige-light: #fbf9f7;
+$sky-lightest: #f9fbff;
+$gray-300: #c3c3c3;
+$warning-triangle: #cd5d58;
+$light-yellow: #fefce8;
+$very-light-gray: #f6f6f6;
+$steel-gray: #777e90;
+$steel-gray-10: #777e901a;
+$slate-blue: #505f75;
+$dark-gray: #474747;
+$light-brown: #cc9454;
+$light-periwinkle: #cddfff;
+$pastel-blue: #b5cfff;
+$neutral-gray: #888888;
+$vivid-magenta: #e15cd4;
+$cream-white: #fffcf0;
+$charcoal-purple: #4f4d55;
+$golden-sun: #fae570;
+$mint-green: #8ae58a;
+$color-amber: #fbc02d;
+$rose-brown: #856060;
+$pale-rose: #f7f0f0;
+$cloud-blue: #dfe7ff;
+$frosted-glass: #eaeaeaee;
+$ghost-tint: rgba(0 0 0 / 0.04);
+$deep-midnight: #040018;
+$text-dark-black: #0a090b;
+$text-dark-charcoal: #1f1f1f;
+$text-orange-brown: #cb6a0a;
+$text-medium-gray: #697077;
+$text-light-gray: #a9abad;
+$border-gray-medium: #d0d5dd;
+$pale-rose-transparent: rgba(247, 240, 240, 0.8);
+$cloud-blue-transparent: rgba(223, 231, 255, 0.8);
+$blue-100: #ebf0fb;
+$deep-blue: #113b98;
+$amber: #fbc02d;
+$sky-blue: #8db5ff;
+$light-blue-gray: #c1cbde;
+$pale-blue: #ebf0ff;
+$deep-royal-blue: #002291;
+$dark-gray-70: #2e2e2eb2;
+$cool-gray-100: #edeef2;
+$new-light-red-color: #FBE4E4;
+$new-light-red-text-color: #A22537;
+$new-light-red-border-color: #F5BCBC;
+$new-light-green-color: #E6FAE5;
+$new-light-green-text-color: #1C8217;
+$new-light-green-border-color: #82E87D;
+$new-light-blue-color: #E4ECFB;
+$new-light-blue-border-color: #BCD1F5;
+$new-light-blue-text-color: #1D5CC9;
+$new-light-brown-color: #FFEDD4;
+$new-light-brown-border-color: #EAC695;
+$new-light-brown-text-color: #946311;
+$new-dark-red-color: #BC2B30;
+$new-dark-red-border-color: #BC2B30;
+$new-dark-red-text-color: #ffffff;
+
+// PatientProfile specific colors
+$patient-profile-bg: #fffdf7;
+$patient-profile-pill-bg: #fce4b5;
+$patient-profile-pill-border: #dcdcdc;
+$patient-profile-pill-green: #c7f7d1;
+$patient-profile-pill-orange: #ffd8c8;
+$patient-profile-pill-value-bg: #fff;
+$patient-profile-pill-value-border: #ddd;
+$patient-profile-close-hover: #ff5252;
+
+// Status Badge Colors - Semantic naming for better maintainability
+// Success/Positive Status Colors (Green theme)
+$status-success-bg: rgba(138, 229, 138, 0.2); // Light green background
+$status-success-text: #1b5e20; // Dark green text
+$status-success-solid-bg: #8ae58a; // Solid green background
+
+// Warning/Pending Status Colors (Yellow/Amber theme)
+$status-warning-bg: #fae570; // Golden yellow background
+$status-warning-text: #856404; // Dark yellow/brown text
+$status-warning-light-bg: #fefce8; // Very light yellow background
+$status-warning-light-text: #ca8a04; // Golden amber text
+
+// Error/Danger Status Colors (Red theme)
+$status-error-bg: rgba(220, 53, 69, 0.1); // Light red background
+$status-error-text: #dc3545; // Red text
+$status-error-light-bg: rgba(220, 53, 69, 0.05); // Very light red background
+
+// Neutral Status Colors (Gray theme)
+$status-neutral-bg: #e5e7eb; // Light gray background
+$status-neutral-text: #191919; // Dark text
+$status-neutral-light-bg: rgba(136, 136, 136, 0.2); // Light gray with transparency
+
+// Info/Processing Status Colors (Blue theme)
+$status-info-bg: #d6e4ff; // Light blue background
+$status-info-text: #3060fe; // Primary blue text
+
+// Special Status Colors
+$status-orange-bg: rgba(255, 166, 0, 0.1); // Light orange background
+$status-orange-text: #e69500; // Darker orange text
+
+$status-purple-bg: #4f41b7; // Purple background
+$status-purple-text: #fff; // White text
+
+$state-place-bg: #ecedc7;
+$status-place-text: #000000;
+
+$state-assigned-bg: #efe3e3;
+$status-assigned-text: #dc3545;

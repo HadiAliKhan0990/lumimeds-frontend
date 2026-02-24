@@ -1,0 +1,143 @@
+{
+  "header": {
+    "medications": "Medications",
+    "getStarted": "Get Started",
+    "login": "Login",
+    "questions": "Questions?"
+  },
+  "footer": {
+    "disclaimer": "All the information on this website is published in good faith and for general information purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment. If right for you, and based on your individual needs, your provider may prescribe brand name or generic drug products, or compounded drug products deemed necessary and appropriate. Compounded medications are available by prescription only. They are not FDA-approved and have not been evaluated for safety and effectiveness by the FDA. Compounded medications are compounded by a state licensed compounding pharmacy, federally registered outsourcing facility, or a physician. Compounded medications are not brand name drugs nor are they considered \"generics\".",
+    "getInTouch": "Get In Touch",
+    "phone": "(415) 968-0890",
+    "email": "help@lumimeds.com",
+    "address": "Las Vegas, NV",
+    "hours": "Mon-Fri: 9AM-6PM PST",
+    "serviceHours": "Service Hours:",
+    "serviceHoursWeekdays": "Mon–Fri: 7 AM–7 PM PST",
+    "serviceHoursWeekends": "Sat–Sun: 8 AM–4 PM PST",
+    "quickLinks": "Quick Links",
+    "membershipTerms": "Membership Terms & Conditions",
+    "pharmacyPartnerships": "Pharmacy Partnerships",
+    "careers": "Careers / Apply For Position",
+    "faq": "FAQ",
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy",
+    "affiliates": "Affiliates",
+    "warrantyDisclaimer": "LumiMeds™ does not make any warranties about the completeness, reliability and accuracy of this information. LumiMeds™ is a patient management platform that works with independent physicians and practitioners who provide services utilizing our platform. LumiMeds does not directly provide medical or pharmacy services and payment does not guarantee the writing or dispensing of a prescription.",
+    "followUs": "Follow Us"
+  },
+  "medSpa1": {
+    "hero": {
+      "title": {
+        "stop": "Stop",
+        "overpaying": "overpaying",
+        "forWeightLossCare": "for weight loss care."
+      },
+      "description": "Compounded medications that work with your body to help regulate appetite, improve fullness, and support long-term weight management.",
+      "buttonText": "Choose Your Plan Now"
+    },
+    "analytics": {
+      "success": "Success",
+      "journeys": "Journeys",
+      "online": "Online"
+    }
+  },
+  "medSpa2": {
+    "hero": {
+      "title": "Ditch the med spa",
+      "description": "Get convenient, doctor-prescribed wellness care from trusted sources. No mystery, no markups, no upsells."
+    },
+    "analytics": {
+      "success": "Success",
+      "journeys": "Journeys",
+      "online": "Online"
+    }
+  },
+  "medSpa3": {
+    "hero": {
+      "title": {
+        "medSpaPrices": "Med Spa Prices",
+        "gotYou": "Got You",
+        "stressed": "Stressed?"
+      },
+      "description": {
+        "line1": "Stop overpaying for mystery meds and upsells.",
+        "line2": "At LumiMeds, you get safe, doctor-prescribed weight care shipped straight to your door."
+      }
+    },
+    "analytics": {
+      "success": "Success",
+      "journeys": "Journeys",
+      "online": "Online"
+    },
+    "products": {
+      "glp1Gip": {
+        "title": "Compounded Tirzepatide",
+        "subtitle": "Weight Loss Injection"
+      },
+      "glp1": {
+        "title": "Compounded Semaglutide (GLP-1) Injections",
+        "subtitle": "Weight Loss Injection",
+        "valueBadge": "Value"
+      }
+    },
+    "buttonText": "Get Started",
+    "priceMonthSuffix": "/mo",
+    "badges": {
+      "starter": "Starter",
+      "bestValue": "Best Value",
+      "monthly": "Monthly"
+    },
+    "noProductsMessage": "No products available at the moment."
+  },
+  "productList": {
+    "productTitle": "Compounded Tirzepatide",
+    "productSubtitle": "Weight Loss Injections",
+    "buttonText": "Get Started",
+    "priceMonthSuffix": "/mo",
+    "badges": {
+      "starter": "Starter",
+      "value": "Value",
+      "monthly": "Monthly"
+    }
+  },
+  "productListSustainable": {
+    "productTitle": "Compounded Semaglutide",
+    "productSubtitle": "Weight Loss Injections",
+    "buttonText": "Get Started",
+    "priceMonthSuffix": "/mo",
+    "badges": {
+      "starter": "Starter",
+      "value": "Value",
+      "monthly": "Monthly"
+    }
+  },
+  "productListWeightLoss": {
+    "productTitle": "Compounded Tirzepatide",
+    "productSubtitle": "Weight Loss Injections",
+    "buttonText": "Get Started",
+    "priceMonthSuffix": "/mo",
+    "badges": {
+      "starter": "Starter",
+      "value": "Value",
+      "monthly": "Monthly"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "seeMore": "See more",
+    "seeLess": "See less"
+  },
+  "trustpilot": {
+    "title": "Trusted by Thousands",
+    "subtitle": "See what our customers are saying",
+    "linkText": "Trustpilot",
+    "viewAllReviews": "View all reviews",
+    "ratingLabel": "Excellent",
+    "basedOn": "Based on",
+    "reviews": "reviews",
+    "loading": "Loading reviews...",
+    "error": "Unable to load reviews at this time"
+  }
+}
+

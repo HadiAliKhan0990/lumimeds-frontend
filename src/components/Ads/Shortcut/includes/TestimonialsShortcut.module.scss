@@ -1,0 +1,61 @@
+/* Shortcut Page Testimonials Custom Styling */
+.testimonialsSection {
+  background-color: #ebece6 !important;
+}
+
+/* Target the existing testimonials section and title */
+.testimonialsSection :global(.testimonials_sec) {
+  background-color: #ebece6 !important;
+}
+
+.testimonialsSection :global(.testimonials_sec .testimonial_title) {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 47px !important;
+  line-height: 76px !important;
+  color: #333333 !important;
+  text-align: center !important;
+}
+
+/* Remove italic style from the "Reviews" span for Shortcut page only */
+.testimonialsSection :global(.testimonials_sec .testimonial_title .fst-italic) {
+  font-style: normal !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* Responsive breakpoints for Testimonials */
+@media (max-width: 1200px) {
+  .testimonialsSection :global(.testimonials_sec .testimonial_title) {
+    font-size: 42px !important;
+    line-height: 68px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .testimonialsSection :global(.testimonials_sec .testimonial_title) {
+    font-size: 38px !important;
+    line-height: 60px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonialsSection :global(.testimonials_sec .testimonial_title) {
+    font-size: 32px !important;
+    line-height: 50px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonialsSection :global(.testimonials_sec .testimonial_title) {
+    font-size: 28px !important;
+    line-height: 44px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonialsSection :global(.testimonials_sec .testimonial_title) {
+    font-size: 24px !important;
+    line-height: 40px !important;
+  }
+}

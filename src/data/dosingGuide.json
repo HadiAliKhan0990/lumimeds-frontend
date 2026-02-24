@@ -1,0 +1,1585 @@
+{
+  "data": [
+    {
+      "name": "Olympia/Wells",
+      "notes": [
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "2.5mg/mL",
+          "dosage": 0.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 9 units (0.22mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "2.5mg/mL",
+          "dosage": 0.44,
+          "day_supply": 90,
+          "notes": [
+            "Inject 18 units (0.44mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "2.5mg/mL",
+          "dosage": 0.89,
+          "day_supply": 90,
+          "notes": [
+            "Inject 36 units (0.89mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "2.5mg/mL",
+          "dosage": 1.50,
+          "day_supply": 90,
+          "notes": [
+            "Inject 60 units (1.5 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "2.5mg/mL",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 89 units (2.22mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 0.25,
+          "day_supply": 90,
+          "notes": [
+            "Inject 10 units (0.25 mg) subcutaneously once a week"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 0.5,
+          "day_supply": 90,
+          "notes": [
+            "Inject 20 units (0.5 mg) subcutaneously once a week"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 1.0,
+          "day_supply": 90,
+          "notes": [
+            "Inject 40 units (1.0 mg) subcutaneously once a week"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 1.7,
+          "day_supply": 90,
+          "notes": [
+            "Inject 68 units (1.7 mg) subcutaneously once a week"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 2.0,
+          "day_supply": 90,
+          "notes": [
+            "Inject 80 units (2.0 mg) subcutaneously once a week"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 2.4,
+          "day_supply": 90,
+          "notes": [
+            "Inject 96 units (2.4 mg) subcutaneously once a week"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 9 units (2.22mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 4.45,
+          "day_supply": 90,
+          "notes": [
+            "Inject 18 units (4.45mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 6.67,
+          "day_supply": 90,
+          "notes": [
+            "Inject 27 units (6.67mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 8.90,
+          "day_supply": 90,
+          "notes": [
+            "Inject 36 units (8.90mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 11.12,
+          "day_supply": 90,
+          "notes": [
+            "Inject 45 units (11.12mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 13.35,
+          "day_supply": 90,
+          "notes": [
+            "Inject 53 units (13.35mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 15,
+          "day_supply": 90,
+          "notes": [
+            "Inject 60 units (15 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 2.5,
+          "day_supply": 90,
+          "notes": [
+            "Inject 10 units (2.5 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 5,
+          "day_supply": 90,
+          "notes": [
+            "Inject 20 units (5 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 7.5,
+          "day_supply": 90,
+          "notes": [
+            "Inject 30 units (7.5mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 10,
+          "day_supply": 90,
+          "notes": [
+            "Inject 40 units (10 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 12.5,
+          "day_supply": 90,
+          "notes": [
+            "Inject 50 units (12.5 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 15,
+          "day_supply": 90,
+          "notes": [
+            "Inject 60 units (15 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Evaluate side effects",
+          "group": "GUIDANCE",
+          "dosage": null,
+          "day_supply": 90,
+          "notes": [
+            "Mild nausea, headaches, fatigue, constipation, and diarrhea are common when starting a new dosage and typically go away after a short period.",
+            "Read more about your medication here: Safety information for Compounded Semaglutide (GLP-1), Compounded Tirzepatide (GLP-1/GIP) injections →",
+            "How would you describe your side effects?",
+            "None or manageable: Side effects are mild to none, They don't disrupt your daily life, Continue to Step 2.",
+            "Unmanageable: Side effects interfere with your daily life, Discontinue treatment and get in touch with your doctor ASAP."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MFV",
+      "notes": [
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "5mg/mL",
+          "dosage": 0.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 5 units (0.22 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "5mg/mL",
+          "dosage": 0.44,
+          "day_supply": 90,
+          "notes": [
+            "Inject 9 units (0.44 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "5mg/mL",
+          "dosage": 0.89,
+          "day_supply": 90,
+          "notes": [
+            "Inject 18 units (0.89 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "5mg/mL",
+          "dosage": 1.50,
+          "day_supply": 90,
+          "notes": [
+            "Inject 30 units (1.50 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "5mg/mL",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 45 units (2.22 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 0.25,
+          "day_supply": 90,
+          "notes": [
+            "Inject 5 units (0.25 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 0.5,
+          "day_supply": 90,
+          "notes": [
+            "Inject 10 units (0.5 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 1.0,
+          "day_supply": 90,
+          "notes": [
+            "Inject 20 units (1.0 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 1.7,
+          "day_supply": 90,
+          "notes": [
+            "Inject 34 units (1.7 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 2.0,
+          "day_supply": 90,
+          "notes": [
+            "Inject 40 units (2.0 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Standard",
+          "dosage": 2.4,
+          "day_supply": 90,
+          "notes": [
+            "Inject 48 units (2.4 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 9 units (2.22mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 4.45,
+          "day_supply": 90,
+          "notes": [
+            "Inject 18 units (4.45mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 6.67,
+          "day_supply": 90,
+          "notes": [
+            "Inject 27 units (6.67mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 8.90,
+          "day_supply": 90,
+          "notes": [
+            "Inject 36 units (8.90mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 11.12,
+          "day_supply": 90,
+          "notes": [
+            "Inject 45 units (11.12mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 13.35,
+          "day_supply": 90,
+          "notes": [
+            "Inject 53 units (13.35mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "25mg/mL",
+          "dosage": 15,
+          "day_supply": 90,
+          "notes": [
+            "Inject 60 units (15 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 2.5,
+          "day_supply": 90,
+          "notes": [
+            "Inject 10 units (2.5 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 5.0,
+          "day_supply": 90,
+          "notes": [
+            "Inject 20 units (5 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 7.5,
+          "day_supply": 90,
+          "notes": [
+            "Inject 30 units (7.5mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 10,
+          "day_supply": 90,
+          "notes": [
+            "Inject 40 units (10 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Standard",
+          "dosage": 12.5,
+          "day_supply": 90,
+          "notes": [
+            "Inject 50 units (12.5 mg) subcutaneously once a week for 4 weeks"
+          ]
+        },
+        {
+          "category": "Evaluate side effects",
+          "group": "GUIDANCE",
+          "dosage": null,
+          "day_supply": 90,
+          "notes": [
+            "Mild nausea, headaches, fatigue, constipation, and diarrhea are common when starting a new dosage and typically go away after a short period.",
+            "Read more about your medication here: Safety information for Compounded Semaglutide (GLP-1), Compounded Tirzepatide (GLP-1/GIP) injections →",
+            "How would you describe your side effects?",
+            "None or manageable: Side effects are mild to none, They don't disrupt your daily life, Continue to Step 2.",
+            "Unmanageable: Side effects interfere with your daily life, Discontinue treatment and get in touch with your doctor ASAP."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DrugCrafters",
+      "notes": [
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "GLISS",
+          "dosage": 0.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 9 units (0.22 mg) SQ weekly for weeks 1-4",
+            "Inject 18 units (0.44 mg) SQ weekly for weeks 5-8",
+            "Inject 36 units (0.89 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 1.5 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "GLISS",
+          "dosage": 0.44,
+          "day_supply": 90,
+          "notes": [
+            "Inject 18 units (0.44 mg) SQ weekly for weeks 1-4",
+            "Inject 36 units (0.89 mg) SQ weekly for weeks 5-8",
+            "Inject 60 units (1.5 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "GLISS",
+          "dosage": 0.89,
+          "day_supply": 90,
+          "notes": [
+            "Inject 36 units (0.89 mg) SQ weekly for weeks 1-4",
+            "Inject 60 units (1.5 mg) SQ weekly for weeks 5-8",
+            "Inject 80 units (2.0 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.22 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "GLISS",
+          "dosage": 1.50,
+          "day_supply": 90,
+          "notes": [
+            "Inject 60 units (1.5 mg) SQ weekly for weeks 1-4",
+            "Inject 80 units (2.0 mg) SQ weekly for weeks 5-8",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "GLISS",
+          "dosage": 2,
+          "day_supply": 90,
+          "notes": [
+            "Inject 80 units (2.0 mg) SQ weekly for weeks 1-4",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "GLISS",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 1-4",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "GLISS",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 22 units (2.22 mg) SQ weekly for weeks 1-4",
+            "Inject 45 units (4.45 mg) SQ weekly for weeks 5-8",
+            "Inject 67 units (6.67 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "GLISS",
+          "dosage": 4.45,
+          "day_supply": 90,
+          "notes": [
+            "Inject 45 units (4.45 mg) SQ weekly for weeks 1-4",
+            "Inject 67 units (6.67 mg) SQ weekly for weeks 5-8",
+            "Inject 89 units (8.9 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "GLISS",
+          "dosage": 6.67,
+          "day_supply": 90,
+          "notes": [
+            "Inject 67 units (6.67 mg) SQ weekly for weeks 1-4",
+            "Inject 89 units (8.9 mg) SQ weekly for weeks 5-8",
+            "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "GLISS",
+          "dosage": 8.90,
+          "day_supply": 90,
+          "notes": [
+            "Inject 89 units (8.9 mg) SQ weekly for weeks 1-4",
+            "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 5-8",
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "GLISS",
+          "dosage": 11.12,
+          "day_supply": 90,
+          "notes": [
+            "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 1-4",
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8",
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "GLISS",
+          "dosage": 13.35,
+          "day_supply": 90,
+          "notes": [
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 1-4",
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8",
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "GLISS",
+          "dosage": 15.00,
+          "day_supply": 90,
+          "notes": [
+            "Inject 1.5 mL (15 mg) SQ weekly for weeks 1-4",
+            "Inject 1.5 mL (15 mg) SQ weekly for weeks 5-8",
+            "Inject 1.5 mL (15 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 0.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 9 units (0.22 mg) SQ weekly for weeks 1-4",
+            "Inject 18 units (0.44 mg) SQ weekly for weeks 5-8",
+            "Inject 18 units (0.44 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 0.89 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 0.44,
+          "day_supply": 90,
+          "notes": [
+            "Inject 18 units (0.44 mg) SQ weekly for weeks 1-4",
+            "Inject 36 units (0.89 mg) SQ weekly for weeks 5-8",
+            "Inject 36 units (0.89 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 1.5 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 0.89,
+          "day_supply": 90,
+          "notes": [
+            "Inject 36 units (0.89 mg) SQ weekly for weeks 1-4",
+            "Inject 60 units (1.5 mg) SQ weekly for weeks 5-8",
+            "Inject 60 units (1.5 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 1.50,
+          "day_supply": 90,
+          "notes": [
+            "Inject 60 units (1.5 mg) SQ weekly for weeks 1-4",
+            "Inject 80 units (2.0 mg) SQ weekly for weeks 5-8",
+            "Inject 80 units (2.0 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.22 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 2,
+          "day_supply": 90,
+          "notes": [
+            "Inject 80 units (2.0 mg) SQ weekly for weeks 1-4",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 1-4",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 22 units (2.22 mg) SQ weekly for weeks 1-4",
+            "Inject 45 units (4.45 mg) SQ weekly for weeks 5-8",
+            "Inject 45 units (4.45 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 6.67 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 4.45,
+          "day_supply": 90,
+          "notes": [
+            "Inject 45 units (4.45 mg) SQ weekly for weeks 1-4",
+            "Inject 67 units (6.67 mg) SQ weekly for weeks 5-8",
+            "Inject 67 units (6.67 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 8.90 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 6.67,
+          "day_supply": 90,
+          "notes": [
+            "Inject 67 units (6.67 mg) SQ weekly for weeks 1-4",
+            "Inject 89 units (8.9 mg) SQ weekly for weeks 5-8",
+            "Inject 89 units (8.9 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 11.12 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 8.90,
+          "day_supply": 90,
+          "notes": [
+            "Inject 89 units (8.9 mg) SQ weekly for weeks 1-4",
+            "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 5-8",
+            "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 13.35 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 11.12,
+          "day_supply": 90,
+          "notes": [
+            "Inject 1.11 mL (11.12 mg) SQ weekly for weeks 1-4",
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8",
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 13.35,
+          "day_supply": 90,
+          "notes": [
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 1-4",
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 5-8",
+            "Inject 1.34 mL (13.35 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "LOCUMTELE",
+          "dosage": 15,
+          "day_supply": 90,
+          "notes": [
+            "Inject 1.5 mL (15 mg) SQ weekly for weeks 1-4",
+            "Inject 1.5 mL (15 mg) SQ weekly for weeks 5-8",
+            "Inject 1.5 mL (15 mg) SQ weekly for weeks 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 16.67 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Evaluate side effects",
+          "group": "GUIDANCE",
+          "dosage": null,
+          "day_supply": 90,
+          "notes": [
+            "Mild nausea, headaches, fatigue, constipation, and diarrhea are common when starting a new dosage and typically go away after a short period.",
+            "Read more about your medication here: Safety information for Compounded GLP-1, GLP-1/GIP →",
+            "How would you describe your side effects?",
+            "None or manageable: Side effects are mild to none, They don't disrupt your daily life, Continue to Step 2.",
+            "Unmanageable: Side effects interfere with your daily life, Discontinue treatment and get in touch with your doctor ASAP."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PremierRX",
+      "notes": [
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "GLISS",
+          "dosage": 0.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 7 units (0.22 mg) SQ weekly for weeks 1-4,",
+            "Inject 15 units (0.44 mg) SQ weekly for weeks 5-8",
+            "Inject 30 units (0.89 mg) SQ weekly for weeks 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "GLISS",
+          "dosage": 0.44,
+          "day_supply": 90,
+          "notes": [
+            "Inject 15 units (0.44 mg) SQ weekly for weeks 1-4",
+            "Inject 30 units (0.89 mg) SQ weekly for weeks 5-8",
+            "Inject 50 units (1.50 mg) SQ weekly for weeks 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "GLISS",
+          "dosage": 0.89,
+          "day_supply": 90,
+          "notes": [
+            "Inject 30 units (0.89 mg) SQ weekly for weeks 1-4",
+            "Inject 50 units (1.50 mg) SQ weekly for weeks 5-8",
+            "Inject 67 units (2.00 mg) SQ weekly for weeks 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "GLISS",
+          "dosage": 1.50,
+          "day_supply": 90,
+          "notes": [
+            "Inject 50 units (1.50 mg) SQ weekly for weeks 1-4",
+            "Inject 67 units (2.00 mg) SQ weekly for weeks 5-8",
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "GLISS",
+          "dosage": 2,
+          "day_supply": 90,
+          "notes": [
+            "Inject 67 units (2.00 mg) SQ weekly for weeks 1-4",
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 5-8",
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "GLISS",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 1-4",
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 5-8",
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "GLISS",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 12 units (2.22 mg) SQ weekly for weeks 1-4",
+            "Inject 25 units (4.45 mg) SQ weekly for weeks 5-8",
+            "Inject 37 units (6.67 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "GLISS",
+          "dosage": 4.45,
+          "day_supply": 90,
+          "notes": [
+            "Inject 25 units (4.45 mg) SQ weekly for weeks 1-4",
+            "Inject 37 units (6.67 mg) SQ weekly for weeks 5-8",
+            "Inject 49 units (8.9 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "GLISS",
+          "dosage": 6.67,
+          "day_supply": 90,
+          "notes": [
+            "Inject 37 units (6.67 mg) SQ weekly for weeks 1-4",
+            "Inject 49 units (8.9 mg) SQ weekly for weeks 5-8",
+            "Inject 62 units (11.12 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "GLISS",
+          "dosage": 8.90,
+          "day_supply": 90,
+          "notes": [
+            "Inject 49 units (8.90 mg) SQ weekly for weeks 1-4",
+            "Inject 62 units (11.12 mg) SQ weekly for weeks 5-8",
+            "Inject 74 units (13.35 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "GLISS",
+          "dosage": 11.12,
+          "day_supply": 90,
+          "notes": [
+            "Inject 62 units (11.12 mg) SQ weekly for weeks 1-4",
+            "Inject 74 units (13.35 mg) SQ weekly for weeks 5-8",
+            "Inject 83 units (15 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "GLISS",
+          "dosage": 13.35,
+          "day_supply": 90,
+          "notes": [
+            "Inject 74 units (13.35 mg) SQ weekly for weeks 1-4",
+            "Inject 83 units (15 mg) SQ weekly for weeks 5-8",
+            "Inject 83 units (15 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "GLISS",
+          "dosage": 15,
+          "day_supply": 90,
+          "notes": [
+            "Inject 83 units (15 mg) SQ weekly for weeks 1-4",
+            "Inject 83 units (15 mg) SQ weekly for weeks 5-8",
+            "Inject 83 units (15 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 0.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 7 units (0.22 mg) SQ weekly for weeks 1-4",
+            "Inject 15 units (0.44 mg) SQ weekly for weeks 5-8",
+            "Inject 15 units (0.44 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 0.44,
+          "day_supply": 90,
+          "notes": [
+            "Inject 15 units (0.44 mg) SQ weekly for weeks 1-4",
+            "Inject 30 units (0.89 mg) SQ weekly for weeks 5-8",
+            "Inject 30 units (0.89 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 0.89,
+          "day_supply": 90,
+          "notes": [
+            "Inject 30 units (0.89 mg) SQ weekly for weeks 1-4",
+            "Inject 50 units (1.50 mg) SQ weekly for weeks 5-8",
+            "Inject 50 units (1.50 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 1.50,
+          "day_supply": 90,
+          "notes": [
+            "Inject 50 units (1.50 mg) SQ weekly for weeks 1-4",
+            "Inject 67 units (2.00 mg) SQ weekly for weeks 5-8",
+            "Inject 67 units (2.00 mg) SQ weekly for weeks 5-8",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 2,
+          "day_supply": 90,
+          "notes": [
+            "Inject 67 units (2.00 mg) SQ weekly for weeks 1-4",
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 5-8",
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections 3mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 1-4",
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 5-8",
+            "Inject 74 units (2.22 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 12 units (2.22 mg) SQ weekly for weeks 1-4",
+            "Inject 25 units (4.45 mg) SQ weekly for weeks 5-8",
+            "Inject 25 units (4.45 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 4.45,
+          "day_supply": 90,
+          "notes": [
+            "Inject 25 units (4.45 mg) SQ weekly for weeks 1-4",
+            "Inject 37 units (6.67 mg) SQ weekly for weeks 5-8",
+            "Inject 37 units (6.67 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 6.67,
+          "day_supply": 90,
+          "notes": [
+            "Inject 37 units (6.67 mg) SQ weekly for weeks 1-4",
+            "Inject 49 units (8.9 mg) SQ weekly for weeks 5-8",
+            "Inject 49 units (8.9 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 8.90,
+          "day_supply": 90,
+          "notes": [
+            "Inject 49 units (8.90 mg) SQ weekly for weeks 1-4",
+            "Inject 62 units (11.12 mg) SQ weekly for weeks 5-8",
+            "Inject 62 units (11.12 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 11.12,
+          "day_supply": 90,
+          "notes": [
+            "Inject 62 units (11.12 mg) SQ weekly for weeks 1-4",
+            "Inject 74 units (13.35 mg) SQ weekly for weeks 5-8",
+            "Inject 74 units (13.35 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 13.35,
+          "day_supply": 90,
+          "notes": [
+            "Inject 74 units (13.35 mg) SQ weekly for weeks 1-4",
+            "Inject 74 units (13.35 mg) SQ weekly for weeks 5-8",
+            "Inject 74 units (13.35 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections 18mg/mL",
+          "group": "LOCUMTELE",
+          "dosage": 15,
+          "day_supply": 90,
+          "notes": [
+            "Inject 83 units (15 mg) SQ weekly for weeks 1-4",
+            "Inject 83 units (15 mg) SQ weekly for weeks 5-8",
+            "Inject 83 units (15 mg) SQ weekly for weeks 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Evaluate side effects",
+          "group": "GUIDANCE",
+          "dosage": null,
+          "day_supply": 90,
+          "notes": [
+            "Mild nausea, headaches, fatigue, constipation, and diarrhea are common when starting a new dosage and typically go away after a short period.",
+            "Read more about your medication here: Safety information for Compounded Semaglutide (GLP-1), Compounded Tirzepatide (GLP-1/GIP) injections →",
+            "How would you describe your side effects?",
+            "None or manageable: Side effects are mild to none, They don't disrupt your daily life, Continue to Step 2.",
+            "Unmanageable: Side effects interfere with your daily life, Discontinue treatment and get in touch with your doctor ASAP."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NORTHWEST",
+      "notes": [
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 2.22,
+          "day_supply": 30,
+          "notes": [
+            "Inject 2.22mg (22U) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 4.45,
+          "day_supply": 30,
+          "notes": [
+            "Inject 4.45mg (45U) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 6.67,
+          "day_supply": 30,
+          "notes": [
+            "Inject 6.67mg (67U) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 8.90,
+          "day_supply": 30,
+          "notes": [
+            "Inject 8.90mg (89U) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 11.12,
+          "day_supply": 30,
+          "notes": [
+            "Inject 11.12mg (74U) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 13.35,
+          "day_supply": 30,
+          "notes": [
+            "Inject 13.35mg (89U) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 15,
+          "day_supply": 30,
+          "notes": [
+            "Inject 15mg (100U) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 2.22mg (22U) SQ for Week 1-4",
+            "Inject 4.45mg (45U) SQ for Week 5-8",
+            "Inject 6.67mg (67U) SQ for Week 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 4.45,
+          "day_supply": 90,
+          "notes": [
+            "Inject 4.45mg (45U) SQ for Week 1-4",
+            "Inject 6.67mg (67U) SQ for Week 5-8",
+            "Inject 8.90mg (89U) for Week 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 6.67,
+          "day_supply": 90,
+          "notes": [
+            "Inject 6.67mg (45U) SQ for Week 1-4",
+            "Inject 8.90mg (59U) SQ for Week 5-8",
+            "Inject 11.12mg (74U) SQ for Week 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 8.90,
+          "day_supply": 90,
+          "notes": [
+            "Inject 8.90mg (59U) SQ for Week 1-4",
+            "Inject 11.12mg (74U) SQ for Week 5-8",
+            "Inject 13.35mg (89U) SQ for Week 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 11.12,
+          "day_supply": 90,
+          "notes": [
+            "Inject 11.12mg (74U) SQ for Week 1-4",
+            "Inject 13.35mg (89U) SQ for Week 5-8",
+            "Inject 15mg (100U) SQ for Week 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 13.35,
+          "day_supply": 90,
+          "notes": [
+            "Inject 13.35mg (89U) SQ for Week 1-4",
+            "Inject 15mg (100U) SQ for Week 5-8",
+            "Inject 15mg (100U) SQ for Week 9-12"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 15,
+          "day_supply": 90,
+          "notes": [
+            "Inject 15mg (100U) SQ weekly"
+          ]
+        },
+        {
+          "category": "Evaluate side effects",
+          "group": "GUIDANCE",
+          "dosage": null,
+          "day_supply": 90,
+          "notes": [
+            "Mild nausea, headaches, fatigue, constipation, and diarrhea are common when starting a new dosage and typically go away after a short period.",
+            "Read more about your medication here: Safety information for Compounded Semaglutide (GLP-1), Compounded Tirzepatide (GLP-1/GIP) injections →",
+            "How would you describe your side effects?",
+            "None or manageable: Side effects are mild to none, They don't disrupt your daily life, Continue to Step 2.",
+            "Unmanageable: Side effects interfere with your daily life, Discontinue treatment and get in touch with your doctor ASAP."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1st Choice",
+      "notes": [
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 2.22,
+          "day_supply": 30,
+          "notes": [
+            "Inject 11 units (2.22 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 4.45,
+          "day_supply": 30,
+          "notes": [
+            "Inject 22 units (4.45 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 6.67,
+          "day_supply": 30,
+          "notes": [
+            "Inject 33 units (6.67 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 8.90,
+          "day_supply": 30,
+          "notes": [
+            "Inject 45 units (8.9 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 11.12,
+          "day_supply": 30,
+          "notes": [
+            "Inject 56 units (11.12 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 13.35,
+          "day_supply": 30,
+          "notes": [
+            "Inject 67 units (13.35 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 15,
+          "day_supply": 30,
+          "notes": [
+            "Inject 75 units (15 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "Monthly",
+          "dosage": 16.65,
+          "day_supply": 30,
+          "notes": [
+            "Inject 83 units (16.65 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 11 units (2.22 mg) SQ weekly for week 1-4",
+            "Inject 22 units (4.45 mg) SQ weekly for week 5-8",
+            "Inject 33 units (6.67 mg) SQ weekly for week 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 4.45,
+          "day_supply": 90,
+          "notes": [
+            "Inject 22 units (4.45 mg) SQ weekly for week 1-4",
+            "Inject 33 units (6.67 mg) SQ weekly for week 5-8",
+            "Inject 45 units (8.9 mg) SQ weekly for week 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 6.67,
+          "day_supply": 90,
+          "notes": [
+            "Inject 33 units (6.67 mg) SQ weekly for week 1-4",
+            "Inject 45 units (8.9 mg) SQ weekly for week 5-8",
+            "Inject 56 units (11.12 mg) SQ weekly for week 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 8.9,
+          "day_supply": 90,
+          "notes": [
+            "Inject 45 units (8.9 mg) SQ weekly for week 1-4",
+            "Inject 56 units (11.12 mg) SQ weekly for week 5-8",
+            "Inject 67 units (13.35 mg) SQ weekly for week 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 11.12,
+          "day_supply": 90,
+          "notes": [
+            "Inject 56 units (11.12 mg) SQ weekly for week 1-4",
+            "Inject 67 units (13.35 mg) SQ weekly for week 5-8",
+            "Inject 75 units (15 mg) SQ weekly for week 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 13.35,
+          "day_supply": 90,
+          "notes": [
+            "Inject 67 units (13.35 mg) SQ weekly for week 1-4",
+            "Inject 75 units (15 mg) SQ weekly for week 5-8",
+            "Inject 75 units (15 mg) SQ weekly for week 9-12",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 15,
+          "day_supply": 90,
+          "notes": [
+            "Inject 75 units (15 mg) SQ weekly for weeks 1-4,",
+            "Inject 75 units (15 mg) SQ weekly for weeks 5-8,",
+            "Inject 75 units (15 mg) SQ weekly for weeks 9-12,",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Tirzepatide (GLP-1/GIP) Injections",
+          "group": "3-month supply",
+          "dosage": 16.65,
+          "day_supply": 90,
+          "notes": [
+            "Inject 83 units (16.65 mg) SQ weekly for weeks 1-4,",
+            "Inject 83 units (16.65 mg) SQ weekly for weeks 5-8,",
+            "Inject 83 units (16.65 mg) SQ weekly for weeks 9-12,",
+            "Increase dose beyond labeled instructions ONLY AS OR IF DIRECTED by provider"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Monthly",
+          "dosage": 0.22,
+          "day_supply": 30,
+          "notes": [
+            "Inject 9 units (0.22 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Monthly",
+          "dosage": 0.44,
+          "day_supply": 30,
+          "notes": [
+            "Inject 18 units (0.44 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Monthly",
+          "dosage": 0.89,
+          "day_supply": 30,
+          "notes": [
+            "Inject 36 units (0.89 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Monthly",
+          "dosage": 1.50,
+          "day_supply": 30,
+          "notes": [
+            "Inject 60 units (1.50 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Monthly",
+          "dosage": 2,
+          "day_supply": 30,
+          "notes": [
+            "Inject 80 units (2 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "Monthly",
+          "dosage": 2.22,
+          "day_supply": 30,
+          "notes": [
+            "Inject 89 units (2.22 mg) SQ weekly"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "3-month supply",
+          "dosage": 0.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 9 units (0.22 mg) SQ weekly for week 1-4",
+            "Inject 18 units (0.44 mg) SQ weekly for week 5-8",
+            "Inject 36 units (0.89 mg) SQ weekly for week 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 0.89 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "3-month supply",
+          "dosage": 0.44,
+          "day_supply": 90,
+          "notes": [
+            "Inject 18 units (0.44 mg) SQ weekly for week 1-4",
+            "Inject 36 units (0.89 mg) SQ weekly for week 5-8",
+            "Inject 60 units (1.50 mg) SQ weekly for week 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 1.5 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "3-month supply",
+          "dosage": 0.89,
+          "day_supply": 90,
+          "notes": [
+            "Inject 36 units (0.89 mg) SQ weekly for week 1-4",
+            "Inject 60 units (1.50 mg) SQ weekly for week 5-8",
+            "Inject 80 units (2 mg) SQ weekly for week 9-12",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "3-month supply",
+          "dosage": 1.50,
+          "day_supply": 90,
+          "notes": [
+            "Inject 60 units (1.5 mg) SQ weekly for weeks 1-4,",
+            "Inject 80 units (2.0 mg) SQ weekly for weeks 5-8,",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12,",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.22 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "3-month supply",
+          "dosage": 2,
+          "day_supply": 90,
+          "notes": [
+            "Inject 80 units (2.0 mg) SQ weekly for weeks 1-4,",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12,",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Compounded Semaglutide (GLP-1) Injections",
+          "group": "3-month supply",
+          "dosage": 2.22,
+          "day_supply": 90,
+          "notes": [
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 1-4,",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 5-8,",
+            "Inject 89 units (2.22 mg) SQ weekly for weeks 9-12,",
+            "Increase dose ONLY AS DIRECTED by provider (not to exceed 2.4 mg SQ weekly)"
+          ]
+        },
+        {
+          "category": "Evaluate side effects",
+          "group": "GUIDANCE",
+          "dosage": null,
+          "day_supply": 90,
+          "notes": [
+            "Mild nausea, headaches, fatigue, constipation, and diarrhea are common when starting a new dosage and typically go away after a short period.",
+            "Read more about your medication here: Safety information for Compounded Semaglutide (GLP-1), Compounded Tirzepatide (GLP-1/GIP) injections →",
+            "How would you describe your side effects?",
+            "None or manageable: Side effects are mild to none, They don't disrupt your daily life, Continue to Step 2.",
+            "Unmanageable: Side effects interfere with your daily life, Discontinue treatment and get in touch with your doctor ASAP."
+          ]
+        }
+      ]
+    }
+  ]
+}

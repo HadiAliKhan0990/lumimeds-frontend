@@ -1,0 +1,35 @@
+#about_section #about_title {
+  font-size: 56px;
+  font-weight: 700;
+  height: 100%;
+}
+
+#about_section #about_nav ul {
+  list-style: none;
+  list-style-position: inside;
+  font-size: 24px;
+  gap: 24px;
+  padding: 32px 0;
+}
+
+#about_section #about_nav ul li button {
+  color: #828282;
+}
+
+#about_section #about_nav ul li button.about-button-active {
+  color: #463cf5;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  #about_section #about_title {
+    font-size: 42px;
+    line-height: 56px;
+  }
+
+  #about_section #about_nav ul {
+    font-size: 16px;
+    gap: 16px;
+    padding: 16px 0;
+  }
+}

@@ -1,0 +1,331 @@
+.productListSection {
+  padding: 60px 0;
+}
+
+.productCard {
+  background: #243cbe;
+  border-radius: 16px;
+  padding: 16px 20px;
+  box-shadow: 0 8px 24px rgba(36, 60, 190, 0.2);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Header Section */
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    height: 89px;
+  }
+}
+
+.supplyBadge {
+  background: #e8d5ff;
+  color: #243cbe;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: 'DMSans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  white-space: nowrap;
+}
+
+.popularBadge {
+  color: #ffcc00;
+  font-family: 'DMSans', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 133%;
+}
+
+/* Product Image Section */
+.productImageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 80px;
+}
+
+.productImage {
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Pricing Section */
+.pricingSection {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+.monthlyPrice {
+  display: flex;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
+.dollarSign {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  margin-right: 2px;
+}
+
+.priceAmount {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.pricePeriod {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 4px;
+}
+
+.upfrontPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.upfrontAmount {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ded2df;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+
+.upfrontFirstLine {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  justify-content: flex-end;
+  line-height: normal;
+}
+
+.upfrontText {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ded2df;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.purchaseType {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ded2df;
+  opacity: 0.7;
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* Features Section */
+.featuresSection {
+  margin-bottom: 20px;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.featureItem {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    background: #e8d5ff;
+    border-radius: 50%;
+  }
+}
+
+.motivationalText {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+}
+
+/* CTA Section */
+.ctaSection {
+  margin-top: auto;
+}
+
+.ctaButton {
+  width: 100%;
+  background: rgba(242, 227, 227, 0.9);
+  color: #243cbe;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 24px;
+  font-family: 'DMSans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  &:hover {
+    background: rgba(242, 227, 227, 0.8);
+    transform: translateY(-2px);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .productCard {
+    padding: 24px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .pricingSection {
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .priceAmount {
+    font-size: 40px;
+  }
+
+  .pricePeriod {
+    font-size: 20px;
+  }
+
+  .dollarSign {
+    font-size: 28px;
+  }
+
+  .featureItem {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .motivationalText {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .ctaButton {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .productCard {
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cardHeader {
+    margin-bottom: 20px;
+  }
+
+  .supplyBadge,
+  .popularBadge {
+    font-size: 12px;
+    padding: 6px 12px;
+    white-space: nowrap;
+  }
+
+  .productImageSection {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+
+  .pricingSection {
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .priceAmount {
+    font-size: 36px;
+  }
+
+  .pricePeriod {
+    font-size: 18px;
+  }
+
+  .dollarSign {
+    font-size: 24px;
+  }
+
+  .featuresSection {
+    margin-bottom: 24px;
+  }
+
+  .featureItem {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .motivationalText {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .ctaButton {
+    font-size: 15px;
+    padding: 12px 16px;
+  }
+}

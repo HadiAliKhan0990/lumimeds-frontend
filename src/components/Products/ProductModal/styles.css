@@ -1,0 +1,173 @@
+.product-plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: black;
+    margin: auto;
+}
+
+.product-plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    width: 100%;
+    align-items: center;
+}
+
+.product-plan-action {
+    column-gap: 24px;
+}
+
+.product-plan-header p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-plan-price {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .product-plan {
+        margin: 0 auto;
+    }
+}
+
+
+.modal {
+    font-size: 16px;
+}
+
+.modal-content {
+    border: 0;
+}
+
+.modal-title {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    flex: 1;
+}
+
+.modal-subtext {
+    max-width: 700px;
+    text-align: center;
+}
+
+.product-plans {
+    color: black;
+}
+
+.product-plans-container {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 1024px) {
+    .product-plans-container {
+        height: initial;
+        overflow-y: initial;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .modal-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .product-modal-title {
+        font-size: 1.6rem !important;
+        line-height: 2.5rem !important;
+    }
+
+    .product-modal-content {
+        padding: 1.5rem !important;
+    }
+
+    .product-plan-header {
+        font-size: 15px;
+    }
+
+    .product-plan-price {
+        font-size: 18px !important;
+        font-weight: 700;
+    }
+
+    .product-plan {
+        padding-inline: 0;
+    }
+
+    .product-plan-subs {
+        font-size: 12px;
+    }
+
+    .perk-benefits {
+        font-size: 18px !important;
+    }
+
+    .perk-benefits-icon {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .product-modal-title {
+        font-size: 1.5rem !important;
+        line-height: 2rem !important;
+        text-align: center;
+    }
+
+    .product-modal-content {
+        padding: 1rem !important;
+    }
+
+    .product-modal-plans {
+        font-size: 1rem !important;
+    }
+
+    .product-plans-col-left {
+        border-right: none !important;
+        border-bottom: 1px solid #000 !important;
+        padding-right: 0 !important;
+        padding-bottom: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .product-plans-col-right {
+        padding-left: 0 !important;
+        padding-top: 1rem !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .product-modal-title {
+        font-size: 1.2rem !important;
+        line-height: 1.6rem !important;
+    }
+
+    .product-modal-content {
+        padding: 0.75rem !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .product-modal-title {
+        font-size: 1rem !important;
+        line-height: 1.3rem !important;
+    }
+
+    .product-modal-content {
+        padding: 0.5rem !important;
+    }
+}

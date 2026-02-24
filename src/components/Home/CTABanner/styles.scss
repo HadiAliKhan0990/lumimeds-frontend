@@ -1,0 +1,279 @@
+// CTA Banner Container
+.cta-banner-container {
+  width: 100%;
+  border-radius: 16px;
+  margin: 70px 0;
+  background-image: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 100%),
+    url('../../../assets/CTABanner/CTAImage.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.cta-banner-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cta-banner-text {
+  max-width: 60%;
+  color: white;
+}
+
+.cta-banner-title {
+  font-size: 73px;
+  font-weight: 400;
+  line-height: 123%;
+  margin: 0 0 16px 0;
+  color: white;
+  white-space: nowrap;
+  font-family: instrument-sans, sans-serif;
+}
+
+.cta-banner-title-normal {
+  font-weight: 400;
+  display: inline;
+}
+
+.cta-banner-price {
+  font-size: 55.8px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  color: white;
+  line-height: 115.9%;
+  margin-bottom: 0px;
+}
+
+.cta-banner-price-amount {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.cta-banner-subtitle {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0 24px 0;
+  color: white;
+  font-family: instrument-sans, sans-serif;
+  line-height: 115.9%;
+}
+
+.cta-banner-features {
+  margin: 0 0 24px 16px;
+}
+
+.cta-banner-feature {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .cta-banner-delivery{
+    max-width: 250px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cta-banner-features {
+    margin: 0 0 16px 0;
+  }
+  .cta-banner-bullet{
+    width: 5px !important;
+    height: 5px !important;
+  }
+  .cta-banner-delivery{
+    max-width: 200px;
+  }
+  .cta-banner-disclaimer{
+    max-width: 200px;
+    line-height: 0.8;
+  }
+}
+
+
+.cta-banner-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #FFEE00;
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.cta-banner-feature-text {
+  font-size: 26px;
+  font-weight: 400;
+  color: #FFCC00;
+  line-height: 106%;
+  font-family: DM Sans, sans-serif;
+}
+
+
+
+.cta-banner-delivery-text {
+  font-size: 26px;
+  font-weight: 400;
+  color: white;
+  font-family: instrument-sans, sans-serif;
+}
+
+.cta-banner-highlight {
+  color: #FFCC00;
+  font-weight: 700;
+  font-family: instrument-sans, sans-serif;
+  line-height: 106%;
+  font-size: 26px;
+}
+
+.cta-banner-membership {
+  font-family: instrument-sans, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 106%;
+ 
+}
+
+.cta-banner-membership-text {
+  font-size: 26px;
+  font-weight: 400;
+  color: white;
+  font-family: instrument-sans, sans-serif;
+  line-height: 106%;
+  font-size: 26px;
+}
+
+.cta-banner-disclaimer {
+  margin: 0;
+}
+
+.cta-banner-disclaimer-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  line-height: 106%;
+  font-family: instrument-sans, sans-serif;
+}
+
+// Responsive Design
+@media screen and (max-width: 1024px) {
+  .cta-banner-container {
+    padding: 30px;
+  }
+  
+  .cta-banner-title {
+    font-size: 42px;
+  }
+  
+  .cta-banner-price {
+    font-size: 48.7px;
+  }
+  
+  .cta-banner-price-amount {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cta-banner-container {
+ 
+    padding: 24px;
+  }
+  
+  .cta-banner-text {
+    max-width: 80%;
+  }
+  
+  .cta-banner-title {
+    font-size: 36px;
+  }
+  
+  .cta-banner-price {
+    font-size: 42.3px;
+  }
+  
+  .cta-banner-price-amount {
+    font-size: 48px;
+  }
+  
+  .cta-banner-subtitle {
+    font-size: 20px;
+  }
+  
+  .cta-banner-feature-text,
+  .cta-banner-delivery-text,
+  .cta-banner-membership-text {
+    font-size: 18px;
+  }
+  .cta-banner-highlight{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cta-banner-container {
+    
+    padding: 20px;
+  }
+  
+  .cta-banner-text {
+    max-width: 90%;
+  }
+  
+  .cta-banner-title {
+    font-size: 28px;
+  }
+  
+  .cta-banner-price {
+    font-size: 36px;
+  }
+  
+  .cta-banner-price-amount {
+    font-size: 36px;
+  }
+  
+  .cta-banner-subtitle {
+    font-size: 18px;
+  }
+  
+  .cta-banner-feature-text,
+  .cta-banner-delivery-text,
+  .cta-banner-membership-text {
+    font-size: 16px;
+  }
+  
+  .cta-banner-disclaimer-text {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cta-banner-container {
+   
+    padding: 16px;
+  }
+  
+  .cta-banner-title {
+    font-size: 24px;
+  }
+  
+  .cta-banner-price {
+    font-size: 32px;
+  }
+  
+  .cta-banner-price-amount {
+    font-size: 32px;
+  }
+  
+  .cta-banner-subtitle {
+    font-size: 16px;
+  }
+  
+  .cta-banner-feature-text,
+  .cta-banner-delivery-text,
+  .cta-banner-membership-text {
+    font-size: 14px;
+  }
+}

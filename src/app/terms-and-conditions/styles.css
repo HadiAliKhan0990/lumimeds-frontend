@@ -1,0 +1,111 @@
+.awlist1 {
+  list-style: none;
+  counter-reset: awlistcounter5_0;
+}
+
+/* .awlist1 > li:before {
+	content: "";
+	counter-increment: awlistcounter5_0;
+} */
+
+.awlist2 {
+  list-style: none;
+  counter-reset: awlistcounter6_0;
+}
+
+.awlist2 > li:before {
+  content: counter(awlistcounter6_0, lower-latin) ')';
+  counter-increment: awlistcounter6_0;
+}
+
+.awlist3 {
+  list-style: none;
+  counter-reset: awlistcounter6_0 1;
+}
+
+.awlist3 > li:before {
+  content: counter(awlistcounter6_0, lower-latin) ')';
+  counter-increment: awlistcounter6_0;
+}
+
+.awlist4 {
+  list-style: none;
+  counter-reset: awlistcounter6_0 2;
+}
+
+.awlist4 > li:before {
+  content: counter(awlistcounter6_0, lower-latin) ')';
+  counter-increment: awlistcounter6_0;
+}
+
+.awlist5 {
+  list-style: none;
+  counter-reset: awlistcounter5_1;
+}
+
+.awlist5 > li:before {
+  content: counter(awlistcounter5_1, lower-latin) ')';
+  counter-increment: awlistcounter5_1;
+}
+
+.awlist6 {
+  list-style: none;
+  counter-reset: awlistcounter5_1 1;
+}
+
+.awlist6 > li:before {
+  content: counter(awlistcounter5_1, lower-latin) ')';
+  counter-increment: awlistcounter5_1;
+}
+
+.awlist7 {
+  list-style: none;
+  counter-reset: awlistcounter9_0;
+}
+
+.awlist7 > li:before {
+  content: counter(awlistcounter9_0, lower-latin) ')';
+  counter-increment: awlistcounter9_0;
+}
+
+.awlist8 {
+  list-style: none;
+  counter-reset: awlistcounter9_0 1;
+}
+
+.awlist8 > li:before {
+  content: counter(awlistcounter9_0, lower-latin) ')';
+  counter-increment: awlistcounter9_0;
+}
+
+.awlist9 {
+  list-style: none;
+  counter-reset: awlistcounter9_0 2;
+}
+
+.awlist9 > li:before {
+  content: counter(awlistcounter9_0, lower-latin) ')';
+  counter-increment: awlistcounter9_0;
+}
+
+.awlist10 {
+  list-style: none;
+  counter-reset: awlistcounter9_0 3;
+}
+
+.awlist10 > li:before {
+  content: counter(awlistcounter9_0, lower-latin) ')';
+  counter-increment: awlistcounter9_0;
+}
+.Certified {
+  margin-bottom: 20px;
+}
+.Cert {
+  color: #343a40 !important;
+  font-weight: 600;
+}
+.Certp {
+  color: #232323;
+  font-size: 14px;
+  line-height: 20px;
+}

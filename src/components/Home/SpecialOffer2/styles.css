@@ -1,0 +1,218 @@
+.per-month-price {
+  color: #c1d0ff;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.purchase-tag {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.description2 {
+  /* color: #979797 !important;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 24px; */
+  list-style-position: inside;
+  font-size: 16px;
+  opacity: 0.5;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.description3 {
+  /* color: #979797 !important; */
+  list-style-position: inside;
+  font-size: 16px;
+  opacity: 0.5;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.bullet-adjustment {
+  /* override the .ps-0 you’re inheriting: */
+  padding-inline-start: 0 !important;
+
+  /* put the disc “inside” the text block,
+       so the browser indents wrapped lines for you */
+  list-style: disc inside;
+  margin: 0 0 8px;
+}
+
+.bullet-adjustment .feature-item {
+  margin-bottom: 10px;
+}
+.custom-bullet-margin {
+  margin-top: 12px;
+}
+
+.per-month-price {
+  color: #c1d0ff;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+/* --- Copied from appointments/Home/SpecialOffer/styles.css --- */
+.olympia-plans > p:first-of-type {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.olympia-plans > p:nth-of-type(2) {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.olympia-plans > p:nth-of-type(3) {
+  font-size: 24px;
+}
+
+.olympia-plan {
+  display: flex;
+  border-radius: 24px;
+  /* Only right and bottom shadow */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.olympia-plan > .col-6 {
+  width: 50%;
+  flex: 0 0 50%;
+  box-sizing: border-box;
+}
+
+.olympia-plan > div:first-of-type {
+  background: #f7f0f0;
+  border-radius: 24px;
+  color: white;
+  padding: 32px 42px;
+  column-gap: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.olympia-plan > div:first-of-type > img {
+}
+
+.olympia-plan:last-of-type > div:first-of-type > img {
+}
+
+.olympia-plan > div:first-of-type > div {
+  flex-grow: 1;
+  row-gap: 16px;
+}
+
+.olympia-plan > div:first-of-type > div > div:first-of-type > p:first-of-type {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.olympia-plan > div:first-of-type > div > div:first-of-type > p:last-of-type {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.olympia-plan > div:first-of-type > div > div:last-of-type > p:first-of-type {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.olympia-plan > div:first-of-type > div > div:last-of-type > p:last-of-type {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.olympia-plan > div:first-of-type > div > div:last-of-type > span {
+  font-size: 19px;
+}
+
+.olympia-plan > div:first-of-type > div:last-of-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.olympia-plan > div:last-of-type {
+  padding: 32px 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.olympia-plan > div:last-of-type > p:first-of-type {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.olympia-plan > div:last-of-type > ul {
+  list-style-position: inside;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.olympia-plan > div:last-of-type > ul > li:first-of-type {
+  margin-bottom: 8px;
+}
+
+.olympia-plan > div:last-of-type > p:last-of-type {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.description {
+  color: #4c4b49;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 24px;
+}
+
+.feature-item {
+  margin-bottom: 10px;
+  padding-left: 0.3rem; /* tiny gap from bullet to text */
+  text-indent: -1.3rem; /* aligns second line with first */
+}
+
+.feature-item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .olympia-plan > .col-6 {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .olympia-plan {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .olympia-plan {
+    flex-direction: column;
+  }
+
+  .olympia-plan > div:first-of-type {
+    border-radius: 24px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .olympia-plans > p:first-of-type {
+    font-size: 56px;
+    line-height: 1;
+  }
+
+  .blue_area {
+    flex-direction: column;
+    padding-inline: 16px !important;
+    gap: 16px;
+  }
+}
+
+.lumi-special {
+  color: black;
+}

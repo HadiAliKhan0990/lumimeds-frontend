@@ -1,0 +1,61 @@
+.bglp-section {
+  background: linear-gradient(180deg, #110101 50%, #6E1718 100%);
+  font-family: 'Poppins';
+}
+.ad-503b-hero {
+  width: 100%;
+  height: 1200px;
+  background-image: url('../../../assets/503-bglp-1/hero.png');
+  background-position: center 8%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #120404;
+  position: relative;
+}
+
+.ad-503b-hero .container {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 72px;
+}
+
+
+
+.ad-503b-hero__title {
+  font-family: 'Instrument Sans';
+  font-size: clamp(28px, 4.2vw, 56px);
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+}
+
+.ad-503b-hero__title-italic {
+  font-style: italic;
+  font-weight: 400 !important;
+  font-family: 'Instrument Sans';
+  line-height: 76px;
+}
+
+.ad-503b-hero__subtitle {
+  max-width: 720px;
+  font-size: clamp(16px, 1.4vw, 20px);
+  opacity: 0.95;
+}
+
+.ad-503b-hero__cta {
+  min-width: 190px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .ad-503b-hero {
+    height: 760px;
+    background-position: center 18%;
+  }
+
+  .ad-503b-hero__image {
+    width: 260px;
+  }
+}

@@ -1,0 +1,35 @@
+@use 'styles/variables' as *;
+
+.weight-sec-title {
+  font-size: calc(2rem + 4.5vw);
+}
+
+.plans_slider_container {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px !important;
+    height: 40px !important;
+
+    svg {
+      width: 24px !important;
+      height: 24px !important;
+    }
+
+    &:hover {
+      background-color: $ghost-tint !important;
+    }
+  }
+
+  .swiper-button-next {
+    right: -40px !important;
+  }
+
+  .swiper-button-prev {
+    left: -40px !important;
+  }
+}
+
+.bg-glass-gradient {
+  background: linear-gradient(to right, $pale-rose-transparent, $cloud-blue-transparent);
+  backdrop-filter: blur(4px);
+}

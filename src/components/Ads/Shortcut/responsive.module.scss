@@ -1,0 +1,36 @@
+/* Main Shortcut Page Responsive Layout */
+.shortcutPageContainer {
+  background-color: #ebece6;
+  min-height: 100vh;
+}
+
+/* Responsive breakpoints for main layout */
+@media (max-width: 1200px) {
+  .shortcutPageContainer {
+    /* Adjust container padding if needed */
+  }
+}
+
+@media (max-width: 992px) {
+  .shortcutPageContainer {
+    /* Tablet adjustments */
+  }
+}
+
+@media (max-width: 768px) {
+  .shortcutPageContainer {
+    /* Mobile landscape adjustments */
+  }
+}
+
+@media (max-width: 576px) {
+  .shortcutPageContainer {
+    /* Mobile portrait adjustments */
+  }
+}
+
+@media (max-width: 480px) {
+  .shortcutPageContainer {
+    /* Small mobile adjustments */
+  }
+}

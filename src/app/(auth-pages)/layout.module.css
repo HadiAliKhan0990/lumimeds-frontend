@@ -1,0 +1,13 @@
+.children {
+	background: #e6eaef;
+	padding: 28px 24px;
+	margin-left: var(--sidebar-width);
+	transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 992px) {
+	.children {
+		padding: 16px;
+		margin-left: 0;
+	}
+}

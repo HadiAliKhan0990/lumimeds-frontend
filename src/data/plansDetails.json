@@ -1,0 +1,92 @@
+{
+  "GLP-1 Weight Loss Injections Monthly Subscription": {
+    "planDetails": {
+      "description": "This plan offers the perfect introduction to our science-backed weight care program, providing complete flexibility with no long-term commitment.",
+      "isPopular": false,
+      "isValueSaver": false
+    },
+    "features": ["Flexible Monthly Subscription", "Enough medication for current dose", "Sent monthly"]
+  },
+  "GLP-1 (503B) Weight Loss Injections 1-Month Supply — One-Time Purchase": {
+    "planDetails": {
+      "description": "Ease into your treatment with confidence. Ideal for first-timers and those easing into a new GLP-1 routine",
+      "isPopular": false,
+      "isValueSaver": false
+    },
+    "features": [
+      "Minimum 10mg in one or more vials x 1 month",
+      "Renewable plan at your convenience",
+      "Available for all doses",
+      "Not available in MS, CA, and  AL"
+    ]
+  },
+  "GLP-1 (503B) Weight Loss Injections 2-Month Supply — One-Time Purchase": {
+    "planDetails": {
+      "description": "Ease into your treatment with confidence. Ideal for first-timers and those easing into a new GLP-1 routine",
+      "isPopular": false,
+      "isValueSaver": false
+    },
+    "features": [
+      "Minimum 10mg in one or more vials x 2 months",
+      "Renewable plan at your convenience",
+      "Available for all doses",
+      "Not available in MS, CA, and  AL"
+    ]
+  },
+  "GLP-1 (503B) Weight Loss Injections 3-Month Supply — One-Time Purchase": {
+    "planDetails": {
+      "description": "Ease into your treatment with confidence. Ideal for first-timers and those easing into a new GLP-1 routine",
+      "isPopular": false,
+      "isValueSaver": false
+    },
+    "features": ["Renewable plan at your convenience", "Available at any dose", "Not available in MS, CA, and  AL"]
+  },
+  "GLP-1/GIP Weight Loss Injections Starter 3-Month Supply — One-Time Purchase": {
+    "planDetails": {
+      "description": "Ease into your treatment with confidence. Ideal for first-timers and those easing into a new GLP-1 routine",
+      "isPopular": true,
+      "isValueSaver": false
+    },
+    "features": [
+      "Renewable plan at your convenience",
+      "Available for starting doses",
+      "Not available in MS, CA, and  AL"
+    ]
+  },
+  "GLP-1 Weight Loss Injections 3-Month Subscription": {
+    "planDetails": {
+      "description": "This premium package provides a three-month supply featuring our largest-sized vials, delivering the lowest cost-per-dose available.",
+      "isPopular": false,
+      "isValueSaver": true
+    },
+    "features": [
+      "In most cases sent upfront, may be sent on a monthly basis for pharmacies with shorter than 90-day BUDs",
+      "Maximum Cost Savings"
+    ]
+  },
+  "GLP-1/GIP Weight Loss Injections 3-Month Subscription": {
+    "planDetails": {
+      "description": "More savings, more simplicity. Get three months' worth of medication in one easy shipment — fewer refills, more value.",
+      "isPopular": false,
+      "isValueSaver": true
+    },
+    "features": [
+      "For patients ready to continue at higher doses",
+      "One payment covers 3 months of treatment",
+      "No monthly refills or interruptions",
+      "Stay consistent with advanced dosing"
+    ]
+  },
+  "GLP-1/GIP Weight Loss Injections Monthly Subscription": {
+    "planDetails": {
+      "description": "Simple. Effective. Just what you need. Perfect for those who already know their dosing needs and want a reliable, month-to-month option.",
+      "isPopular": false,
+      "isValueSaver": false
+    },
+    "features": [
+      "One-month supply, renewed monthly",
+      "No long-term commitment required",
+      "A simple way to get started your treatment, organized and delivered monthly"
+    ]
+  }
+}

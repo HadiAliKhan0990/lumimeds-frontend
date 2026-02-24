@@ -1,0 +1,249 @@
+.awlist1 {
+	list-style: none;
+	counter-reset: awlistcounter4_0;
+}
+
+.awlist1 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist2 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 1;
+}
+
+.awlist2 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist3 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 2;
+}
+
+.awlist3 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist4 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 3;
+}
+
+.awlist4 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist5 {
+	list-style: none;
+	counter-reset: awlistcounter4_1;
+}
+
+.awlist5 > li:before {
+	content: "4." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist6 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 1;
+}
+
+.awlist6 > li:before {
+	content: "4." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist7 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 2;
+}
+
+.awlist7 > li:before {
+	content: "4." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist8 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 3;
+}
+
+.awlist8 > li:before {
+	content: "4." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist9 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 4;
+}
+
+.awlist9 > li:before {
+	content: "4." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist10 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 4;
+}
+
+.awlist10 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist11 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 5;
+}
+
+.awlist11 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist12 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 6;
+}
+
+.awlist12 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist13 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 7;
+}
+
+.awlist13 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist14 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 8;
+}
+
+.awlist14 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist15 {
+	list-style: none;
+	counter-reset: awlistcounter12_0;
+}
+
+.awlist15 > li:before {
+	content: "(" counter(awlistcounter12_0, lower-roman) ")";
+	counter-increment: awlistcounter12_0;
+}
+
+.awlist16 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 9;
+}
+
+.awlist16 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist17 {
+	list-style: none;
+	counter-reset: awlistcounter4_1;
+}
+
+.awlist17 > li:before {
+	content: "10." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist18 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 1;
+}
+
+.awlist18 > li:before {
+	content: "10." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist19 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 2;
+}
+
+.awlist19 > li:before {
+	content: "10." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist20 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 3;
+}
+
+.awlist20 > li:before {
+	content: "10." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist21 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 4;
+}
+
+.awlist21 > li:before {
+	content: "10." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist22 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 5;
+}
+
+.awlist22 > li:before {
+	content: "10." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist23 {
+	list-style: none;
+	counter-reset: awlistcounter4_1 6;
+}
+
+.awlist23 > li:before {
+	content: "10." counter(awlistcounter4_1) ".";
+	counter-increment: awlistcounter4_1;
+}
+
+.awlist24 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 10;
+}
+
+.awlist24 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}
+
+.awlist25 {
+	list-style: none;
+	counter-reset: awlistcounter4_0 11;
+}
+
+.awlist25 > li:before {
+	content: counter(awlistcounter4_0) ".";
+	counter-increment: awlistcounter4_0;
+}

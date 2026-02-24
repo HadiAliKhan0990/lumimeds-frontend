@@ -1,0 +1,64 @@
+#cta > div {
+	/* width: 723px; */
+	padding: 24px 80px;
+	/* background: #463cf5; */
+	border-radius: 24px;
+	/* border: 1px solid #eaeaea; */
+	/* margin: 0 auto; */
+	text-align: center;
+	color: black;
+}
+
+#cta > div > a {
+	color: white;
+}
+
+/* #cta button {
+	background: white;
+	border: 1px solid #483cff;
+	padding: 8px 28px;
+	border-radius: 171px;
+	color: #483cff;
+	transition: all 300ms ease-out;
+} */
+
+/* #cta button:hover {
+	background: #483cff;
+	border: 1px solid #483cff;
+	border-radius: 171px;
+	color: white;
+} */
+
+#cta p:first-of-type {
+	font-size: 53px;
+	font-weight: 700;
+	font-family: "Instrument Sans", system-ui;
+	line-height: 41.66px;
+}
+#cta p:last-of-type {
+	font-size: 18px;
+	font-family: "Instrument Sans", system-ui;
+}
+
+@media screen and (max-width: 768px) {
+	#cta > div {
+		/* width: 600px; */
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#cta > div {
+		padding: 0px;
+		/* width: 450px; */
+	}
+
+	#cta p:first-of-type {
+		margin: 0 auto;
+		font-size: 30px;
+		max-width: unset;
+	}
+
+	#cta p:last-of-type {
+		font-size: 16px;
+	}
+}

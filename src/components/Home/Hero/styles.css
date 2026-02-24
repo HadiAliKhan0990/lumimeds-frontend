@@ -1,0 +1,506 @@
+/* #hero {
+    margin-top: 64px;
+} */
+
+.landing_hero {
+  @media screen and (max-width: 1200px) {
+    padding-bottom: 0;
+  }
+
+  .smile_woman_img_container {
+    @media screen and (min-width: 1200px) {
+      position: absolute;
+      z-index: 0;
+    }
+
+    .container {
+      justify-content: center;
+
+      @media screen and (min-width: 1200px) {
+        justify-content: end;
+      }
+
+      img {
+        max-width: 500px;
+      }
+    }
+  }
+}
+
+/* Trustpilot Widget Styling */
+.trustpilot-widget-container {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+}
+
+.trustpilot-widget {
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.trustpilot-widget iframe {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trustpilot-fallback {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trustpilot-stars {
+  font-size: 1.2rem;
+  color: #00b67a;
+}
+
+.trustpilot-text {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.trustpilot-link {
+  color: #00b67a;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.trustpilot-link:hover {
+  color: #009d6b;
+  text-decoration: underline;
+}
+
+/* Large devices (1200px and down) */
+@media screen and (max-width: 1200px) {
+  .trustpilot-custom-container .fs-5 {
+    font-size: 1.1rem !important;
+  }
+
+  .trustpilot-custom-container .fs-6 {
+    font-size: 0.9rem !important;
+  }
+
+  .trustpilot-custom-container .d-flex {
+    gap: 0.4rem;
+  }
+}
+
+/* Medium devices (992px and down) */
+@media screen and (max-width: 992px) {
+  .trustpilot-custom-container .fs-5 {
+    font-size: 1rem !important;
+  }
+
+  .trustpilot-custom-container .fs-6 {
+    font-size: 0.85rem !important;
+  }
+
+  .trustpilot-custom-container .d-flex {
+    gap: 0.3rem;
+    flex-wrap: wrap;
+  }
+
+  .trustpilot-custom-container a div span:first-child {
+    font-size: 26px !important;
+  }
+}
+
+/* Small devices (768px and down) */
+@media screen and (max-width: 768px) {
+  .trustpilot-widget-container {
+    margin: 0.5rem 0;
+  }
+
+  .trustpilot-fallback {
+    padding: 0.75rem;
+  }
+
+  .trustpilot-text {
+    font-size: 0.8rem;
+  }
+
+  .trustpilot-custom-container .fs-5 {
+    font-size: 0.9rem !important;
+  }
+
+  .trustpilot-custom-container .fs-6 {
+    font-size: 0.8rem !important;
+  }
+
+  .trustpilot-custom-container .d-flex {
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+  }
+
+  .trustpilot-custom-container a div span:first-child {
+    font-size: 24px !important;
+  }
+}
+
+/* Extra small devices (576px and down) */
+@media screen and (max-width: 576px) {
+  .trustpilot-custom-container .fs-5 {
+    font-size: 0.75rem !important;
+  }
+
+  .trustpilot-custom-container .fs-6 {
+    font-size: 0.65rem !important;
+  }
+
+  .trustpilot-custom-container .d-flex {
+    gap: 0.15rem;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+  }
+
+  .trustpilot-custom-container a div span:first-child {
+    font-size: 16px !important;
+  }
+
+  .trustpilot-custom-container a div {
+    justify-content: flex-start !important;
+  }
+  .trustpilot-group-2 {
+    display: none !important;
+  }
+}
+
+/* Very small devices (480px and down) */
+@media screen and (max-width: 480px) {
+  .trustpilot-custom-container .fs-5 {
+    font-size: 1.5rem !important;
+  }
+
+  .trustpilot-custom-container .fs-6 {
+    font-size: 0.6rem !important;
+  }
+
+  .trustpilot-custom-container .d-flex {
+    gap: 0.1rem;
+    justify-content: center !important;
+    flex-direction: row !important;
+  }
+
+  .trustpilot-custom-container a div span:first-child {
+    font-size: 1.5rem !important;
+  }
+
+  .trustpilot-custom-container a div {
+    justify-content: flex-start !important;
+  }
+
+  /* Reduce star rating size for mobile */
+  .trustpilot-group-1 .inline-flex > div {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 12px !important;
+  }
+
+  /* Also target the half star span inside the half star div */
+  .trustpilot-group-1 .inline-flex > div > span {
+    font-size: 12px !important;
+  }
+
+  /* Force line breaks for 3-line layout using new grouped structure - ONLY on mobile */
+  .trustpilot-main-container {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.3rem !important;
+  }
+
+  /* Group 1: Excellent + Stars */
+  .trustpilot-group-1 {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  /* Group 2: Rating text */
+  .trustpilot-group-2 {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+  }
+
+  /* Group 3: Trustpilot link */
+  .trustpilot-group-3 {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Default layout for larger screens (481px and above) */
+@media screen and (min-width: 481px) {
+  .trustpilot-main-container {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+  }
+
+  .trustpilot-group-1,
+  .trustpilot-group-2,
+  .trustpilot-group-3 {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  /* Ensure large screen stars match Trustpilot link star size */
+  .trustpilot-group-1 .inline-flex > div {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 26px !important;
+  }
+
+  .trustpilot-group-1 .inline-flex > div > span {
+    font-size: 26px !important;
+  }
+}
+
+#hero .container.d-block.d-lg-none img {
+  width: 80%;
+}
+
+.hero-weight-loss-title {
+  font-size: 90px;
+}
+
+.hero-weight-loss-tagline {
+  font-size: 32px;
+}
+
+.hero-weight-loss-price {
+  font-size: 50px;
+}
+
+.hero-weight-loss-description {
+  font-size: 36px;
+}
+
+.hero-weight-loss-left {
+  font-family: 'Instrument Sans', sans-serif;
+  text-align: right;
+  color: white;
+}
+
+#hero-weight-loss h2 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 64px;
+  line-height: 81px;
+  font-family: 'Instrument Sans', system-ui;
+}
+
+#hero-weight-loss .hero-weight-loss-button-group {
+  display: inline-flex;
+  column-gap: 16px;
+}
+
+/* Responsive button styles */
+.hero-get-started-btn {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  min-width: 180px;
+  transition: all 0.3s ease;
+}
+
+/* Large screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+  .hero-get-started-btn {
+    font-size: 1.25rem;
+    padding: 1rem 2.5rem;
+    min-width: 200px;
+  }
+}
+
+/* Medium screens (992px to 1199px) */
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .hero-get-started-btn {
+    font-size: 1.125rem;
+    padding: 0.875rem 2.25rem;
+    min-width: 190px;
+  }
+}
+
+/* Small screens (768px to 991px) */
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .hero-get-started-btn {
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    min-width: 170px;
+  }
+}
+
+/* Extra small screens (576px to 767px) */
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .hero-get-started-btn {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.75rem;
+    min-width: 160px;
+  }
+}
+
+/* Very small screens (480px to 575px) */
+@media screen and (max-width: 575px) and (min-width: 480px) {
+  .hero-get-started-btn {
+    font-size: 0.9rem;
+    padding: 0.65rem 1.5rem;
+    min-width: 150px;
+  }
+}
+
+/* Mobile screens (below 480px) */
+@media screen and (max-width: 479px) {
+  .hero-get-started-btn {
+    font-size: 0.875rem;
+    padding: 0.6rem 1.25rem;
+    min-width: 140px;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  #hero-weight-loss .hero-weight-loss-button-group {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+#hero-weight-loss svg {
+  position: absolute;
+  bottom: -35px;
+  right: -10px;
+  width: 70px;
+}
+
+#hero-weight-loss p {
+  font-size: 24px;
+  margin: 0;
+  font-family: 'Instrument Sans', system-ui;
+}
+
+.prescription-group {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0px;
+}
+
+.prescription-group > div {
+  justify-content: left;
+}
+
+@media screen and (max-width: 1200px) {
+  #hero {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #hero {
+    background-size: 450px;
+    background-position: right bottom;
+    padding-top: 100px;
+  }
+
+  .hero-weight-loss-title {
+    font-size: 72px;
+  }
+
+  #hero-weight-loss h2 {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  #hero {
+    background: none;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    /* padding-top: 4rem; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-weight-loss-title {
+    font-size: 36px;
+  }
+
+  .hero-weight-loss-tagline {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .hero-weight-loss-price {
+    font-size: 36px;
+  }
+
+  .hero-weight-loss-description {
+    font-size: 24px;
+  }
+
+  .hero-weight-loss-left {
+    text-align: center;
+  }
+
+  .prescription-group > div {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 575px) {
+  .hero-quiz-button {
+    padding: 6px 12px;
+    width: 4.8rem;
+    height: 2.5rem;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #hero-weight-loss h2 {
+    text-align: center;
+  }
+
+  #hero-weight-loss .content {
+    align-items: center !important;
+    margin-bottom: 4rem;
+  }
+
+  .prescription-group {
+    align-items: center;
+    margin: 24px 0px;
+  }
+
+  #hero-weight-loss svg {
+    bottom: -45px;
+    right: -8px;
+    width: 50px;
+  }
+
+  #hero-weight-loss h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  #hero-weight-loss p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .title-description-for-cards {
+    text-align: center !important;
+  }
+  .title-header-for-cards {
+    text-align: center !important;
+  }
+  #hero-weight-loss .hero-weight-loss-button-group {
+    column-gap: 24px;
+  }
+
+  .hero-weight-loss-title {
+    font-size: 32px;
+  }
+}

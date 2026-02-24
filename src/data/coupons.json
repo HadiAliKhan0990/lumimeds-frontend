@@ -1,0 +1,81 @@
+{
+  "coupons": {
+    "LumiFlash100": {
+      "startTimePST": "2026-01-02T07:00:00",
+      "endTimePST": "2026-01-02T19:00:00",
+      "applyMode": "auto",
+      "sales": ["flash_sale"],
+      "rules": [
+        {
+          "patientType": "new",
+          "products": [
+            {
+              "key": "glp1_gip_3m_subscription",
+              "name": "GLP-1 / GIP Weight Loss Injection — 3-Month Subscription"
+            },
+            {
+              "key": "glp1_3m_subscription",
+              "name": "GLP-1 Weight Loss Injection — 3-Month Subscription"
+            }
+          ]
+        },
+        {
+          "patientType": "all",
+          "products": [
+            {
+              "key": "nad_plus_3m_subscription",
+              "name": "NAD+ Longevity Injections — 3-Month Subscription"
+            }
+          ]
+        }
+      ]
+    },
+    "LumiFlash50": {
+      "startTimePST": "2026-01-02T07:00:00",
+      "endTimePST": "2026-01-02T19:00:00",
+      "applyMode": "auto",
+      "sales": ["flash_sale"],
+      "rules": [
+        {
+          "patientType": "new",
+          "products": [
+            {
+              "key": "glp1_gip_3m_starter",
+              "name": "GLP-1 / GIP Weight Loss Injection — 3-Month Starter"
+            }
+          ]
+        }
+      ]
+    },
+    "LumiNewYear50": {
+      "startTimePST": "2026-01-02T19:00:00",
+      "endTimePST": "2026-06-20T23:59:59",
+      "applyMode": "auto",
+      "sales": ["general_sale"],
+      "rules": [
+        {
+          "patientType": "new",
+          "products": [
+            {
+              "key": "glp1_gip_3m_subscription",
+              "name": "GLP-1 / GIP Weight Loss Injection — 3-Month Subscription"
+            },
+            {
+              "key": "glp1_3m_subscription",
+              "name": "GLP-1 Weight Loss Injection — 3-Month Subscription"
+            }
+          ]
+        },
+        {
+          "patientType": "all",
+          "products":[
+            {
+              "key": "nad_plus_3m_subscription",
+              "name": "NAD+ Longevity Injections — 3-Month Subscription"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

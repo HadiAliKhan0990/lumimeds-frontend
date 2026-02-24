@@ -1,0 +1,578 @@
+.productListSection {
+    padding: 4rem 0;
+    background: #3365EF;
+  }
+
+  /* Testimonials Introduction Text */
+  .testimonialsIntro {
+    color: #FAAB2D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+    margin: 0;
+    padding: 0 1rem;
+  }
+
+  .testimonialsIntroContainer {
+    background-color: #000000;
+    padding: 3rem 0;
+  }
+
+  /* Mobile Responsive Styles for Testimonials Intro */
+  @media (max-width: 767.98px) {
+    .testimonialsIntro {
+      font-size: 24px;
+      padding: 0 1.5rem;
+      line-height: 1.3;
+    }
+    
+    .testimonialsIntroContainer {
+      padding: 2rem 0;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .testimonialsIntro {
+      font-size: 20px;
+      padding: 0 1rem;
+      line-height: 1.2;
+    }
+    
+    .testimonialsIntroContainer {
+      padding: 1.5rem 0;
+    }
+  }
+  
+  .productCard {
+    background: #FFE682;
+    border-radius: 20px;
+    border: none;
+    padding: 30px;
+    height: 100%;
+    min-height: 600px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: space-between;
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    }
+  }
+  
+  .plans-heading {
+    font-family: 'Instrument Serif', serif;
+    font-size: 77px;
+    font-weight: 400;
+    color: #FFE682;
+  }
+
+  @media (max-width: 992px) {
+    .plans-heading {
+      font-size: 60px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .plans-heading {
+      font-size: 52px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .plans-heading {
+      font-size: 44px;
+    }
+  }
+
+  .plans-subheading {
+    font-family: 'Inter', serif;
+    font-weight: 600;
+    color: #FFE682;
+    font-size: 21px;
+  }
+
+  @media (max-width: 992px) {
+    .plans-subheading {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .plans-subheading {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .plans-subheading {
+      font-size: 14px;
+    }
+  }
+  
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .subscriptionTag {
+    background: white;
+    color: #040f60;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 100%;
+  }
+  
+  .subscriptionDescription {
+    color: #040f60;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: right;
+    max-width: 350px;
+  }
+  
+  .glpHeader {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+   .titleContainer {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 5px;
+   }
+  
+  .glpTitle {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+   .glpSubtitle {
+     font-family: 'DM Sans', sans-serif;
+     font-weight: 400;
+     font-size: 1.4rem;
+     line-height: 100%;
+     color: #000000;
+     margin: 0;
+   }
+  
+  .productImageSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    min-height: 240px;
+  }
+  
+  .singleVialContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .multipleVialsContainer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vialImage {
+    width: 100px !important;
+    height: 250px !important;
+    object-fit: contain !important;
+  }
+  
+  .vial1 {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .vial2 {
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    z-index: 3;
+  }
+  
+  .vial3 {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .pricingSection {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .priceDisplay {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+.priceAmount {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #000000;
+}
+  
+.pricePeriod {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+  
+  .popularTag {
+    color: #FF0000;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 20px;
+    white-space: nowrap;
+    margin-left: 8px;
+  }
+  
+  .ctaSection {
+    text-align: center;
+  }
+  
+  .ctaButton {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 50%;
+  
+    cursor: pointer;
+  
+    &:hover {
+      background: #f8f9fa;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transform: translateY(-1px);
+    }
+  
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+      transform: none;
+    }
+  }
+  
+  /* Responsive breakpoints */
+  @media (max-width: 1200px) {
+    .productListSection {
+      padding: 70px 0;
+    }
+  
+    .productCard {
+      padding: 25px;
+    
+    }
+  
+    .priceAmount {
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
+  
+    .pricePeriod {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  
+    .glpTitle {
+      font-size: 2.2rem;
+    }
+  
+    .glpSubtitle {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .productListSection {
+      padding: 60px 0;
+    }
+  
+    .productCard {
+      padding: 20px;
+      min-height: 500px;
+    }
+  
+    .cardHeader {
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      text-align: center;
+    }
+  
+    .subscriptionDescription {
+      text-align: center;
+      max-width: none;
+    }
+  
+    .priceAmount {
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+  
+    .pricePeriod {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  
+    .popularTag {
+      font-size: 1rem;
+      margin-left: 6px;
+    }
+  
+    .priceDisplay {
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+  
+    .glpTitle {
+      font-size: 1.9rem;
+    }
+  
+    .glpSubtitle {
+      font-size: 1.2rem;
+    }
+  
+    .ctaButton {
+      padding: 13px 32px;
+      font-size: 18px;
+      width: 60%;
+    }
+  }
+  
+   @media (max-width: 768px) {
+     .productListSection {
+       padding: 20px 0 !important;
+     }
+  
+    .productCard {
+      padding: 20px;
+      min-height: 450px;
+    }
+  
+    .vialImage {
+      width: 80px;
+      height: 200px;
+    }
+  
+    .multipleVialsContainer {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .vial1 {
+      left: 15px;
+    }
+  
+    .vial2 {
+      left: 45px;
+      top: 8px;
+    }
+  
+    .vial3 {
+      left: 75px;
+    }
+  
+    .priceAmount {
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+  
+    .pricePeriod {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  
+    .glpTitle {
+      font-size: 1.6rem;
+    }
+  
+    .glpSubtitle {
+      font-size: 1.1rem;
+    }
+  }
+  
+   @media (max-width: 576px) {
+     .productListSection {
+       padding: 15px 0 !important;
+     }
+  
+    .productCard {
+      padding: 15px;
+      min-height: 400px;
+    }
+  
+    .subscriptionTag {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  
+    .subscriptionDescription {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  
+    .priceAmount {
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+  
+    .pricePeriod {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .popularTag {
+      font-size: 0.9rem;
+      margin-left: 4px;
+    }
+  
+    .ctaButton {
+      padding: 12px 28px;
+      font-size: 16px;
+      width: 70%;
+    }
+    .productImageSection {
+      margin-bottom: 0px;
+    }
+  
+    .glpTitle {
+      font-size: 1.3rem;
+    }
+  
+    .glpSubtitle {
+      font-size: 1rem;
+    }
+  }
+  
+   @media (max-width: 480px) {
+     .productListSection {
+       padding: 10px 0 !important;
+     }
+   
+     .productCard {
+       padding: 15px;
+       min-height: 380px;
+     }
+  
+    .vialImage {
+      width: 70px;
+      height: 170px;
+    }
+  
+    .multipleVialsContainer {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .vial1 {
+      left: 10px;
+    }
+  
+    .vial2 {
+      left: 35px;
+      top: 5px;
+    }
+  
+    .vial3 {
+      left: 60px;
+    }
+  
+    .priceAmount {
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+  
+    .pricePeriod {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  
+    .ctaButton {
+      padding: 10px 24px;
+      font-size: 14px;
+      width: 85%;
+    }
+  
+    .glpTitle {
+      font-size: 1.1rem;
+    }
+  
+    .glpSubtitle {
+      font-size: 0.9rem;
+    }
+  }
+  
+/* Responsive adjustments for CTA button size on small screens */
+.responsiveCta {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .responsiveCta {
+    font-size: 15px !important;
+    padding: 10px 16px !important;
+    min-width: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .responsiveCta {
+    font-size: 14px !important;
+    padding: 8px 14px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsiveCta {
+    font-size: 13px !important;
+    padding: 7px 12px !important;
+  }
+}

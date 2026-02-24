@@ -1,0 +1,217 @@
+.sustained-ad {
+  background: #f4f4f1;
+  .btn-cta {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 0.7rem 1.5rem;
+  }
+  .btn-cta:hover {
+    background: #fff;
+  }
+  .btn-cta-black {
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.7rem 1.5rem;
+    min-width: 200px;
+  }
+  .btn-cta-black:hover {
+    background: #000;
+  }
+
+  /* Hero section */
+  .sustained-hero {
+    min-height: 1200px;
+    background-image: url('/assets/ads/sustained/hero-sustained.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #000;
+
+    .hero-copy {
+      max-width: 737px;
+      padding-top: 12rem;
+      padding-bottom: 4rem;
+
+      @media screen and (max-width: 1280px) {
+        max-width: 700px;
+      }
+
+      @media screen and (max-width: 992px) {
+        max-width: 520px;
+      }
+
+      @media screen and (max-width: 745px) {
+        max-width: 322px;
+      }
+
+      @media screen and (max-width: 576px) {
+        max-width: 277px;
+      }
+    }
+
+    .hero-title {
+      font-size: 56px;
+
+      @media screen and (max-width: 992px) {
+        font-size: 44px;
+      }
+
+      @media screen and (max-width: 800px) {
+        font-size: 32px;
+      }
+
+      @media screen and (max-width: 745px) {
+        font-size: 24px;
+      }
+    }
+
+    .hero-subtitle {
+      font-size: 50px;
+      line-height: 64px;
+
+      @media screen and (max-width: 800px) {
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      @media screen and (max-width: 745px) {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+  }
+
+  .cards-container {
+    margin-top: -300px;
+    position: relative;
+  }
+
+  /* Cards */
+  .product-card {
+    background: #101010;
+    color: #ffffff;
+    border: none;
+  }
+
+  .starter-card {
+    .feature-tile {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+    .page-title {
+      color: #fff;
+      font-weight: 800;
+    }
+    .page-subtitle {
+      color: #fff;
+      font-size: 28px;
+    }
+
+    .price-line {
+      .currency {
+        font-size: 20px;
+        margin-right: 4px;
+      }
+      .price-large {
+        font-size: 64px;
+        font-weight: 800;
+        line-height: 0.85;
+      }
+      .per {
+        margin-left: 4px;
+        font-size: 16px;
+      }
+    }
+    .purchase-type {
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    &.sustained {
+      .price-line {
+        .price-large {
+          font-size: 47px;
+        }
+        .currency {
+          font-size: 21px;
+        }
+      }
+    }
+  }
+
+  .plan-card {
+    .card-media img {
+      height: 360px;
+      width: auto;
+      max-width: 100%;
+
+      @media screen and (max-width: 576px) {
+        height: auto;
+      }
+    }
+    .price-line {
+      color: #ffffff;
+    }
+    .best-value {
+      font-size: 12px;
+      color: #ffdd00;
+      font-weight: 700;
+    }
+    .plan-bullets {
+      list-style-type: square;
+      margin: 1rem 0;
+      padding-left: 1rem;
+    }
+    .plan-bullets li {
+      margin-bottom: 0.5rem;
+    }
+    .footnote {
+      color: #fff;
+      font-size: 14px;
+      font-family: 'Instrument Serif';
+      font-style: italic;
+      opacity: 0.9;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .sustained-hero {
+      min-height: 540px;
+      background-position: left top;
+    }
+
+    .cards-container {
+      margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .sustained-hero {
+      min-height: 420px;
+    }
+
+    .sustained-hero .hero-subtitle {
+      font-size: 24px;
+    }
+
+    .cards-container {
+      margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .center-big-img {
+      height: 235px;
+    }
+
+    .single-img {
+      height: 220px !important;
+    }
+
+    .triple-img {
+      height: 235px !important;
+    }
+  }
+}

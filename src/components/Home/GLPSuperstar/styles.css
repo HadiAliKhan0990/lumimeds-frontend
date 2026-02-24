@@ -1,0 +1,109 @@
+.glp-superstar-title {
+    font-size: 72px;
+    color: #3060fe;
+    font-family: 'Instrument Sans', system-ui;
+    font-weight: 500;
+    line-height: 81px;
+}
+
+.glp-superstar-name {
+    font-size: 56px;
+    line-height: 81px;
+}
+
+.glp-superstar-subtext {
+    font-size: 24px;
+    line-height: 157%;
+    font-weight: 400;
+}
+
+.reliability-container {
+    padding-top: 120px;
+}
+
+.reliability-pros {
+    font-family: 'Instrument Sans', system-ui;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 63px;
+    padding-left: 65px;
+    margin-bottom: 0px;
+}
+
+.content-wavy {
+    /* background: linear-gradient(0deg, #D2BAFF 0%, #665987 81.2%, #040018 100%); */
+    background-color: #3060fe;
+    position: relative;
+    height: 600px;
+}
+
+.content-wavy-img {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.content-wavy-img img {
+    width: 225px;
+}
+
+.content-wavy-img p {
+    font-size: 32px;
+    font-family: 'Instrument Sans', system-ui;
+}
+
+@media screen and (max-width: 768px) {
+    .glp-superstar-title {
+        font-size: 42px;
+        line-height: 56px;
+    }
+
+    .glp-superstar-name {
+        font-size: 32px;
+        line-height: 24px;
+    }
+
+    .reliability-container {
+        padding-top: 32px;
+    }
+
+    .reliability-pros {
+        font-size: 24px;
+        padding-left: 0px;
+    }
+
+    .content-wavy {
+        height: 700px;
+    }
+
+    .glp-superstar-subtext {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .glp-superstar-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .glp-superstar-name {
+        font-size: 16px;
+    }
+
+    .glp-superstar-subtext {
+        font-size: 16px;
+    }
+
+    .content-wavy {
+        height: 500px;
+    }
+
+    .content-wavy-img img {
+        width: 115px;
+    }
+
+    .content-wavy-img p {
+        font-size: 24px;
+    }
+}

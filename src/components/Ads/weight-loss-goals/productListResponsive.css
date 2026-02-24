@@ -1,0 +1,271 @@
+/* Responsive styles for ProductListSustainable component in weight-loss-goals ad page */
+
+/* Mobile responsive for title container */
+@media (max-width: 640px) {
+  .titleContainer {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    gap: 0.25rem !important;
+  }
+}
+
+/* Mobile responsive for subtitle */
+@media (max-width: 640px) {
+  .glpSubtitle {
+    font-size: 0.75rem !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+  }
+}
+
+/* Mobile responsive for product images - ONLY for multiple vials (triple bottles) - First Card */
+@media (max-width: 768px) {
+  [class*="multipleVialsContainer"] {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  
+  [class*="productImageSection"] {
+    min-height: 220px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  [class*="multipleVialsContainer"] {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  
+  [class*="productImageSection"] {
+    min-height: 200px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  [class*="multipleVialsContainer"] {
+    width: 160px !important;
+    height: 160px !important;
+  }
+  
+  [class*="productImageSection"] {
+    min-height: 180px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  [class*="multipleVialsContainer"] {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  
+  [class*="productImageSection"] {
+    min-height: 160px !important;
+  }
+}
+
+/* Mobile responsive for triple bottles - ONLY for Sustainable Card (Second Card) */
+.sustainable-card-section [class*="multipleVialsContainer"] {
+  position: relative !important;
+  width: 180px !important;
+  height: 180px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto !important;
+}
+
+.sustainable-card-section [class*="multipleVialsContainer"] [class*="vial1"] {
+  position: absolute !important;
+  left: 20px !important;
+  top: 0 !important;
+  z-index: 1 !important;
+  width: 100px !important;
+  height: 250px !important;
+}
+
+.sustainable-card-section [class*="multipleVialsContainer"] [class*="vial2"] {
+  position: absolute !important;
+  left: 60px !important;
+  top: 10px !important;
+  z-index: 3 !important;
+  width: 100px !important;
+  height: 250px !important;
+}
+
+.sustainable-card-section [class*="multipleVialsContainer"] [class*="vial3"] {
+  position: absolute !important;
+  left: 100px !important;
+  top: 0 !important;
+  z-index: 1 !important;
+  width: 100px !important;
+  height: 250px !important;
+}
+
+.sustainable-card-section [class*="productImageSection"] {
+  min-height: 200px !important;
+}
+
+@media (max-width: 768px) {
+  .sustainable-card-section [class*="multipleVialsContainer"] {
+    width: 160px !important;
+    height: 160px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial1"] {
+    left: 15px !important;
+    width: 80px !important;
+    height: 200px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial2"] {
+    left: 50px !important;
+    top: 8px !important;
+    width: 80px !important;
+    height: 200px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial3"] {
+    left: 85px !important;
+    width: 80px !important;
+    height: 200px !important;
+  }
+  
+  .sustainable-card-section [class*="productImageSection"] {
+    min-height: 180px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .sustainable-card-section [class*="multipleVialsContainer"] {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial1"] {
+    left: 12px !important;
+    width: 70px !important;
+    height: 180px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial2"] {
+    left: 42px !important;
+    top: 6px !important;
+    width: 70px !important;
+    height: 180px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial3"] {
+    left: 72px !important;
+    width: 70px !important;
+    height: 180px !important;
+  }
+  
+  .sustainable-card-section [class*="productImageSection"] {
+    min-height: 160px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .sustainable-card-section [class*="multipleVialsContainer"] {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial1"] {
+    left: 10px !important;
+    width: 60px !important;
+    height: 150px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial2"] {
+    left: 35px !important;
+    top: 5px !important;
+    width: 60px !important;
+    height: 150px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial3"] {
+    left: 60px !important;
+    width: 60px !important;
+    height: 150px !important;
+  }
+  
+  .sustainable-card-section [class*="productImageSection"] {
+    min-height: 140px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .sustainable-card-section [class*="multipleVialsContainer"] {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial1"] {
+    left: 8px !important;
+    width: 50px !important;
+    height: 120px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial2"] {
+    left: 30px !important;
+    top: 4px !important;
+    width: 50px !important;
+    height: 120px !important;
+  }
+  
+  .sustainable-card-section [class*="multipleVialsContainer"] [class*="vial3"] {
+    left: 52px !important;
+    width: 50px !important;
+    height: 120px !important;
+  }
+  
+  .sustainable-card-section [class*="productImageSection"] {
+    min-height: 120px !important;
+  }
+}
+
+/* Mobile responsive for single bottle images (1-month plans) */
+@media (max-width: 768px) {
+  [class*="singleVialContainer"] {
+    width: 250px !important;
+    height: 250px !important;
+  }
+  
+  [class*="singleVialContainer"] [class*="vialImage"] {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+  }
+}
+
+@media (max-width: 576px) {
+  [class*="singleVialContainer"] {
+    width: 220px !important;
+    height: 220px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  [class*="singleVialContainer"] {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  [class*="singleVialContainer"] {
+    width: 180px !important;
+    height: 180px !important;
+  }
+}
+
+/* Price section font styling for weight-loss-goals page only */
+[class*="priceAmount"] {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+[class*="pricePeriod"] {
+  font-family: 'Poppins', sans-serif !important;
+}

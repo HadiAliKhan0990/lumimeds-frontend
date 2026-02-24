@@ -1,0 +1,36 @@
+/* Main Run Page Responsive Layout */
+.runPageContainer {
+  background-color: #e3f1e3;
+  min-height: 100vh;
+}
+
+/* Responsive breakpoints for main layout */
+@media (max-width: 1200px) {
+  .runPageContainer {
+    /* Adjust container padding if needed */
+  }
+}
+
+@media (max-width: 992px) {
+  .runPageContainer {
+    /* Tablet adjustments */
+  }
+}
+
+@media (max-width: 768px) {
+  .runPageContainer {
+    /* Mobile landscape adjustments */
+  }
+}
+
+@media (max-width: 576px) {
+  .runPageContainer {
+    /* Mobile portrait adjustments */
+  }
+}
+
+@media (max-width: 480px) {
+  .runPageContainer {
+    /* Small mobile adjustments */
+  }
+}

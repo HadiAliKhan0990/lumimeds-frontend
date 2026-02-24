@@ -1,0 +1,41 @@
+.affiliate-page {
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  padding-top: 128px;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.registration-card {
+  max-width: 700px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+}
+.required {
+  color: #d00;
+  margin-left: 2px;
+}
+.submit-btn {
+  background-color: #005f6b;
+  border-color: #005f6b;
+}
+.submit-btn:hover {
+  background-color: #004e59;
+  border-color: #004e59;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 95, 107, 0.25);
+  border-color: #005f6b;
+}

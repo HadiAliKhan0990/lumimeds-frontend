@@ -1,0 +1,162 @@
+@use 'styles/variables' as *;
+
+.tiptap-wrapper {
+  @apply tw-bg-white tw-border tw-border-solid tw-border-primary-light tw-rounded-lg tw-overflow-hidden;
+
+  .tiptap-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 8px;
+    border-bottom: 1px solid $neutral-light;
+    background: $light-gray;
+
+    button {
+      padding: 6px 12px;
+      border: 1px solid $cloud-gray;
+      border-radius: 4px;
+      background: $light;
+      cursor: pointer;
+      font-size: 14px;
+      font-family: inherit;
+      line-height: 1.5;
+      transition: all 0.2s;
+      min-width: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $text-dark-gray;
+      font-weight: 500;
+
+      &:hover:not(:disabled) {
+        background: $primary-light;
+        border-color: $light-blue-gray;
+      }
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      &.is-active {
+        background: $primary;
+        color: $light;
+        border-color: $accent-blue;
+      }
+
+      &.tiptap-variable-btn {
+        background: white;
+        border-color: $primary;
+        color: $primary;
+        font-size: 12px;
+        text-transform: capitalize;
+
+        &:hover:not(:disabled) {
+          background: $primary;
+          color: $light;
+        }
+      }
+    }
+
+    .tiptap-toolbar-divider {
+      width: 1px;
+      height: 24px;
+      background: $neutral-light;
+      margin: 0 4px;
+      align-self: center;
+    }
+  }
+
+  .tiptap-editor {
+    padding: 16px;
+    min-height: 200px;
+    max-height: 400px;
+    overflow-y: auto;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.6;
+    color: $text-dark-charcoal;
+
+    &:focus {
+      outline: none;
+    }
+
+    // Placeholder
+    &.ProseMirror p.is-editor-empty:first-child::before {
+      content: attr(data-placeholder);
+      float: left;
+      color: $muted-gray;
+      pointer-events: none;
+      height: 0;
+    }
+  }
+
+  // Scrollbar styling
+  .tiptap-editor::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .tiptap-editor::-webkit-scrollbar-track {
+    background: $pale-gray;
+    border-radius: 4px;
+  }
+
+  .tiptap-editor::-webkit-scrollbar-thumb {
+    background: $light-blue-gray;
+    border-radius: 4px;
+
+    &:hover {
+      background: $muted-gray-blue;
+    }
+  }
+}
+
+// Chat input editor styling (no toolbar, looks like input field)
+.tiptap-wrapper.chat-input-editor {
+  @apply tw-border-0 tw-rounded;
+  border: none !important;
+  background: transparent;
+
+  .tiptap-editor {
+    min-height: auto;
+    @apply tw-border tw-border-solid tw-max-h-20 tw-overflow-y-auto tw-leading-6 tw-bg-white tw-py-2 tw-px-3 tw-rounded tw-transition-all;
+
+    &.ProseMirror-focused {
+      @apply tw-border-primary;
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    // Single line appearance
+    p + p {
+      margin-top: 0;
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .tiptap-wrapper {
+    .tiptap-toolbar {
+      padding: 6px;
+      gap: 2px;
+
+      button {
+        padding: 5px 8px;
+        font-size: 13px;
+        min-width: 32px;
+      }
+    }
+
+    .tiptap-editor {
+      padding: 12px;
+      min-height: 150px;
+      max-height: 300px;
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,249 @@
+.awlist1 {
+	list-style: none;
+	counter-reset: awlistcounter8_0;
+}
+
+.awlist1 > li:before {
+	content: counter(awlistcounter8_0, lower-latin) ")";
+	counter-increment: awlistcounter8_0;
+}
+
+.awlist2 {
+	list-style: none;
+	counter-reset: awlistcounter15_0;
+}
+
+.awlist2 > li:before {
+	content: counter(awlistcounter15_0, lower-latin) ")";
+	counter-increment: awlistcounter15_0;
+}
+
+.awlist3 {
+	list-style: none;
+	counter-reset: awlistcounter15_0 1;
+}
+
+.awlist3 > li:before {
+	content: counter(awlistcounter15_0, lower-latin) ")";
+	counter-increment: awlistcounter15_0;
+}
+
+.awlist4 {
+	list-style: none;
+	counter-reset: awlistcounter15_0 2;
+}
+
+.awlist4 > li:before {
+	content: counter(awlistcounter15_0, lower-latin) ")";
+	counter-increment: awlistcounter15_0;
+}
+
+.awlist5 {
+	list-style: none;
+	counter-reset: awlistcounter15_0 3;
+}
+
+.awlist5 > li:before {
+	content: counter(awlistcounter15_0, lower-latin) ")";
+	counter-increment: awlistcounter15_0;
+}
+
+.awlist6 {
+	list-style: none;
+	counter-reset: awlistcounter15_0 4;
+}
+
+.awlist6 > li:before {
+	content: counter(awlistcounter15_0, lower-latin) ")";
+	counter-increment: awlistcounter15_0;
+}
+
+.awlist7 {
+	list-style: none;
+	counter-reset: awlistcounter15_0 5;
+}
+
+.awlist7 > li:before {
+	content: counter(awlistcounter15_0, lower-latin) ")";
+	counter-increment: awlistcounter15_0;
+}
+
+.awlist8 {
+	list-style: none;
+	counter-reset: awlistcounter13_0;
+}
+
+.awlist8 > li:before {
+	content: counter(awlistcounter13_0, lower-latin) ")";
+	counter-increment: awlistcounter13_0;
+}
+
+.awlist9 {
+	list-style: none;
+	counter-reset: awlistcounter13_1;
+}
+
+.awlist9 > li:before {
+	content: counter(awlistcounter13_1, lower-roman) ".";
+	counter-increment: awlistcounter13_1;
+}
+
+.awlist10 {
+	list-style: none;
+	counter-reset: awlistcounter19_0;
+}
+
+.awlist10 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist11 {
+	list-style: none;
+	counter-reset: awlistcounter19_1;
+}
+
+.awlist11 > li:before {
+	content: counter(awlistcounter19_1, lower-roman) ".";
+	counter-increment: awlistcounter19_1;
+}
+
+.awlist12 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 1;
+}
+
+.awlist12 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist13 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 2;
+}
+
+.awlist13 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist14 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 3;
+}
+
+.awlist14 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist15 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 4;
+}
+
+.awlist15 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist16 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 5;
+}
+
+.awlist16 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist17 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 6;
+}
+
+.awlist17 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist18 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 7;
+}
+
+.awlist18 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist19 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 8;
+}
+
+.awlist19 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist20 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 9;
+}
+
+.awlist20 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist21 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 10;
+}
+
+.awlist21 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist22 {
+	list-style: none;
+	counter-reset: awlistcounter19_2;
+}
+
+.awlist22 > li:before {
+	content: counter(awlistcounter19_2, upper-latin) ".";
+	counter-increment: awlistcounter19_2;
+}
+
+.awlist23 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 11;
+}
+
+.awlist23 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist24 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 12;
+}
+
+.awlist24 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}
+
+.awlist25 {
+	list-style: none;
+	counter-reset: awlistcounter19_0 13;
+}
+
+.awlist25 > li:before {
+	content: counter(awlistcounter19_0, lower-latin) ")";
+	counter-increment: awlistcounter19_0;
+}

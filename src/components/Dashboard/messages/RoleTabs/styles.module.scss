@@ -1,0 +1,51 @@
+.tabContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--tabs-count, 2), 1fr);
+  align-items: stretch;
+  padding: 2px;
+  background-color: #dadadb;
+  border-radius: 9px;
+}
+
+.indicator {
+  content: '';
+  width: calc(100% / var(--tabs-count, 2) - 2px);
+  background: #ffffff;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  transform: translateX(calc(var(--active-index, 0) * 100%));
+  z-index: 9;
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 7px;
+  transition: transform 0.2s ease-out, width 0.2s ease-out;
+}
+
+.tab {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.tabLabel {
+  width: 100%;
+  height: 34px;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  font-size: 0.85rem;
+  opacity: 0.6;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Improve active label opacity when its radio is checked */
+.tab:checked + .tabLabel {
+  opacity: 1;
+}

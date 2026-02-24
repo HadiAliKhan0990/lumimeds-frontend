@@ -1,0 +1,1311 @@
+.heroSection {
+  background-color: #043a16;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+.hero-content {
+  padding-top: 6rem;
+}
+.hero-title {
+  font-size: 4rem;
+  font-family: playfair display, serif;
+  font-weight: 400;
+  color: #ffffff;
+
+  margin-bottom: 2rem;
+  line-height: 70px;
+}
+.hero-text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #78a283;
+  margin-bottom: 3rem;
+}
+
+.hero-image-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image-container {
+  position: relative;
+  top: 18%;
+}
+
+.image-container1 {
+  object-fit: contain;
+  width: 336px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  border-top: 2px solid #043a16;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+
+.hero-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+}
+
+.image-container2 {
+  object-fit: contain;
+  width: 282px;
+  height: 378px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+.divElement {
+  width: 222px;
+  height: 222px;
+  background-color: #577c4b;
+  border-radius: 50%;
+  position: absolute;
+  top: 70%;
+}
+
+/* Personalized Component Styles */
+.personalized-section {
+  background-color: #fefefe;
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+}
+
+.personalized-content {
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  transform: rotate(-10deg);
+  top: 50px;
+  right: 150px;
+  width: 280px;
+  height: 280px;
+}
+
+.image-wrapper2 {
+  position: relative;
+  transform: rotate(10deg);
+  width: 280px;
+  height: 280px;
+  bottom: 50px;
+  left: 150px;
+}
+
+.text-content {
+  max-width: 500px;
+}
+
+.subheading {
+  color: #2d5016;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main-heading {
+  color: #2d5016;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: 'Georgia', serif;
+}
+
+.body-text {
+  color: #2d5016;
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Responsive Design - Only for screens less than 768px */
+@media (max-width: 768px) {
+  .hero-image-container {
+    top: 0;
+  }
+  .personalized-content {
+    flex-direction: column !important;
+    gap: 40px !important;
+    text-align: center;
+  }
+
+  .image-wrapper {
+    position: relative;
+    transform: rotate(-5deg);
+    top: 0;
+    right: 0;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+  }
+
+  .image-wrapper2 {
+    position: relative;
+    transform: rotate(5deg);
+    width: 240px;
+    height: 240px;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .text-content {
+    order: 1;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .main-heading {
+    font-size: 28px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .body-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .personalized-content {
+    gap: 30px !important;
+  }
+
+  .image-wrapper {
+    width: 200px;
+    height: 200px;
+    transform: rotate(-3deg);
+  }
+
+  .image-wrapper2 {
+    width: 200px;
+    height: 200px;
+    transform: rotate(3deg);
+  }
+
+  .main-heading {
+    font-size: 24px;
+  }
+
+  .subheading {
+    font-size: 14px;
+  }
+
+  .body-text {
+    font-size: 14px;
+  }
+
+  .text-content {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .personalized-content {
+    gap: 25px !important;
+  }
+
+  .image-wrapper {
+    width: 180px;
+    height: 180px;
+    transform: rotate(-2deg);
+  }
+
+  .image-wrapper2 {
+    width: 180px;
+    height: 180px;
+    transform: rotate(2deg);
+  }
+
+  .main-heading {
+    font-size: 20px;
+  }
+
+  .subheading {
+    font-size: 13px;
+  }
+
+  .body-text {
+    font-size: 13px;
+  }
+
+  .text-content {
+    padding: 0 10px;
+  }
+}
+
+/* Featured Medications Component Styles */
+.featured-medications-section {
+  background-color: #043a16;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.featured-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.featured-subtitle {
+  font-size: 1.6rem;
+  color: #faf5f2;
+  font-weight: 400;
+}
+
+.medication-tabs {
+  margin-bottom: 3rem;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  border-bottom: 3px solid rgba(120, 162, 131, 0.3);
+  color: #78a283;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  width: 100%;
+}
+
+.tab-button:hover {
+  color: #ffffff;
+}
+
+.tab-button.active {
+  color: #ffffff;
+  border-bottom: 3px solid rgba(120, 162, 131, 1);
+  width: 100%;
+}
+
+/* .tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+} */
+
+.plan-card {
+  background-color: #faf5f2;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  font-family: Instrument sans-serif;
+}
+
+.plan-header {
+  margin-bottom: 2rem;
+}
+
+.plan-label {
+  background-color: #577c4b;
+  color: #ffffff;
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-bottom-right-radius: 25px;
+}
+
+.plan-content {
+  margin: 3rem;
+}
+
+.plan-info {
+  padding: 2rem;
+}
+
+.plan-title {
+  color: #577c4b;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.plan-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan-benefits li {
+  color: #577c4b;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  position: relative;
+  padding-left: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.plan-benefits li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #043a16;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.medication-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  padding: 1rem;
+}
+
+.vial-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.vial-image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.plan-pricing {
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+}
+
+.supply-text {
+  color: #78a283;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  /* opacity: 0.9; */
+  font-weight: 400;
+}
+
+.price {
+  color: #577c4b;
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+.cta-button {
+  background-color: #577c4b;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+}
+
+.cta-button:disabled {
+  opacity: 0.7;
+  pointer-events: none;
+  transform: none;
+}
+
+.cta-button:hover {
+  background-color: #065a1f;
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+.dollar {
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.price-dollar {
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Responsive Design for Featured Medications */
+@media (max-width: 1200px) {
+  .featured-title {
+    font-size: 2.5rem;
+  }
+
+  .featured-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .plan-content {
+    margin: 2.5rem;
+  }
+
+  .plan-info {
+    padding: 1.5rem;
+  }
+
+  .plan-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .plan-benefits li {
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .price {
+    font-size: 3rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .price-dollar {
+    font-size: 4rem;
+  }
+
+  .supply-text {
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .cta-button {
+    padding: 0.6rem 1.75rem;
+    font-size: 0.95rem;
+    max-width: 140px;
+  }
+
+  .medication-image {
+    height: 220px;
+  }
+
+  /* .plan-label {
+    padding: 0.6rem 1.75rem;
+    font-size: rem;
+  } */
+
+  .tab-button {
+    font-size: 1.8rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .featured-title {
+    font-size: 2.2rem;
+  }
+
+  .featured-subtitle {
+    font-size: 1rem;
+  }
+
+  .plan-content {
+    margin: 2rem;
+  }
+
+  .plan-info {
+    padding: 1.25rem;
+  }
+
+  .plan-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .plan-benefits li {
+    font-size: 0.9rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .price {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .price-dollar {
+    font-size: 3.5rem;
+  }
+
+  .supply-text {
+    font-size: 0.9rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .cta-button {
+    padding: 0.55rem 1.5rem;
+    font-size: 0.9rem;
+    max-width: 130px;
+  }
+
+  .medication-image {
+    height: 200px;
+  }
+
+  .tab-button {
+    font-size: 1.6rem;
+    padding: 7px;
+  }
+}
+
+@media (max-width: 768px) {
+  .plan-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .plan-label {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+  }
+  .featured-title {
+    font-size: 2rem;
+  }
+
+  .featured-subtitle {
+    font-size: 1rem;
+  }
+
+  .plan-card {
+    margin-bottom: 1rem;
+  }
+
+  .plan-content {
+    margin: 1.5rem;
+  }
+
+  .plan-info {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .plan-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .plan-benefits {
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .plan-benefits li {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .price {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .price-dollar {
+    font-size: 3.5rem;
+  }
+
+  .supply-text {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .cta-button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .medication-image {
+    height: 200px;
+    margin: 1rem 0;
+  }
+
+  .plan-pricing {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .medication-tabs {
+    flex-wrap: wrap;
+    gap: 1rem !important;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .medication-tabs .col-12 {
+    width: auto;
+    max-width: none;
+  }
+
+  .tab-button {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Stack columns vertically on mobile */
+  .plan-card .row {
+    flex-direction: column;
+  }
+
+  .plan-card .col-md-4 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .plan-card .col-md-4:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .medication-tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .medication-tabs .col-12 {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .featured-title {
+    font-size: 1.5rem;
+  }
+
+  .plan-content {
+    margin: 1rem;
+  }
+
+  .plan-info {
+    padding: 0.75rem;
+  }
+
+  .plan-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .plan-benefits li {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+    padding-left: 1.25rem;
+  }
+
+  .price {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .price-dollar {
+    font-size: 2.5rem;
+  }
+
+  .supply-text {
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .cta-button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+    max-width: 200px;
+  }
+
+  .medication-image {
+    height: 150px;
+    margin: 0.75rem 0;
+  }
+
+  .plan-pricing {
+    padding: 0.75rem;
+  }
+
+  .vial-image-container {
+    height: 180px;
+  }
+
+  .plan-header {
+    margin-bottom: 1rem;
+  }
+
+  .plan-label {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* HeroSection2 Styles */
+.heroSection2 {
+  background-color: #043a16;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.hero-content2 {
+  padding: 6rem 4rem;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.hero-text-wrapper {
+  max-width: 500px;
+}
+
+.hero-title2 {
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.hero-text2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #78a283;
+  margin-bottom: 3rem;
+  line-height: 1.4;
+}
+
+.hero-button2 {
+  background-color: #ffffff;
+  color: #043a16;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-button2:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.3);
+}
+
+.hero-images2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-svg {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive Design for HeroSection2 */
+@media (max-width: 1200px) {
+  .hero-title2 {
+    font-size: 3.5rem;
+  }
+
+  .hero-svg {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-content2 {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .hero-text-wrapper {
+    max-width: 100%;
+  }
+
+  .hero-title2 {
+    font-size: 3rem;
+  }
+
+  .hero-text2 {
+    font-size: 1.3rem;
+  }
+
+  .hero-images2 {
+    height: 60vh;
+    margin-top: 2rem;
+  }
+
+  .hero-svg {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title2 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+
+  .hero-text2 {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-button2 {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .hero-images2 {
+    height: 50vh;
+  }
+
+  .hero-svg {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content2 {
+    padding: 3rem 1rem;
+  }
+
+  .hero-title2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-text2 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-images2 {
+    height: 40vh;
+  }
+
+  .hero-svg {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* Promotional Section Styles */
+.promotional-section {
+  background-color: #043a16;
+  padding: 6rem 0;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+.promotional-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 4rem 3rem;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+.promotional-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.main-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #043a16;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  color: #043a16;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.benefit-column {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.benefit-icon {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.benefit-icon svg {
+  width: 50px;
+  height: 50px;
+}
+
+.benefit-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #043a16;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.benefit-description {
+  font-size: 0.9rem;
+  color: #577c4b;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Responsive Design for Promotional Section */
+@media (max-width: 1200px) {
+  .promotional-card {
+    margin: 0 2rem;
+    padding: 3rem 2rem;
+  }
+
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .benefits-grid {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .promotional-section {
+    padding: 4rem 0;
+  }
+
+  .promotional-card {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .main-title {
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 1.3rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .benefit-column {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .promotional-section {
+    padding: 3rem 0;
+  }
+
+  .promotional-card {
+    margin: 0 1rem;
+    padding: 2rem 1rem;
+    border-radius: 15px;
+  }
+
+  .main-title {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+  }
+
+  .promotional-header {
+    margin-bottom: 3rem;
+  }
+
+  .benefit-icon svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .benefit-title {
+    font-size: 1.2rem;
+  }
+
+  .benefit-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .promotional-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .main-title {
+    font-size: 1.8rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .benefit-icon svg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .benefit-title {
+    font-size: 1.1rem;
+  }
+
+  .benefit-description {
+    font-size: 0.9rem;
+  }
+}
+
+/* Reviews Section Styles */
+.reviews-section {
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+
+/* .top-image{
+    width: 222px;
+    /* height: 111px; */
+/* } */
+.reviews-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.reviews-title {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 4rem;
+  line-height: 1.2;
+  max-width: 422px;
+  text-align: center;
+}
+
+.reviews-title .highlight {
+  color: #669966;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+.review-card {
+  background-color: #577c4b;
+  color: #ffffff;
+  padding: 2rem;
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(58, 96, 58, 0.25);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.client-badge {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 2px solid #3a603a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #3a603a;
+  flex-shrink: 0;
+}
+
+.client-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.review-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: auto;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.review-date {
+  font-size: 0.85rem;
+  color: #ffffff;
+  opacity: 0.8;
+  text-align: right;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+/* Responsive Design for Reviews */
+@media (max-width: 1200px) {
+  .reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .reviews-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews-section {
+    padding: 4rem 0;
+  }
+
+  .reviews-top-image {
+    display: none;
+  }
+  .reviews-bottom-image {
+    display: none;
+  }
+
+  .reviews-title {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    padding: 0 1rem;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .review-card {
+    padding: 1.5rem;
+    min-height: 250px;
+  }
+
+  .client-badge {
+    width: 45px;
+    height: 45px;
+    font-size: 0.9rem;
+  }
+
+  .client-name {
+    font-size: 1.1rem;
+  }
+
+  .review-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviews-section {
+    padding: 3rem 0;
+  }
+
+  .reviews-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .review-card {
+    padding: 1.25rem;
+    min-height: 220px;
+  }
+
+  .client-badge {
+    width: 40px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .client-name {
+    font-size: 1rem;
+  }
+
+  .review-text {
+    font-size: 0.85rem;
+  }
+
+  .review-date {
+    font-size: 0.8rem;
+  }
+}

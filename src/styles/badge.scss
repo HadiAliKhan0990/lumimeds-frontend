@@ -1,0 +1,334 @@
+@use 'sass:color';
+@use 'variables' as *;
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  height: 28px;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+
+  // ========================================
+  // SUCCESS/POSITIVE STATUSES (Green theme)
+  // ========================================
+  &.paid,
+  &.active,
+  &.in_transit,
+  &.accepted,
+  &.assigned,
+  &.scheduled,
+  &.out_for_delivery,
+  &.in-system {
+    background-color: $status-success-bg;
+    color: $status-success-text;
+    border: none;
+  }
+
+  // Shipped - solid green background
+  &.intake_missing,
+  &.video_visit_needed,
+  &.suspended,
+  &.reverted,
+  &.rolled_back {
+    background-color: $new-light-red-color;
+    color: $new-light-red-text-color;
+    border: 1px solid $new-light-red-border-color;
+  }
+
+  &.approved,
+  &.prescription_approved,
+  &.sent_to_pharmacy,
+  &.delivered,
+  &.shipped {
+    background-color: $new-light-green-color;
+    color: $new-light-green-text-color;
+    border: 1px solid $new-light-green-border-color;
+  }
+
+  &.pending_medical_intake,
+  &.pending_renewal_intake,
+  &.requires_pending_intake_call,
+  &.pending_unresponsive,
+  &.on_hold,
+  &.needs_vv,
+  & {
+    background-color: $new-light-brown-color;
+    color: $new-light-brown-text-color;
+    border: 1px solid $new-light-brown-border-color;
+  }
+
+  &.processing,
+  &.returned,
+  &.refunded {
+    background-color: $new-light-blue-color;
+    color: $new-light-blue-text-color;
+    border: 1px solid $new-light-blue-border-color;
+  }
+
+  &.cancelled,
+  &.canceled,
+  &.declined,
+  &.failed,
+  &.error {
+    background-color: $new-dark-red-color;
+    color: $new-dark-red-text-color;
+    border: 1px solid $new-dark-red-border-color;
+  }
+
+  // ========================================
+  // WARNING/PENDING STATUSES (Yellow/Amber theme)
+  // ========================================
+  &.pending,
+  &.pending_confirmation,
+  &.pending_submission,
+  &.open,
+  &.unresponsive {
+    background-color: $status-warning-bg;
+    color: $status-warning-text;
+    border: none;
+  }
+
+  &.past_due {
+    background-color: $status-warning-light-bg;
+    color: $status-warning-light-text;
+    border: none;
+  }
+
+  // ========================================
+  // ERROR/DANGER STATUSES (Red theme)
+  // ========================================
+  &.rejected,
+  &.failed,
+  &.cancel_scheduled,
+  &.declined,
+  &.blocked,
+  &.banned,
+  &.doctor_no_show,
+  &.patient_no_show,
+  &.disputed {
+    background-color: $status-error-light-bg;
+    color: $status-error-text;
+    border: none;
+  }
+
+  // ========================================
+  // NEUTRAL STATUSES (Gray theme)
+  // ========================================
+  &.inactive {
+    background-color: $status-neutral-bg;
+    color: $status-neutral-text;
+    border: none;
+  }
+
+  &.entered {
+    background-color: $status-neutral-light-bg;
+    color: $status-neutral-text;
+    border: none;
+  }
+
+  // ========================================
+  // INFO/PROCESSING STATUSES (Blue theme)
+  // ========================================
+  &.invited,
+  &.drafted,
+  &.confirmed,
+  &.completed,
+  &.paid {
+    background-color: $status-info-bg;
+    color: $status-info-text;
+    border: none;
+  }
+
+  // ========================================
+  // RESCHEDULED STATUS (Purple theme)
+  // ========================================
+  &.rescheduled {
+    background-color: $status-purple-bg;
+    color: $status-purple-text;
+    border: none;
+  }
+
+  // ========================================
+  // SPECIAL STATUSES
+  // ========================================
+  &.walk-in {
+    background-color: $status-orange-bg;
+    color: $status-orange-text;
+    border: none;
+  }
+}
+
+.no-toggle-style {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 4px 6px !important;
+  height: 32px !important;
+  min-width: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+  height: 28px;
+  white-space: nowrap;
+
+  &.custom-badge-sm {
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    height: fit-content;
+    font-weight: normal;
+  }
+
+  &.bage-success-light {
+    background-color: rgba($mint-green, 0.2);
+    color: $green;
+
+    &.badge-oulined {
+      border: 1px solid rgba($green, 0.2);
+    }
+  }
+
+  &.badge-warning-light {
+    background-color: $light;
+    color: black;
+
+    &.badge-oulined {
+      border: 1px solid rgba(black, 0.1);
+    }
+  }
+
+  &.badge-primary-light {
+    background-color: rgba($primary-light, 0.5);
+    color: $primary;
+
+    &.badge-oulined {
+      border: 1px solid rgba($primary, 0.2);
+    }
+  }
+
+  &.badge-gray-light {
+    background-color: rgba($gray-light, 0.1);
+
+    &.badge-oulined {
+      border: 1px solid rgba($muted, 0.2);
+    }
+  }
+
+  &.custom-badge-gray-neutral {
+    background-color: $neutral-light;
+    color: $dark;
+    &.badge-oulined {
+      border: 1px solid rgba($muted, 0.2);
+    }
+  }
+
+  &.custom-badge-shipped {
+    background-color: $status-info-bg;
+    color: $status-info-text;
+  }
+
+  &.custom-badge-active,
+  &.custom-badge-approved,
+  &.custom-badge-paid,
+  &.custom-badge-delivered,
+  &.custom-badge-scheduled {
+    background-color: $status-success-solid-bg;
+    color: $status-success-text;
+  }
+
+  &.custom-badge-pending,
+  &.custom-badge-pending_confirmation,
+  &.custom-badge-processing,
+  &.custom-badge-pause_scheduled,
+  &.custom-badge-paused,
+  &.custom-badge-on_hold,
+  &.custom-badge-unresponsive {
+    background-color: $status-purple-bg;
+    color: $status-purple-text;
+  }
+
+  &.custom-badge-not_paid {
+    background-color: $dark;
+    color: white;
+  }
+
+  &.custom-badge-cancelled,
+  &.custom-badge-canceled,
+  &.custom-badge-declined,
+  &.custom-badge-banned,
+  &.custom-badge-disputed {
+    background-color: $danger;
+    color: white;
+  }
+
+  &.custom-badge-assigned,
+  &.custom-badge-reverted,
+  &.custom-badge-rejected,
+  &.custom-badge-rolled_back,
+  &.custom-badge-pending_medical_intake,
+  &.custom-badge-requires_pending_intake_call,
+  &.custom-badge-pending_unresponsive {
+    background-color: $state-assigned-bg;
+    color: $status-assigned-text;
+  }
+
+  &.custom-badge-refunded {
+    background-color: $status-info-bg;
+    color: $dark;
+  }
+
+  &.custom-badge-place,
+  &.custom-badge-open,
+  &.custom-badge-entered {
+    background-color: $state-place-bg;
+    color: $status-place-text;
+  }
+
+  &.custom-badge-returned {
+    background-color: $status-neutral-bg;
+    color: $dark;
+  }
+
+  &.custom-badge-completed {
+    background-color: $status-info-bg;
+    color: $dark;
+  }
+
+  &.custom-badge-rescheduled {
+    background-color: $status-purple-bg;
+    color: $status-purple-text;
+  }
+}
+
+// 'Paid',
+// 'Pending',
+// 'Processing',
+// 'Shipped',
+// 'Delivered',
+// 'Cancelled',
+// 'Returned',
+// 'Refunded',
+// 'Completed',
+// 'Place',
+// 'Assigned',
+// 'Approved',
+// 'Declined',
+// 'Reverted',

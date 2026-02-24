@@ -1,0 +1,7 @@
+export default function FacebookSvg({ fillColor = '#000' }: { fillColor?: string }) {
+  return (
+    <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6.08185 17.018V9.2679H8.85453L9.26667 6.23349H6.08185V4.3007C6.08185 3.42508 6.34056 2.82557 7.67326 2.82557H9.36193V0.120232C8.54066 0.0370199 7.71437 -0.00269498 6.88808 0.000141804C4.43729 0.000141804 2.75463 1.41097 2.75463 4.00095V6.22782H0V9.26223H2.76065V17.018H6.08185Z" fill={fillColor}/>
+    </svg>
+  );
+}

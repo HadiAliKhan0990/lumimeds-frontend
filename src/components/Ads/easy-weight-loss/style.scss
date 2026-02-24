@@ -1,0 +1,412 @@
+.otp-hero {
+  background: #eaf2ff;
+}
+
+.otp-hero-title {
+  font-family: var(--font-playfair-display);
+  font-size: 34px;
+  @media (min-width: 768px) {
+    font-size: 3rem; // ~48px
+  }
+  @media (min-width: 992px) {
+    font-size: 3.75rem; // ~60px
+  }
+}
+
+.otp-mosaic .otp-tile {
+  background: #e5e7eb; /* gray-200 */
+  height: 11rem; /* ~176px */
+  @media (min-width: 768px) {
+    height: 13rem; /* ~208px */
+  }
+}
+
+.otp-mosaic .otp-tile-bar {
+  background: #e5e7eb;
+  height: 5rem;
+  @media (min-width: 768px) {
+    height: 6rem;
+  }
+}
+
+.otp-card-img {
+  background: #e5e7eb;
+  height: 16rem; /* 256px */
+}
+
+.otp-highlight {
+  background: #000000; /* primary from tailwind config */
+  color: #fff;
+}
+
+/* Lose Weight section cards */
+.otp-photo-card {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.otp-card-lg {
+  height: 28rem;
+}
+.otp-card-sm {
+  height: 12.5rem;
+}
+
+.otp-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  color: #fff;
+  font-weight: 500;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 60%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+@media (max-width: 767px) {
+  .cards-container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .otp-card-lg {
+    height: 100%;
+  }
+  .otp-card-sm {
+    height: 10.5rem;
+  }
+}
+
+/* Wide container padding on large screens */
+@media (min-width: 1200px) {
+  .otp-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+/* Rich heading below weight-loss section */
+.otp-heading-rich {
+  max-width: 980px;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+@media (min-width: 992px) {
+  .otp-heading-rich {
+    font-size: 2rem;
+  }
+}
+
+.otp-emphasis {
+  font-family: var(--font-instrument-serif);
+  font-style: italic;
+}
+
+.otp-plan-card .otp-plan-price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.otp-transformative-power {
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+
+/* Contact card at bottom */
+.otp-contact-card {
+  background-color: #0b1324;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+  background-image: url('../../../assets/ads/weight-loss-treatment/Contact.png');
+}
+
+.otp-contact-content {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+}
+
+.otp-contact-input {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.otp-contact-input::placeholder {
+  color: #fff !important;
+  opacity: 0.5;
+}
+
+.otp-contact-input:focus {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(48, 96, 254, 0.25);
+}
+
+/* ——— Science Plans (PlanCard theming to match screenshot) ——— */
+.science-plans {
+  .plans-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #1d1d1b;
+  }
+
+  .plans-subheading {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    color: #6a6a6a;
+    font-size: 16px;
+  }
+
+  /* Base PlanCard layout (copied from GlowUp but scoped and re-colored) */
+  .science-plans-card {
+    background-color: #f7f3f0; /* panel bg */
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    font-family: Instrument sans-serif;
+  }
+
+  .plan-header {
+    margin-bottom: 2rem;
+  }
+
+  .plan-label {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    padding: 0.75rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    border-bottom-right-radius: 12px;
+  }
+
+  .plan-content {
+    margin: 3rem;
+  }
+
+  .plan-info {
+    padding: 2rem;
+  }
+
+  .plan-title {
+    color: #2d2d2d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .plan-benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .plan-benefits li {
+    color: #2d2d2d;
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+    position: relative;
+    padding-left: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  .plan-benefits li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #6c6c6c;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  .medication-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: 1rem;
+  }
+  .vial-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .vial-image {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .plan-pricing {
+    display: flex;
+    flex-direction: column;
+  }
+  .supply-text {
+    color: #8f8f8f;
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+  }
+  .price {
+    color: #2d2d2d;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1.75rem;
+    line-height: 1;
+  }
+  .dollar {
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  .price-dollar {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .month {
+    font-size: 1.25rem;
+    margin-left: 0.25rem;
+    color: #2d2d2d;
+  }
+  .cta-button {
+    background: #2d2d2d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.75rem;
+  }
+  .cta-button:hover {
+    background: #111;
+    color: #fff;
+  }
+}
+
+/* Responsive scopes mirroring GlowUp */
+@media (max-width: 1200px) {
+  .science-plans {
+    .plan-content {
+      margin: 2.5rem;
+    }
+    .plan-info {
+      padding: 1.5rem;
+    }
+    .plan-title {
+      font-size: 1.35rem;
+    }
+    .plan-benefits li {
+      font-size: 0.92rem;
+    }
+    .price {
+      font-size: 2.6rem;
+    }
+    .price-dollar {
+      font-size: 3.4rem;
+    }
+    .supply-text {
+      font-size: 0.9rem;
+    }
+    .cta-button {
+      max-width: 140px;
+    }
+    .medication-image {
+      height: 220px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .science-plans {
+    .plan-content {
+      margin: 2rem;
+    }
+    .plan-info {
+      padding: 1.25rem;
+      text-align: center;
+    }
+    .plan-benefits {
+      text-align: left;
+      margin: 0 auto;
+    }
+    .price {
+      text-align: center;
+    }
+    .supply-text {
+      text-align: center;
+    }
+    .cta-button {
+      width: 100%;
+      max-width: 250px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .science-plans {
+    .plan-label {
+      padding: 0.75rem 2rem;
+      font-size: 0.9rem;
+    }
+    // .plan-card .row {
+    //   flex-direction: column;
+    // }
+    .plan-content {
+      margin: 1.5rem;
+    }
+    .medication-image {
+      height: 200px;
+      margin: 1rem 0;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .science-plans {
+    .plan-content {
+      margin: 1rem;
+    }
+    .plan-info {
+      padding: 0.75rem;
+    }
+    .plan-title {
+      font-size: 1.05rem;
+    }
+
+    .plan-benefits li {
+      font-size: 0.85rem;
+      padding-left: 1.1rem;
+    }
+    .price {
+      font-size: 1.9rem;
+    }
+    .price-dollar {
+      font-size: 2.6rem;
+    }
+    .supply-text {
+      font-size: 0.85rem;
+    }
+    .cta-button {
+      padding: 0.6rem 1.5rem;
+      font-size: 0.9rem;
+      max-width: 200px;
+    }
+    .medication-image {
+      height: 160px;
+    }
+    .vial-image-container {
+      height: 160px;
+    }
+  }
+}

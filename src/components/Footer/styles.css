@@ -1,0 +1,248 @@
+.footer-main-container {
+  margin-bottom: 36px;
+}
+
+.footer {
+  background-color: #3060fe;
+  color: white;
+  padding-top: 92px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.service-hours-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  font-family: var(--font-dm-sans) !important;
+}
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 32px;
+  padding-top: 24px;
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.8;
+}
+
+.footer li {
+  margin-bottom: 8px;
+}
+
+.footer-icons i {
+  font-size: 20px;
+  color: white;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.footer-top-padding {
+  padding: 24px;
+}
+
+.footer-logo-mobile {
+  max-width: 120px;
+}
+
+.footer-logo-desktop {
+  max-width: 200px;
+}
+
+.footer-section-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer-bottom-padding {
+  padding: 24px;
+}
+
+.footer-bottom-row-gap {
+  row-gap: 16px;
+}
+
+.footer-social-row {
+  column-gap: 16px;
+}
+
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-social-link:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.footer-social-icon {
+  font-size: 24px;
+  transition: color 0.2s ease;
+}
+
+/* Light variant styles */
+.footer-light {
+  background-color: white !important;
+  color: black !important;
+}
+
+.footer-light a {
+  color: black !important;
+}
+
+.footer-light a:hover {
+  color: black !important;
+}
+
+.footer-light .footer-bottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.footer-light .footer-link {
+  color: black !important;
+}
+
+.footer-light .footer-icons i {
+  color: black !important;
+}
+
+/* Make logo black in light mode */
+.footer-light .footer-logo-mobile,
+.footer-light .footer-logo-desktop {
+  filter: brightness(0) saturate(100%);
+}
+
+/* Dosing guide variant styles */
+.footer-dosing-guide {
+  background-color: #fffdf6 !important;
+  color: black !important;
+}
+
+.footer-dosing-guide a {
+  color: black !important;
+}
+
+.footer-dosing-guide a:hover {
+  color: black !important;
+}
+
+.footer-dosing-guide .footer-bottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.footer-dosing-guide .footer-link {
+  color: black !important;
+}
+
+.footer-dosing-guide .footer-icons i {
+  color: black !important;
+}
+
+/* Make logo black in dosing guide mode */
+.footer-dosing-guide .footer-logo-mobile,
+.footer-dosing-guide .footer-logo-desktop {
+  filter: brightness(0) saturate(100%);
+}
+
+/* Dark variant styles */
+.footer-dark {
+  background-color: #000000 !important;
+  color: white !important;
+}
+
+.footer-dark a {
+  color: white !important;
+}
+
+.footer-dark a:hover {
+  color: white !important;
+}
+
+.footer-dark .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.footer-dark .footer-link {
+  color: white !important;
+}
+
+.footer-dark .footer-icons i {
+  color: white !important;
+}
+
+/* Thanksgiving variant styles */
+.footer-thanksgiving {
+  background-color: #ba785a !important;
+  color: #ffffff !important;
+}
+
+.footer-thanksgiving a {
+  color: #ffffff !important;
+}
+
+.footer-thanksgiving a:hover {
+  color: #ffffff !important;
+}
+
+.footer-thanksgiving .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.footer-thanksgiving .footer-link {
+  color: #ffffff !important;
+}
+
+.footer-thanksgiving .footer-icons i {
+  color: #ffffff !important;
+}
+
+/* Black Friday Sale variant styles */
+.footer-black-friday-sale {
+  background-color: transparent !important;
+  color: #002c8c !important;
+}
+
+.footer-black-friday-sale a {
+  color: #002c8c !important;
+}
+
+.footer-black-friday-sale a:hover {
+  color: #002c8c !important;
+}
+
+.footer-black-friday-sale .footer-bottom {
+  border-top: 1px solid rgba(0, 44, 140, 0.3) !important;
+}
+
+.footer-black-friday-sale .footer-link {
+  color: #002c8c !important;
+}
+
+.footer-black-friday-sale .footer-icons i {
+  color: #002c8c !important;
+}
+
+/* Make logo blue in black friday sale mode */
+.footer-black-friday-sale .footer-logo-mobile,
+.footer-black-friday-sale .footer-logo-desktop {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(100%) saturate(5000%) hue-rotate(220deg) brightness(0.5);
+}

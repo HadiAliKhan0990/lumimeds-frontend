@@ -1,0 +1,99 @@
+.testimonialsSection {
+  background-color: #3060FE !important;
+  padding: 60px 20px;
+  margin-top: 30px;
+  
+  .testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: white !important;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 2rem;
+  }
+  
+  // Override Trustpilot widget styles for white text on blue background
+  .trustpilot-reviews-container {
+    background-color: #3060FE !important;
+    
+    .trustpilot-widget {
+      background-color: #3060FE !important;
+      
+      iframe {
+        background-color: #3060FE !important;
+        border-radius: 12px;
+      }
+      
+      a {
+        color: white !important;
+        background: rgba(255, 255, 255, 0.1) !important;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        
+        &:hover {
+          background: rgba(255, 255, 255, 0.2) !important;
+          color: white !important;
+        }
+      }
+    }
+  }
+  
+  // Global overrides for Trustpilot widget content
+  :global(.trustpilot-testimonials-dark) {
+    .trustpilot-reviews-container {
+      background-color: #3060FE !important;
+      
+      .trustpilot-widget {
+        background-color: #3060FE !important;
+        
+        iframe {
+          background-color: #3060FE !important;
+        }
+      }
+    }
+  }
+  
+  // Additional overrides for better text visibility
+  :global(.trustpilot-widget) {
+    color: white !important;
+    
+    * {
+      color: white !important;
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 992px) {
+  .testimonialsSection {
+    padding: 40px 20px;
+    
+    
+    h2 {
+      font-size: 36px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonialsSection {
+    padding: 30px 15px;
+    
+    h2 {
+      font-size: 28px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonialsSection {
+    padding: 20px 10px;
+    
+    h2 {
+      font-size: 24px;
+    }
+  }
+}

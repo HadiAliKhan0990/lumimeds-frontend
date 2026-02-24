@@ -1,0 +1,235 @@
+.heroSection {
+    width: 100%;
+    height: 1000px;
+    background-image: url('../../../../../assets/medical-weight-loss/Hero.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f8f9fa;
+    position: relative;
+    padding: 0px !important;
+  }
+  
+  /* Responsive adjustments for CTA button size on small screens */
+  .responsiveCta {
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    .responsiveCta {
+      font-size: 15px !important;
+      padding: 10px 16px !important;
+      min-width: auto;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .responsiveCta {
+      font-size: 14px !important;
+      padding: 8px 14px !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .responsiveCta {
+      font-size: 13px !important;
+      padding: 7px 12px !important;
+    }
+  }
+
+  .heroSection::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 1px;
+    background-color: #ffffff;
+    transform: translateX(6%);
+  }
+  
+  .heroContainer {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 72px;
+  }
+  
+  .containerTextContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+  
+  .heroTitle {
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400 !important;
+    font-size: 57px;
+    line-height: 76px;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .heroTitleItalic {
+    font-style: italic;
+    font-weight: 400 !important;
+  }
+  
+  .heroDescription {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    margin-bottom: 32px;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  .heroButton {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 32px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  
+    &:hover {
+      background-color: #f0f0f0;
+      transform: translateY(-2px);
+    }
+  
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+      transform: none;
+    }
+  }
+  
+  /* Responsive breakpoints */
+  @media (max-width: 1200px) {
+    .heroTitle {
+      font-size: 64px;
+      line-height: 72px;
+    }
+  
+    .heroDescription {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  
+    .heroButton {
+      font-size: 17px;
+      padding: 14px 28px;
+      min-width: 170px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .heroTitle {
+      font-size: 56px;
+      line-height: 64px;
+    }
+  
+    .heroDescription {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  
+    .heroButton {
+      font-size: 16px;
+      padding: 12px 24px;
+      min-width: 160px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .heroTitle {
+      font-size: 48px;
+      line-height: 56px;
+    }
+  
+    .heroDescription {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  
+    .heroButton {
+      font-size: 15px;
+      padding: 10px 20px;
+      min-width: 150px;
+    }
+  
+    .heroSection::after {
+      width: 85%;
+      transform: translateX(7.5%);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .heroTitle {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  
+    .heroDescription {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .heroButton {
+      font-size: 14px;
+      padding: 8px 16px;
+      min-width: 140px;
+    }
+  
+    .heroSection::after {
+      width: 80%;
+      transform: translateX(10%);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heroTitle {
+      font-size: 32px;
+      line-height: 40px;
+      color: #ffffff !important;
+      text-align: center;
+    }
+  
+    .heroDescription {
+      font-size: 16px;
+      line-height: 22px;
+      color: #ffffff !important;
+      text-align: center;
+    }
+  
+    .heroButton {
+      font-size: 13px;
+      padding: 7px 14px;
+      min-width: 130px;
+      background-color: #ffffff !important;
+      color: #000000 !important;
+    }
+  
+    .heroSection::after {
+      width: 75%;
+      transform: translateX(12.5%);
+    }
+  }
+  

@@ -1,0 +1,24 @@
+/* Care Portal CTA Button Custom Styles */
+.care-portal-cta-btn {
+  transition: 
+    background 0.2s,
+    color 0.2s,
+    box-shadow 0.2s,
+    transform 0.15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.care-portal-cta-btn:hover,
+.care-portal-cta-btn:focus {
+  background: #0056b3;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  transform: translateY(-2px) scale(1.03);
+  text-decoration: none;
+  outline: none;
+} 
+
+.care-portal-cta-btn:visited {
+  color: #fff;
+  background: #2563eb;
+} 

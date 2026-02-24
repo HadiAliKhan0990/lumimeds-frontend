@@ -1,0 +1,17 @@
+.featured_medications_banner p {
+  font-family: 'Instrument Sans', system-ui;
+  color: white;
+  font-size: 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .featured_medications_banner p {
+    font-size: 32px;
+  }
+}
+
+/* styles.css */
+.featured_medications_banner .swiper-wrapper {
+  transition-timing-function: linear !important;
+  pointer-events: none;
+}

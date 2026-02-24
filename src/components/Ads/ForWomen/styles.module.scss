@@ -1,0 +1,111 @@
+.pageRoot {
+  background: #f4f1ea;
+}
+
+.hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 20px 24px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 77px;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 41px;
+}
+
+.accent {
+  color: #1f6fff;
+}
+
+.subtitle {
+  color: #333;
+  padding: 50px 150px;
+}
+
+.cta {
+  background: #1f6fff;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 28px;
+  width: 250px;
+}
+
+.heroCards {
+  margin: 24px auto 12px;
+  max-width: 900px;
+}
+
+.heroBottleImage {
+  object-fit: contain;
+}
+
+.card {
+  background: #1f6fff;
+  color: #fff;
+  border-radius: 12px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge {
+  background: #fff;
+  color: #0577FE;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 18px;
+  @media (min-width: 1280px) {
+    font-size: 21px;
+  }
+  font-weight: 700;
+  min-width: 246px;
+  text-align: center;
+}
+
+.badgeMuted {
+  color: #a1c6ff;
+  border: 1px solid #a1c6ff;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.cardImageHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  min-height: 240px;
+  min-width: 100px;
+  max-height: 240px;
+  max-width: 100px;
+}
+
+@media (max-width: 640px) {
+  .heroCards {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 42px;
+    margin-bottom: 24px;
+  }
+  .subtitle {
+    padding: 20px;
+  }
+}

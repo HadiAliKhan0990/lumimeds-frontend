@@ -1,0 +1,16 @@
+{
+  "staging": {
+    "glp1_gip_3m_subscription": "price_stg_vbdWmVUPlbmUbNVp",
+    "glp1_3m_subscription": "price_stg_AIitfZmuutfBQEil",
+    "glp1_gip_3m_starter": "price_stg_GluPHfYy9rjrBfxC",
+    "nad_plus_3m_subscription": "price_stg_Mf6pUFB7LPcabhTz"
+  },
+
+  
+  "production": {
+    "glp1_gip_3m_subscription": "price_prod_M745E6Si1Rstpd6E",
+    "glp1_3m_subscription": "price_prod_UDYl2YgzHMmbCqxh",
+    "glp1_gip_3m_starter": "price_prod_DZgU6Cazu6z0OHia",
+    "nad_plus_3m_subscription": "price_prod_Sl34KGoXcKuZzx4b"
+  }
+}
